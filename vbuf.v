@@ -208,13 +208,13 @@ always @(posedge vram_clk or posedge reset) begin
     end
 end
 //----- end of read signal generator
-//----- latch in rd_data at the negedge of vram_rd_clk
+//----- latch in rd_data at the posedge of vram_rd_clk
 reg [1:0] vram_rd_clk_det;
 wire vram_rd_data_strob = vram_rd_clk_det[1] & ~vram_rd_clk_det[0];
 wire [7:0] r_data_reg_next = (vram_rd_data_strob)? r_data_wire[7:0]: r_data_reg[7:0];
 
-// latch in @ the negedge of vram_rd_clk
-always @ (negedge vram_clk or posedge reset) begin
+// latch in @ the posedge of vram_rd_clk
+always @ (posedge vram_clk) begin
     if(reset) begin
         vram_rd_clk_det[1:0] <= 2'b11;//{rd_clk_init, rd_clk_init};
     end
