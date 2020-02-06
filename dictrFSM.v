@@ -27,7 +27,7 @@
 // --------------------------------------------------------------------
 //
 //Finite State Machine of Control Path
-// using 2 always 
+// using 3 always 
 module dicClockFsm (
 		output reg dicRun,     // clock is running
 		output reg dicDspMtens,
