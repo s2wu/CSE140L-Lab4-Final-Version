@@ -82,7 +82,7 @@ module Lab3_140L (
     wire dicSelectLEDdisp, dicRun;
     wire dicDspMtens, dicDspMones, dicDspStens, dicDspSones; //1:display, 0: don't display
     wire dicLdMtens, dicLdMones, dicLdStens, dicLdSones;     //1:load clk digit, 0: don't load
-    dictrl(
+    dictrl dictrluu0(
         .dicSelectLEDdisp(dicSelectLEDdisp),
 	    .dicRun(dicRun),             // clock should run
 	    .dicDspMtens(dicDspMtens),   // 1: update 7 segment; 0: freeze 7 segment display
@@ -100,7 +100,7 @@ module Lab3_140L (
 	    .clk(clk)
     );
 
-   didp (
+   didp didpuu0(
         // output
 	    .di_iMtens(di_Mtens), // current 10's minutes
 	    .di_iMones(di_Mones), // current 1's minutes
