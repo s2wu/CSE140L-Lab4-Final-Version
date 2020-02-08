@@ -33,14 +33,15 @@
 // decode the 8 bit ascii input charData when
 // charDataValid is asserted.
 // specifically, we decode
-//   'ESC' - escape key
+//   'ESC' 
 //   '0-9'
 //   '0-5'
-//   'CR' - carriage return
+//   'CR' - stop (carriage return)
 //   '@'
 //   'a'
-//   'l' - lowercase L
-//   'n'
+//   'l' 
+//   's''S' -- start
+//   'n''N' -- select LED 
 //
 module decodeKeys(
         output wire     det_esc,
