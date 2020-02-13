@@ -117,6 +117,7 @@ reg [7:0] r_data_reg;   // local FF
 wire [7:0] r_data_wire; // input from SRAM module
 assign data_out[7:0] = r_data_reg [7:0];
 
+wire r_clk_en;
 assign data_out_rdy = r_clk_en;
 
 
@@ -159,7 +160,7 @@ wire [8:0] r_addr_next = o_adder_vbuf_r_addr;
 wire [8:0] r_addr_next = r_addr + 1;  
 `endif
 
-wire r_clk_en = (~|(l_count ^ l_count_reset)) & (~data_sink_busy);
+r_clk_en = (~|(l_count ^ l_count_reset)) & (~data_sink_busy);
 always @(posedge vram_clk) begin
     if(reset) begin
         l_count    <= l_count_init;
