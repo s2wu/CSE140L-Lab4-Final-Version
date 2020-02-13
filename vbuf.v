@@ -160,7 +160,7 @@ wire [8:0] r_addr_next = o_adder_vbuf_r_addr;
 wire [8:0] r_addr_next = r_addr + 1;  
 `endif
 
-r_clk_en = (~|(l_count ^ l_count_reset)) & (~data_sink_busy);
+assign r_clk_en = (~|(l_count ^ l_count_reset)) & (~data_sink_busy);
 always @(posedge vram_clk) begin
     if(reset) begin
         l_count    <= l_count_init;
