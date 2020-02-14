@@ -28,11 +28,11 @@
 
 module dictrl(
         output    dicSelectLEDdisp, //select LED
-	    output 	  dicRun,           // clock should run
-	    output 	  dicDspMtens,
-	    output 	  dicDspMones,
-	    output 	  dicDspStens,
-	    output 	  dicDspSones,
+	output 	  dicRun,           // clock should run
+	output 	  dicDspMtens,
+	output 	  dicDspMones,
+	output 	  dicDspStens,
+	output 	  dicDspSones,
         output    dicLdMtens,
         output    dicLdMones,
         output    dicLdStens,
@@ -41,32 +41,32 @@ module dictrl(
         input 	    rx_data_rdy,// new data from uart rdy
         input [7:0] rx_data,    // new data from uart
         input 	  rst,
-	    input 	  clk
+	input 	  clk
     );
-	wire dicLdMtens = 1'b0;
-	wire dicLdMones = 1'b0;
-	wire dicLdStens = 1'b0;
-	wire dicLdSones = 1'b0;
+    assign dicLdMtens = 1'b0;
+    assign dicLdMones = 1'b0;
+    assign dicLdStens = 1'b0;
+    assign dicLdSones = 1'b0;
 	
-    wire 		  det_cr;
-    wire          det_S;
+    wire   det_cr;
+    wire   det_S;
    
     decodeKeys dek ( 
-         .det_cr(det_cr),
-		.det_S(det_S),             
+        .det_cr(det_cr),
+	.det_S(det_S),             
         .det_N(dicSelectLEDdisp),
-		.charData(rx_data),      .charDataValid(rx_data_rdy)
+	.charData(rx_data),      .charDataValid(rx_data_rdy)
     );
 
     
     dicClockFsm dicfsm (
-		    .dicRun(dicRun),
-		    .dicDspMtens(dicDspMtens), .dicDspMones(dicDspMones),
-		    .dicDspStens(dicDspStens), .dicDspSones(dicDspSones),
+            .dicRun(dicRun),
+            .dicDspMtens(dicDspMtens), .dicDspMones(dicDspMones),
+            .dicDspStens(dicDspStens), .dicDspSones(dicDspSones),
             .det_cr(det_cr),
-		    .det_S(det_S), 
-		    .rst(rst),
-		    .clk(clk)
+            .det_S(det_S), 
+            .rst(rst),
+            .clk(clk)
     );
    
 endmodule
