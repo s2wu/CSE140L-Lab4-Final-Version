@@ -42,13 +42,13 @@ module countrce #(parameter WIDTH = 4)
 
     // count.1 add code to replace q+1
     //         20% of points assigned to Lab3
-//	    wire [WIDTH-1:0] test;
-//
-//	    N_bit_counter uu0(
-//    	    .result (test[WIDTH-1:0])     // Output
-//   	    ,.r1 (ld)        // input
-//   	    ,.up (1'b1)
-//   	    );	
+	    wire [WIDTH-1:0] test;
+
+	    N_bit_counter uu0(
+    	    .result (test[WIDTH-1:0])     // Output
+   	    ,.r1 (q)        // input
+   	    ,.up (1'b1)
+   	    );	
 
     // sequential logic
     always @(posedge clk) begin
@@ -62,10 +62,13 @@ module countrce #(parameter WIDTH = 4)
             q <= d;
         else
             // q <= q+1; // **** replace this
-	    q[0] = !q[0];
-	    q[1] = q[1]^ q[0];
-	    q[2] = q[2]^(q[1] & q[0]);
-	    q[3] = q[3]^(q[2] & q[1] & q[0]);
+	    if (!(q[3] & !q[2] & !q[1] & q[0]))
+		q <= (test);
+//	    else
+//	    	q[0] = !q[0];
+//	    	q[1] = q[1]^ q[0];
+//	    	q[2] = q[2]^(q[1] & q[0]);
+//	    	q[3] = q[3]^(q[2] & q[1] & q[0]);
 	    //q <= test;
 
 	    
