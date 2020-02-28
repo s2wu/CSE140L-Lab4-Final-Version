@@ -46,7 +46,7 @@ module countrce #(parameter WIDTH = 4)
 
 	    N_bit_counter uu0(
     	    .result (test[WIDTH-1:0])     // Output
-   	    ,.r1 (ld)        // input
+   	    ,.r1 (q)        // input
    	    ,.up (1'b1)
    	    );	
 
@@ -64,6 +64,8 @@ module countrce #(parameter WIDTH = 4)
             // q <= q+1; // **** replace this
 	    if (!(q[3] & !q[2] & !q[1] & q[0]))
 		q <= (test);
+	    else 
+		q <= q;
 //	    else
 //	    	q[0] = !q[0];
 //	    	q[1] = q[1]^ q[0];
