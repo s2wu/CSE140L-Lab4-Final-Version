@@ -43,7 +43,7 @@ module countrce #(parameter WIDTH = 4)
     // count.1 add code to replace q+1
     //         20% of points assigned to Lab3
 	    wire [WIDTH-1:0] test;
-
+	    defparam uu0.N = WIDTH;
 	    N_bit_counter uu0(
     	    .result (test[WIDTH-1:0])     // Output
    	    ,.r1 (q)        // input
