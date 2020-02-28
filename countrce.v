@@ -62,7 +62,7 @@ module countrce #(parameter WIDTH = 4)
             q <= d;
         else
             // q <= q+1; // **** replace this
-	    q[0] = d[0];
+	    q[0] = !d[0];
 	    q[1] = d[1]^ d[0];
 	    q[2] = d[2]^(d[1] & d[0]);
 	    q[3] = d[3]^(d[2] & d[1] & d[0]);
