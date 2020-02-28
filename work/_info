@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/Modeltech_pe_edu_10.4a/examples
 vbaudgen
-Z0 !s110 1582933525
+Z0 !s110 1582933756
 !i10b 1
 !s100 FhhgdY?Y49@cCa=m4chVK3
 I54Lgi9j8NC[KzCSFXkMS?0
@@ -23,7 +23,7 @@ Z7 OP;L;10.4a;61
 r1
 !s85 0
 31
-Z8 !s108 1582933525.000000
+Z8 !s108 1582933756.000000
 Z9 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/buart.v|
 Z10 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/buart.v|
 !s101 -O0
@@ -95,11 +95,11 @@ R11
 vcountrce
 R0
 !i10b 1
-!s100 MGhl5MNXA5Fl199kI8hhe1
-IJMSG@;@<cPWaa;b;8SfW^0
+!s100 3JZ;C_MhhRHEH2kPnc@U`0
+I:CjF]>UI8S6L`aA?5:MFO3
 R1
 R2
-w1582933521
+w1582933747
 8D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/countrce.v
 FD:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/countrce.v
 L0 33
@@ -244,7 +244,7 @@ R8
 R11
 n@half_@sec_@pulse_@per_@sec
 vinpin
-Z18 !s110 1582933526
+Z18 !s110 1582933757
 !i10b 1
 !s100 0RDVm3OT6_KR9Skd>7d<h1
 ITIzITXYhD0lA9K;ZX5l<j0
@@ -258,14 +258,14 @@ R7
 r1
 !s85 0
 31
-R8
-Z21 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/latticehx1k.v|
-Z22 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/latticehx1k.v|
+Z21 !s108 1582933757.000000
+Z22 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/latticehx1k.v|
+Z23 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/latticehx1k.v|
 !s101 -O0
 !i113 1
 R11
 vLab3_140L
-R0
+R18
 !i10b 1
 !s100 zDokZ9Im;Qc[P3jh03^=N0
 Icm<HGe2^85iI8zSJ^jlLm3
@@ -294,16 +294,16 @@ IjRCKOD9BSBKCAVg5DJVU11
 R1
 R2
 R3
-Z23 8D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/vbuf.v
-Z24 FD:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/vbuf.v
+Z24 8D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/vbuf.v
+Z25 FD:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/vbuf.v
 L0 533
 R7
 r1
 !s85 0
 31
 R8
-Z25 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/vbuf.v|
-Z26 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/vbuf.v|
+Z26 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/vbuf.v|
+Z27 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/vbuf.v|
 !s101 -O0
 !i113 1
 R11
@@ -323,9 +323,9 @@ R7
 r1
 !s85 0
 31
-R8
 R21
 R22
+R23
 !s101 -O0
 !i113 1
 R11
@@ -344,9 +344,9 @@ R7
 r1
 !s85 0
 31
-R8
 R21
 R22
+R23
 !s101 -O0
 !i113 1
 R11
@@ -387,7 +387,7 @@ R7
 r1
 !s85 0
 31
-Z27 !s108 1582933526.000000
+R21
 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/NBitCounter.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/NBitCounter.v|
 !s101 -O0
@@ -409,7 +409,7 @@ R7
 r1
 !s85 0
 31
-R27
+R21
 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/regrce.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/regrce.v|
 !s101 -O0
@@ -430,7 +430,7 @@ R7
 r1
 !s85 0
 31
-R27
+R21
 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/resetGen.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/resetGen.v|
 !s101 -O0
@@ -487,16 +487,16 @@ IUUe<CKz_JUP3U^j@nni>O2
 R1
 R2
 R3
-R23
 R24
+R25
 L0 66
 R7
 r1
 !s85 0
 31
 R8
-R25
 R26
+R27
 !s101 -O0
 !i113 1
 R11
