@@ -45,8 +45,8 @@ module countrce #(parameter WIDTH = 4)
 	    wire [WIDTH-1:0] test;
 
 	    N_bit_counter uu0(
-    	    .result (test)     // Output
-   	    ,.r1 (q)        // input
+    	    .result (test[WIDTH-1:0])     // Output
+   	    ,.r1 (d[WIDTH-1:0])        // input
    	    ,.up (1'b1)
    	    );
 
@@ -62,12 +62,6 @@ module countrce #(parameter WIDTH = 4)
             q <= d;
         else
             // q <= q+1; // **** replace this
-	    defparam uu0.N = 4;	    
-	    test = N_bit_counter uu0(
-	    .result (reset_count_next[5-1:0])     // Output
-   	    ,.r1 (reset_count[5-1:0])              // input
-   	    ,.up (1'b1)
-	    );
 	    q <= test;
 
 	    
