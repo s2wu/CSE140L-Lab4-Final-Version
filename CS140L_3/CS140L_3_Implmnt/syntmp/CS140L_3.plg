@@ -1,0 +1,18 @@
+@P:  Worst Slack : -7.647
+@P:  latticehx1k_pll|PLLOUTCORE_derived_clock - Estimated Frequency : 34.2 MHz
+@P:  latticehx1k_pll|PLLOUTCORE_derived_clock - Requested Frequency : 71.9 MHz
+@P:  latticehx1k_pll|PLLOUTCORE_derived_clock - Estimated Period : 29.206
+@P:  latticehx1k_pll|PLLOUTCORE_derived_clock - Requested Period : 13.912
+@P:  latticehx1k_pll|PLLOUTCORE_derived_clock - Slack : -7.647
+@P:  latticehx1k|clk_in - Estimated Frequency : NA
+@P:  latticehx1k|clk_in - Requested Frequency : 71.9 MHz
+@P:  latticehx1k|clk_in - Estimated Period : NA
+@P:  latticehx1k|clk_in - Requested Period : 13.912
+@P:  latticehx1k|clk_in - Slack : NA
+@P: latticehx1k Part : ice40hx1ktq144
+@P: latticehx1k I/O primitives : 10
+@P: latticehx1k I/O Register bits : 0
+@P: latticehx1k Register bits (Non I/O) : 165 (12%)
+@P: latticehx1k Block Rams : 1 of 16 (6%)
+@P: latticehx1k Total Luts : 342 (26%)
+@P:  CPU Time : 0h:00m:02s

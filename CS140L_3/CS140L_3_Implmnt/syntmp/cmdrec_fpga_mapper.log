@@ -1,0 +1,14 @@
+C:\lscc\iCEcube2.2017.08\synpbase\bin64\m_generic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  "D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\CS140L_3\CS140L_3_Implmnt"   -part iCE40HX1K  -package TQ144    -maxfan 10000 -RWCheckOnRam 0 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile "D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\CS140L_3\CS140L_3_Implmnt\synlog\report\CS140L_3_fpga_mapper.xml"  -flow mapping  -multisrs  -oedif  "D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\CS140L_3\CS140L_3_Implmnt\CS140L_3.edf"   -autoconstraint  -freq 1.000   "D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\CS140L_3\CS140L_3_Implmnt\synwork\CS140L_3_prem.srd"  -sap  "D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\CS140L_3\CS140L_3_Implmnt\CS140L_3.sap"  -otap  "D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\CS140L_3\CS140L_3_Implmnt\CS140L_3.tap"  -omap  "D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\CS140L_3\CS140L_3_Implmnt\CS140L_3.map"  -devicelib  C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v  -sap  "D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\CS140L_3\CS140L_3_Implmnt\CS140L_3.sap"  -ologparam  "D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\CS140L_3\CS140L_3_Implmnt\syntmp\CS140L_3.plg"  -osyn  "D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\CS140L_3\CS140L_3_Implmnt\CS140L_3.srm"  -prjdir  "D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\CS140L_3\"  -prjname  CS140L_3_syn  -log  "D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\CS140L_3\CS140L_3_Implmnt\synlog\CS140L_3_fpga_mapper.srr" 
+rc:1 success:1 runtime:3
+file:D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\CS140L_3\CS140L_3_Implmnt\CS140L_3.edf|io:o|time:1582643271|size:400323|exec:0
+file:D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\CS140L_3\CS140L_3_Implmnt\synwork\CS140L_3_prem.srd|io:i|time:1582643268|size:60180|exec:0
+file:D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\CS140L_3\CS140L_3_Implmnt\CS140L_3.sap|io:o|time:1582643269|size:2326|exec:0
+file:D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\CS140L_3\CS140L_3_Implmnt\CS140L_3.tap|io:o|time:0|size:0|exec:0
+file:D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\CS140L_3\CS140L_3_Implmnt\CS140L_3.map|io:o|time:1582643272|size:28|exec:0
+file:C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v|io:i|time:1580919622|size:224837|exec:0
+file:D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\CS140L_3\CS140L_3_Implmnt\CS140L_3.sap|io:o|time:1582643269|size:2326|exec:0
+file:"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\CS140L_3\CS140L_3_Implmnt\syntmp\CS140L_3.plg"|io:o|time:0|size:0|exec:0
+file:D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\CS140L_3\CS140L_3_Implmnt\CS140L_3.srm|io:o|time:1582643271|size:13151|exec:0
+file:D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\CS140L_3\CS140L_3_Implmnt\synlog\CS140L_3_fpga_mapper.srr|io:o|time:1582643272|size:39752|exec:0
+file:C:\lscc\iCEcube2.2017.08\synpbase\bin\m_generic.exe|io:i|time:1580919619|size:17853440|exec:1
+file:C:\lscc\iCEcube2.2017.08\synpbase\bin64\m_generic.exe|io:i|time:1580919620|size:32355840|exec:1

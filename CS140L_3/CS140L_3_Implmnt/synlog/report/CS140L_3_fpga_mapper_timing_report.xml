@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\CS140L_3\CS140L_3_Implmnt\synlog\CS140L_3_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>latticehx1k_pll|PLLOUTCORE_derived_clock</data>
+<data>71.9 MHz</data>
+<data>34.2 MHz</data>
+<data>-7.647</data>
+</row>
+<row>
+<data>latticehx1k|clk_in</data>
+<data>71.9 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+</report_table>

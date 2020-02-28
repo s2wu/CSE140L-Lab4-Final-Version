@@ -1,0 +1,78 @@
+# Tue Feb 25 07:07:48 2020
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\CS140L_3\CS140L_3_Implmnt\CS140L_3_scck.rpt 
+Printing clock  summary report in "D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\CS140L_3\CS140L_3_Implmnt\CS140L_3_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 104MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 104MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 104MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 103MB peak: 105MB)
+
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\digclockdp.v":4:18:4:26|Tristate driver di_iMones_1 (in view: work.didp(verilog)) on net di_iMones_1 (in view: work.didp(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\digclockdp.v":4:18:4:26|Tristate driver di_iMones_2 (in view: work.didp(verilog)) on net di_iMones_2 (in view: work.didp(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\digclockdp.v":4:18:4:26|Tristate driver di_iMones_3 (in view: work.didp(verilog)) on net di_iMones_3 (in view: work.didp(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\digclockdp.v":4:18:4:26|Tristate driver di_iMones_4 (in view: work.didp(verilog)) on net di_iMones_4 (in view: work.didp(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\digclockdp.v":3:18:3:26|Tristate driver di_iMtens_1 (in view: work.didp(verilog)) on net di_iMtens_1 (in view: work.didp(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\digclockdp.v":3:18:3:26|Tristate driver di_iMtens_2 (in view: work.didp(verilog)) on net di_iMtens_2 (in view: work.didp(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\digclockdp.v":3:18:3:26|Tristate driver di_iMtens_3 (in view: work.didp(verilog)) on net di_iMtens_3 (in view: work.didp(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\digclockdp.v":3:18:3:26|Tristate driver di_iMtens_4 (in view: work.didp(verilog)) on net di_iMtens_4 (in view: work.didp(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\digclockdp.v":5:18:5:26|Tristate driver di_iStens_1 (in view: work.didp(verilog)) on net di_iStens_1 (in view: work.didp(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\digclockdp.v":5:18:5:26|Tristate driver di_iStens_2 (in view: work.didp(verilog)) on net di_iStens_2 (in view: work.didp(verilog)) has its enable tied to GND.
+@N: BN115 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":130:16:130:19|Removing instance dec2 (in view: work.Lab3_140L(verilog)) of type view:work.bcd2segment_1(verilog) because it does not drive other instances.
+@N: BN115 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":131:16:131:19|Removing instance dec3 (in view: work.Lab3_140L(verilog)) of type view:work.bcd2segment_0(verilog) because it does not drive other instances.
+@N: BN115 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":129:16:129:19|Removing instance dec1 (in view: work.Lab3_140L(verilog)) of type view:work.bcd2segment_2(verilog) because it does not drive other instances.
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=16  set on top level netlist latticehx1k
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+
+
+Clock Summary
+*****************
+
+Start                                        Requested     Requested     Clock                                 Clock                     Clock
+Clock                                        Frequency     Period        Type                                  Group                     Load 
+----------------------------------------------------------------------------------------------------------------------------------------------
+latticehx1k_pll|PLLOUTCORE_derived_clock     4.0 MHz       251.264       derived (from latticehx1k|clk_in)     Autoconstr_clkgroup_0     147  
+latticehx1k|clk_in                           4.0 MHz       251.264       inferred                              Autoconstr_clkgroup_0     0    
+==============================================================================================================================================
+
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\CS140L_3\CS140L_3_Implmnt\CS140L_3.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+@N: BN362 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\vbuf.v":355:1:355:6|Removing sequential instance vram_wr_tap_4_user[1] (in view: work.vbuf_Z1(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\vbuf.v":355:1:355:6|Removing sequential instance vram_wr_tap_4_user[0] (in view: work.vbuf_Z1(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 48MB peak: 135MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Feb 25 07:07:49 2020
+
+###########################################################]

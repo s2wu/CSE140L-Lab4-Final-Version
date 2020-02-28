@@ -1,0 +1,59 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v":698:7:698:19|Synthesizing module SB_PLL40_CORE in library work.
+@N: CG364 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\latticehx1k.v":274:7:274:21|Synthesizing module latticehx1k_pll in library work.
+@N: CG364 :"C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v":501:7:501:11|Synthesizing module SB_IO in library work.
+@N: CG364 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\latticehx1k.v":42:7:42:11|Synthesizing module inpin in library work.
+@N: CG364 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\buart.v":62:7:62:14|Synthesizing module baudgen2 in library work.
+@N: CG364 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\buart.v":132:7:132:12|Synthesizing module rxuart in library work.
+@N: CG364 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\buart.v":42:7:42:13|Synthesizing module baudgen in library work.
+@N: CG364 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\buart.v":91:7:91:10|Synthesizing module uart in library work.
+@N: CG364 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\buart.v":199:7:199:11|Synthesizing module buart in library work.
+@N: CG364 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\NBitCounter.v":29:7:29:19|Synthesizing module N_bit_counter in library work.
+@N: CG364 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\resetGen.v":36:7:36:14|Synthesizing module resetGen in library work.
+@N: CG179 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\resetGen.v":59:32:59:42|Removing redundant assignment.
+@N: CG364 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\regrce.v":39:7:39:12|Synthesizing module regrce in library work.
+@N: CG179 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\regrce.v":54:14:54:14|Removing redundant assignment.
+@N: CG364 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\regrce.v":39:7:39:12|Synthesizing module regrce in library work.
+@N: CG364 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\NBitCounter.v":29:7:29:19|Synthesizing module N_bit_counter in library work.
+@N: CG364 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\NBitCounter.v":29:7:29:19|Synthesizing module N_bit_counter in library work.
+@N: CG364 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\Half_Sec_Pulse_Every_Sec.v":44:7:44:28|Synthesizing module Half_Sec_Pulse_Per_Sec in library work.
+@N: CG179 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\Half_Sec_Pulse_Every_Sec.v":116:44:116:50|Removing redundant assignment.
+@N: CG364 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\decodeKeys.v":46:7:46:16|Synthesizing module decodeKeys in library work.
+@N: CG364 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\dictrFSM.v":31:7:31:17|Synthesizing module dicClockFsm in library work.
+@N: CG364 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\digclockctrl.v":29:7:29:12|Synthesizing module dictrl in library work.
+@N: CG364 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\countrce.v":33:7:33:14|Synthesizing module countrce in library work.
+@N: CG179 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\countrce.v":52:17:52:17|Removing redundant assignment.
+@N: CG364 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\digclockdp.v":73:7:73:16|Synthesizing module ledDisplay in library work.
+@N: CG364 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\digclockdp.v":2:7:2:10|Synthesizing module didp in library work.
+@N: CG364 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\bcd2segment.v":49:7:49:17|Synthesizing module bcd2segment in library work.
+@N: CG364 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\dispString.v":39:7:39:16|Synthesizing module dispString in library work.
+@N: CG179 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\dispString.v":63:11:63:13|Removing redundant assignment.
+@N: CG364 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\Lab3_140L.v":26:7:26:15|Synthesizing module Lab3_140L in library work.
+@N: CG364 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\NBitCounter.v":29:7:29:19|Synthesizing module N_bit_counter in library work.
+@N: CG364 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\NBitCounter.v":29:7:29:19|Synthesizing module N_bit_counter in library work.
+@N: CG364 :"C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v":1124:7:1124:17|Synthesizing module SB_RAM512x8 in library work.
+@N: CG364 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\vbuf.v":533:7:533:28|Synthesizing module latticeDulPortRam512x8 in library work.
+@N: CG364 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\vbuf.v":66:7:66:10|Synthesizing module vbuf in library work.
+@N: CG179 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\vbuf.v":173:30:173:35|Removing redundant assignment.
+@N: CG179 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\vbuf.v":174:30:174:39|Removing redundant assignment.
+@N: CG179 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\vbuf.v":183:30:183:35|Removing redundant assignment.
+@N: CG179 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\vbuf.v":185:30:185:39|Removing redundant assignment.
+@N: CG179 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\vbuf.v":400:77:400:93|Removing redundant assignment.
+@N: CG364 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\latticehx1k.v":60:7:60:17|Synthesizing module latticehx1k in library work.
+@N: CL201 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\vbuf.v":164:0:164:5|Trying to extract state machine for register l_count.
+@N: CL159 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\vbuf.v":79:18:79:25|Input alarm_on is unused.
+@N: CL159 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\vbuf.v":81:12:81:30|Input enable_pulling_mode is unused.
+@N: CL159 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\digclockdp.v":11:25:11:31|Input ldMtens is unused.
+@N: CL159 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\digclockdp.v":12:25:12:31|Input ldMones is unused.
+@N: CL159 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\digclockdp.v":13:25:13:31|Input ldStens is unused.
+@N: CL159 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\digclockdp.v":75:20:75:27|Input di_Mtens is unused.
+@N: CL159 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\digclockdp.v":76:20:76:27|Input di_Mones is unused.
+@N: CL159 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\digclockdp.v":81:15:81:17|Input rst is unused.
+@N: CL159 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\digclockdp.v":82:15:82:17|Input clk is unused.
+@N: CL159 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\dictrFSM.v":37:19:37:24|Input det_cr is unused.
+@N: CL159 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\dictrFSM.v":38:19:38:23|Input det_S is unused.
+@N|Running in 64-bit mode
+@N: NF107 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\latticehx1k.v":60:7:60:17|Selected library: work cell: latticehx1k view verilog as top level
+@N: NF107 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\latticehx1k.v":60:7:60:17|Selected library: work cell: latticehx1k view verilog as top level
+

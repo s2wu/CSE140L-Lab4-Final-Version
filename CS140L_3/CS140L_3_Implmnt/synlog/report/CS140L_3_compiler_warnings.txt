@@ -1,0 +1,31 @@
+@W: CG781 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\latticehx1k.v":287:47:287:47|Input EXTFEEDBACK on instance latticehx1k_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\latticehx1k.v":288:48:288:48|Input DYNAMICDELAY on instance latticehx1k_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\latticehx1k.v":291:51:291:51|Input LATCHINPUTVALUE on instance latticehx1k_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\latticehx1k.v":293:39:293:39|Input SDI on instance latticehx1k_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\latticehx1k.v":295:40:295:40|Input SCLK on instance latticehx1k_pll_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\latticehx1k.v":47:33:47:35|Input LATCH_INPUT_VALUE on instance _io is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\latticehx1k.v":47:33:47:35|Input CLOCK_ENABLE on instance _io is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\latticehx1k.v":47:33:47:35|Input OUTPUT_CLK on instance _io is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\latticehx1k.v":47:33:47:35|Input OUTPUT_ENABLE on instance _io is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\latticehx1k.v":47:33:47:35|Input D_OUT_1 on instance _io is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\latticehx1k.v":47:33:47:35|Input D_OUT_0 on instance _io is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG1273 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\latticehx1k.v":48:21:48:23|An input port (port pin) is the target of an assignment - please check if this is intentional
+@W: CL265 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\buart.v":185:2:185:7|Removing unused bit 2 of hh[2:0]. Either assign all bits or reduce the width of the signal.
+@W: CG360 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\digclockdp.v":3:18:3:26|Removing wire di_iMtens, as there is no assignment to it.
+@W: CG360 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\digclockdp.v":4:18:4:26|Removing wire di_iMones, as there is no assignment to it.
+@W: CG360 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\digclockdp.v":5:18:5:26|Removing wire di_iStens, as there is no assignment to it.
+@W: CG360 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\Lab3_140L.v":44:19:44:27|Removing wire di_AMtens, as there is no assignment to it.
+@W: CG360 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\Lab3_140L.v":45:19:45:27|Removing wire di_AMones, as there is no assignment to it.
+@W: CG360 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\Lab3_140L.v":46:19:46:27|Removing wire di_AStens, as there is no assignment to it.
+@W: CG360 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\Lab3_140L.v":47:19:47:27|Removing wire di_ASones, as there is no assignment to it.
+@W: CL157 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\Lab3_140L.v":44:19:44:27|*Output di_AMtens has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\Lab3_140L.v":45:19:45:27|*Output di_AMones has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\Lab3_140L.v":46:19:46:27|*Output di_AStens has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\Lab3_140L.v":47:19:47:27|*Output di_ASones has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL156 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\digclockdp.v":3:18:3:26|*Input di_iMtens[3:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\digclockdp.v":4:18:4:26|*Input di_iMones[3:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\digclockdp.v":5:18:5:26|*Input di_iStens[3:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL157 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\digclockdp.v":3:18:3:26|*Output di_iMtens has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\digclockdp.v":4:18:4:26|*Output di_iMones has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL157 :"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\digclockdp.v":5:18:5:26|*Output di_iStens has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the output.
+

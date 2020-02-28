@@ -60,27 +60,58 @@ module bcd2segment (
    //       5% of the points assigned to lab3
    
    // a
-   assign segmentUQ[0] =  (
-		       (num == 4'd0) | (num == 4'd2) | (num == 4'd3) | (num == 4'd5) | (num == 4'd6) 
-			   | (num == 4'd7) | (num == 4'd8) | (num == 4'd9) | (num == 4'd10) |
-		       (num == 4'd12) | (num == 4'd14) | (num == 4'd15));
+   assign segmentUQ[0] =  ( 
+			// 1, 4 doesn't use
+			!(!num[3] & !num[2] & !num[1] & num[0]) | 
+			!(!num[3] & num[2] & !num[1] & !num[0]));
+
+//		       (num == 4'd0) | (num == 4'd2) | (num == 4'd3) | (num == 4'd5) | (num == 4'd6) 
+//			   | (num == 4'd7) | (num == 4'd8) | (num == 4'd9) | (num == 4'd10) |
+//		       (num == 4'd12) | (num == 4'd14) | (num == 4'd15));
    // b
    assign segmentUQ[1] = (
-		       (num == 4'd0) | (num == 4'd1) | (num == 4'd2) | (num == 4'd3) | (num == 4'd4) | (num == 4'd7) |
-		       (num == 4'd8) | (num == 4'd9) | (num == 4'd10) | (num == 4'd13));
+			// 5, 6 doesn't use
+			!(!num[3] & num[2] & !num[1] & num[0]) | 
+			!(!num[3] & num[2] & num[1] & !num[0]));
+	
+//		       (num == 4'd0) | (num == 4'd1) | (num == 4'd2) | (num == 4'd3) | (num == 4'd4) | (num == 4'd7) |
+//		       (num == 4'd8) | (num == 4'd9) | (num == 4'd10) | (num == 4'd13));
    // c
-   assign segmentUQ[2] = 1'b0 ;
+   assign segmentUQ[2] = (
+			// 2 doesn't use
+			!(!num[3] & !num[2] & num[1] & !num[0]));
    
    // d
-   assign segmentUQ[3] = 1'b0;
+   assign segmentUQ[3] = (
+			// 1, 4, 7, 9 doesn't use
+			!(!num[3] & !num[2] & !num[1] & num[0]) | 
+			!(!num[3] & num[2] & !num[1] & !num[0])| 
+			!(!num[3] & num[2] & num[1] & num[0])| 
+			!(num[3] & !num[2] & !num[1] & num[0]));
    
    // e
-   assign segmentUQ[4] = 1'b0;
+   assign segmentUQ[4] = (
+			// 1, 3, 4, 5, 7, 9 doesn't use
+			!(!num[3] & !num[2] & !num[1] & num[0]) | 
+			!(!num[3] & !num[2] & num[1] & num[0])| 
+			!(!num[3] & num[2] & !num[1] & !num[0])| 
+			!(!num[3] & num[2] & !num[1] & num[0])| 
+			!(!num[3] & num[2] & num[1] & num[0])| 
+			!(num[3] & !num[2] & !num[1] & num[0]));
    
    // f
-   assign segmentUQ[5] = 1'b0;
+   assign segmentUQ[5] = (
+			// 1, 2, 3, 7 doesn't use
+			!(!num[3] & !num[2] & !num[1] & num[0]) | 
+			!(!num[3] & !num[2] & num[1] & !num[0])| 
+			!(!num[3] & !num[2] & num[1] & num[0])| 
+			!(!num[3] & num[2] & num[1] & num[0]));
    // g
-   assign segmentUQ[6] = 1'b0;
+   assign segmentUQ[6] = (
+			// 0, 1, 7 doesn't use
+			!(!num[3] & !num[2] & !num[1] & !num[0]) | 
+			!(!num[3] & !num[2] & !num[1] & num[0])|
+			!(!num[3] & num[2] & num[1] & num[0]));
 
    assign segment = {7{enable}} & segmentUQ;
    

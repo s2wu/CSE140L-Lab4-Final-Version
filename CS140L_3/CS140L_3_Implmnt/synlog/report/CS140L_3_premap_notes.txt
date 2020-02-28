@@ -1,0 +1,18 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\digclockdp.v":4:18:4:26|Tristate driver di_iMones_1 (in view: work.didp(verilog)) on net di_iMones_1 (in view: work.didp(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\digclockdp.v":4:18:4:26|Tristate driver di_iMones_2 (in view: work.didp(verilog)) on net di_iMones_2 (in view: work.didp(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\digclockdp.v":4:18:4:26|Tristate driver di_iMones_3 (in view: work.didp(verilog)) on net di_iMones_3 (in view: work.didp(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\digclockdp.v":4:18:4:26|Tristate driver di_iMones_4 (in view: work.didp(verilog)) on net di_iMones_4 (in view: work.didp(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\digclockdp.v":3:18:3:26|Tristate driver di_iMtens_1 (in view: work.didp(verilog)) on net di_iMtens_1 (in view: work.didp(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\digclockdp.v":3:18:3:26|Tristate driver di_iMtens_2 (in view: work.didp(verilog)) on net di_iMtens_2 (in view: work.didp(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\digclockdp.v":3:18:3:26|Tristate driver di_iMtens_3 (in view: work.didp(verilog)) on net di_iMtens_3 (in view: work.didp(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\digclockdp.v":3:18:3:26|Tristate driver di_iMtens_4 (in view: work.didp(verilog)) on net di_iMtens_4 (in view: work.didp(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\digclockdp.v":5:18:5:26|Tristate driver di_iStens_1 (in view: work.didp(verilog)) on net di_iStens_1 (in view: work.didp(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\digclockdp.v":5:18:5:26|Tristate driver di_iStens_2 (in view: work.didp(verilog)) on net di_iStens_2 (in view: work.didp(verilog)) has its enable tied to GND.
+@N: BN115 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":130:16:130:19|Removing instance dec2 (in view: work.Lab3_140L(verilog)) of type view:work.bcd2segment_1(verilog) because it does not drive other instances.
+@N: BN115 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":131:16:131:19|Removing instance dec3 (in view: work.Lab3_140L(verilog)) of type view:work.bcd2segment_0(verilog) because it does not drive other instances.
+@N: BN115 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":129:16:129:19|Removing instance dec1 (in view: work.Lab3_140L(verilog)) of type view:work.bcd2segment_2(verilog) because it does not drive other instances.
+@N: BN225 |Writing default property annotation file D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\CS140L_3\CS140L_3_Implmnt\CS140L_3.sap.
+@N: BN362 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\vbuf.v":355:1:355:6|Removing sequential instance vram_wr_tap_4_user[1] (in view: work.vbuf_Z1(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\vbuf.v":355:1:355:6|Removing sequential instance vram_wr_tap_4_user[0] (in view: work.vbuf_Z1(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.

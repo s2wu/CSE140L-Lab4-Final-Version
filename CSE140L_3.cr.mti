@@ -1,0 +1,109 @@
+{D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/dispString.v} {1 {vlog -work work -stats=none {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/dispString.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module dispString
+
+Top level modules:
+	dispString
+
+} {} {}} {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/decodeKeys.v} {1 {vlog -work work -stats=none {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/decodeKeys.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module decodeKeys
+
+Top level modules:
+	decodeKeys
+
+} {} {}} {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/regrce.v} {1 {vlog -work work -stats=none {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/regrce.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module regrce
+
+Top level modules:
+	regrce
+
+} {} {}} {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/vbuf.v} {1 {vlog -work work -stats=none {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/vbuf.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module vbuf
+-- Compiling module latticeDulPortRam512x8
+
+Top level modules:
+	vbuf
+
+} {} {}} {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/dictrFSM.v} {1 {vlog -work work -stats=none {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/dictrFSM.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module dicClockFsm
+
+Top level modules:
+	dicClockFsm
+
+} {} {}} {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/resetGen.v} {1 {vlog -work work -stats=none {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/resetGen.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module resetGen
+
+Top level modules:
+	resetGen
+
+} {} {}} {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/digclockctrl.v} {1 {vlog -work work -stats=none {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/digclockctrl.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module dictrl
+
+Top level modules:
+	dictrl
+
+} {} {}} {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/bcd2segment.v} {1 {vlog -work work -stats=none {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/bcd2segment.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module bcd2segment
+
+Top level modules:
+	bcd2segment
+
+} {} {}} {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/buart.v} {1 {vlog -work work -stats=none {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/buart.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module baudgen
+-- Compiling module baudgen2
+-- Compiling module uart
+-- Compiling module rxuart
+-- Compiling module buart
+
+Top level modules:
+	buart
+
+} {} {}} {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/Half_Sec_Pulse_Every_Sec.v} {1 {vlog -work work -stats=none {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/Half_Sec_Pulse_Every_Sec.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Half_Sec_Pulse_Per_Sec
+
+Top level modules:
+	Half_Sec_Pulse_Per_Sec
+
+} {} {}} {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/latticehx1k.v} {2 {vlog -work work -stats=none {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/latticehx1k.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module inpin
+-- Compiling module latticehx1k
+-- Compiling module latticehx1k_pll
+** Warning: D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/latticehx1k.v(300): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+
+Top level modules:
+	latticehx1k
+
+} {} {}} {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/Lab3_140L.v} {1 {vlog -work work -stats=none {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/Lab3_140L.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Lab3_140L
+
+Top level modules:
+	Lab3_140L
+
+} {} {}} {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/digclockdp.v} {1 {vlog -work work -stats=none {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/digclockdp.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module didp
+-- Compiling module ledDisplay
+
+Top level modules:
+	didp
+
+} {} {}} {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/NBitCounter.v} {1 {vlog -work work -stats=none {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/NBitCounter.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module N_bit_counter
+
+Top level modules:
+	N_bit_counter
+
+} {} {}}
