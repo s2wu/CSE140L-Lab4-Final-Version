@@ -93,6 +93,13 @@ module dicClockFsm (
 	            dicDspSones = 1;
 	        end
 	        RUN : begin
+	            dicRun = 1;
+		    dicDspMtens = 1;
+        	    dicDspMones = 1;
+        	    dicDspStens = 1;
+	            dicDspSones = 1;
+		end
+		default : begin
 	            dicRun = 0;
 		    dicDspMtens = 1;
         	    dicDspMones = 1;
