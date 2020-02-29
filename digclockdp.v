@@ -62,6 +62,15 @@ module didp (
     countrce didpsones (.q(di_iSones),          .d(sOnesDin), 
                         .ld(rollSones|ldSones), .ce(countEnSones|ldSones), 
                         .rst(rst),              .clk(clk));
+    countrce didpstens (.q(di_iStens),          .d(sTensDin), 
+                        .ld(rollStens|ldStens), .ce(countEnStens|ldStens), 
+                        .rst(rst),              .clk(clk));
+    countrce didpmones (.q(di_iMones),          .d(mOnesDin), 
+                        .ld(rollMones|ldMones), .ce(countEnMones|ldMones), 
+                        .rst(rst),              .clk(clk));
+    countrce didpmtens (.q(di_iMtens),          .d(mTensDin), 
+                        .ld(rollMtens|ldMtens), .ce(countEnMtens|ldMtens), 
+                        .rst(rst),              .clk(clk));
 
 
     ledDisplay ledDisp00 (

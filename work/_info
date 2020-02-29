@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/Modeltech_pe_edu_10.4a/examples
 vbaudgen
-Z0 !s110 1582941699
+Z0 !s110 1582941971
 !i10b 1
 !s100 FhhgdY?Y49@cCa=m4chVK3
 I54Lgi9j8NC[KzCSFXkMS?0
@@ -23,7 +23,7 @@ Z7 OP;L;10.4a;61
 r1
 !s85 0
 31
-Z8 !s108 1582941699.000000
+Z8 !s108 1582941971.000000
 Z9 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/buart.v|
 Z10 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/buart.v|
 !s101 -O0
@@ -158,7 +158,7 @@ R8
 R11
 ndic@clock@fsm
 vdictrl
-Z12 !s110 1582941700
+Z12 !s110 1582941972
 !i10b 1
 !s100 Dm5@:B1izhP0j^N5]m>Nn3
 Ib@zCIgbag0L_B@f9H5VNE1
@@ -172,7 +172,7 @@ R7
 r1
 !s85 0
 31
-Z14 !s108 1582941700.000000
+Z14 !s108 1582941972.000000
 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/digclockctrl.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/digclockctrl.v|
 !s101 -O0
@@ -181,11 +181,11 @@ R11
 vdidp
 R12
 !i10b 1
-!s100 EjLIEl6H14HkDOoliUoeP2
-I4fkfh6XQNUDFUYPhliPQe3
+!s100 a=Wc626]JTG=CRQgaZM4I1
+IiR<kjG9APXfPL]LEUY;Al3
 R1
 R2
-Z15 w1582941627
+Z15 w1582941967
 Z16 8D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/digclockdp.v
 Z17 FD:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/digclockdp.v
 L0 2
@@ -353,14 +353,14 @@ R11
 vledDisplay
 R12
 !i10b 1
-!s100 e>A?cZEWJXQ:L5Iak1ClF0
-IY;onzR9Nnj^ZdWb6Zb;1H1
+!s100 gK:j6[GUD1T>;Fj:R3d:i2
+I`icX^9j4m7`G[ZJ6Ab;Az3
 R1
 R2
 R15
 R16
 R17
-L0 89
+L0 98
 R7
 r1
 !s85 0

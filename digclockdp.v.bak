@@ -54,13 +54,22 @@ module didp (
     //   0% of points assigned to Lab3, used in Lab4
     wire [3:0] sOnesDin = ldSones ? ld_num : 4'b0;
     wire [3:0] sTensDin = ldStens ? ld_num : 4'b0;
-    wire [3:0] mOnesDin = ldSones ? ld_num : 4'b0;
-    wire [3:0] mTensDin = ldSones ? ld_num : 4'b0;
+    wire [3:0] mOnesDin = ldMones ? ld_num : 4'b0;
+    wire [3:0] mTensDin = ldMtens ? ld_num : 4'b0;
    		
     //(dp.5) add code to generate digital clock output: di_iStens, di_iMones di_iMtens 
     //   20% of points assigned to Lab3
     countrce didpsones (.q(di_iSones),          .d(sOnesDin), 
                         .ld(rollSones|ldSones), .ce(countEnSones|ldSones), 
+                        .rst(rst),              .clk(clk));
+    countrce didpstens (.q(di_iStens),          .d(sTensDin), 
+                        .ld(rollStens|ldStens), .ce(countEnStens|ldSones), 
+                        .rst(rst),              .clk(clk));
+    countrce didpmones (.q(di_iMones),          .d(mOnesDin), 
+                        .ld(rollMones|ldMones), .ce(countEnMones|ldSones), 
+                        .rst(rst),              .clk(clk));
+    countrce didpmtens (.q(di_iMtens),          .d(mTensDin), 
+                        .ld(rollMtens|ldMtens), .ce(countEnMtens|ldSones), 
                         .rst(rst),              .clk(clk));
 
 
