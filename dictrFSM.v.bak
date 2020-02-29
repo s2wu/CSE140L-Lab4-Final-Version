@@ -65,6 +65,10 @@ module dicClockFsm (
         case (cState)
 	    default :
 	        nState = RUN;
+	    det_S :
+		nState = RUN;
+	    det_cr :
+		nState = STOP;
 	    endcase
     end
 
