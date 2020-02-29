@@ -1,0 +1,15 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":45:19:45:27|Tristate driver di_AMones_1 (in view: work.Lab3_140L(verilog)) on net di_AMones_1 (in view: work.Lab3_140L(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":45:19:45:27|Tristate driver di_AMones_2 (in view: work.Lab3_140L(verilog)) on net di_AMones_2 (in view: work.Lab3_140L(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":45:19:45:27|Tristate driver di_AMones_3 (in view: work.Lab3_140L(verilog)) on net di_AMones_3 (in view: work.Lab3_140L(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":45:19:45:27|Tristate driver di_AMones_4 (in view: work.Lab3_140L(verilog)) on net di_AMones_4 (in view: work.Lab3_140L(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":44:19:44:27|Tristate driver di_AMtens_1 (in view: work.Lab3_140L(verilog)) on net di_AMtens_1 (in view: work.Lab3_140L(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":44:19:44:27|Tristate driver di_AMtens_2 (in view: work.Lab3_140L(verilog)) on net di_AMtens_2 (in view: work.Lab3_140L(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":44:19:44:27|Tristate driver di_AMtens_3 (in view: work.Lab3_140L(verilog)) on net di_AMtens_3 (in view: work.Lab3_140L(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":44:19:44:27|Tristate driver di_AMtens_4 (in view: work.Lab3_140L(verilog)) on net di_AMtens_4 (in view: work.Lab3_140L(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":47:19:47:27|Tristate driver di_ASones_1 (in view: work.Lab3_140L(verilog)) on net di_ASones_1 (in view: work.Lab3_140L(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":47:19:47:27|Tristate driver di_ASones_2 (in view: work.Lab3_140L(verilog)) on net di_ASones_2 (in view: work.Lab3_140L(verilog)) has its enable tied to GND.
+@N: BN225 |Writing default property annotation file D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\lab3Synthesis\lab3Synthesis_Implmnt\lab3Synthesis.sap.
+@N: BN362 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\vbuf.v":355:1:355:6|Removing sequential instance vram_wr_tap_4_user[1] (in view: work.vbuf_Z1(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\vbuf.v":355:1:355:6|Removing sequential instance vram_wr_tap_4_user[0] (in view: work.vbuf_Z1(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.

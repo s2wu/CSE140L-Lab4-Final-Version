@@ -1,0 +1,93 @@
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\Desktop\\CSE 140L\\CSE140L_3\\lab3-s2wu\\lab3Synthesis\\lab3Synthesis_Implmnt\\synwork\\lab3Synthesis_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-I|D:\\Desktop\\CSE 140L\\CSE140L_3\\lab3-s2wu\\lab3Synthesis\\|-I|C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\generic\\sb_ice40.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\bin64\\c_ver.exe":1580919620
+#CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\generic\\sb_ice40.v":1580919622
+#CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\vlog\\hypermods.v":1580919624
+#CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\vlog\\umr_capim.v":1580919624
+#CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\vlog\\scemi_objects.v":1580919624
+#CUR:"C:\\lscc\\iCEcube2.2017.08\\synpbase\\lib\\vlog\\scemi_pipes.svh":1580919624
+#CUR:"D:\\Desktop\\CSE 140L\\CSE140L_3\\lab3-s2wu\\Half_Sec_Pulse_Every_Sec.v":1582642738
+#CUR:"D:\\Desktop\\CSE 140L\\CSE140L_3\\lab3-s2wu\\NBitCounter.v":1582642738
+#CUR:"D:\\Desktop\\CSE 140L\\CSE140L_3\\lab3-s2wu\\Lab3_140L.v":1582642738
+#CUR:"D:\\Desktop\\CSE 140L\\CSE140L_3\\lab3-s2wu\\bcd2segment.v":1582939403
+#CUR:"D:\\Desktop\\CSE 140L\\CSE140L_3\\lab3-s2wu\\digclockctrl.v":1582642738
+#CUR:"D:\\Desktop\\CSE 140L\\CSE140L_3\\lab3-s2wu\\dictrFSM.v":1582937351
+#CUR:"D:\\Desktop\\CSE 140L\\CSE140L_3\\lab3-s2wu\\decodeKeys.v":1582945277
+#CUR:"D:\\Desktop\\CSE 140L\\CSE140L_3\\lab3-s2wu\\countrce.v":1582934321
+#CUR:"D:\\Desktop\\CSE 140L\\CSE140L_3\\lab3-s2wu\\buart.v":1582642738
+#CUR:"D:\\Desktop\\CSE 140L\\CSE140L_3\\lab3-s2wu\\resetGen.v":1582642738
+#CUR:"D:\\Desktop\\CSE 140L\\CSE140L_3\\lab3-s2wu\\latticehx1k.v":1582642738
+#CUR:"D:\\Desktop\\CSE 140L\\CSE140L_3\\lab3-s2wu\\regrce.v":1582642738
+#CUR:"D:\\Desktop\\CSE 140L\\CSE140L_3\\lab3-s2wu\\dispString.v":1582642738
+#CUR:"D:\\Desktop\\CSE 140L\\CSE140L_3\\lab3-s2wu\\digclockdp.v":1582944550
+#CUR:"D:\\Desktop\\CSE 140L\\CSE140L_3\\lab3-s2wu\\vbuf.v":1582642738
+0			"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\Half_Sec_Pulse_Every_Sec.v" verilog
+1			"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\NBitCounter.v" verilog
+2			"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\Lab3_140L.v" verilog
+3			"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\bcd2segment.v" verilog
+4			"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\digclockctrl.v" verilog
+5			"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\dictrFSM.v" verilog
+6			"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\decodeKeys.v" verilog
+7			"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\countrce.v" verilog
+8			"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\buart.v" verilog
+9			"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\resetGen.v" verilog
+10			"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\latticehx1k.v" verilog
+11			"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\regrce.v" verilog
+12			"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\dispString.v" verilog
+13			"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\digclockdp.v" verilog
+14			"D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\vbuf.v" verilog
+#Dependency Lists(Uses List)
+0 1
+1 -1
+2 12 3 13 4 0 11
+3 -1
+4 5 6
+5 -1
+6 -1
+7 1
+8 -1
+9 1
+10 14 2 9 8
+11 -1
+12 -1
+13 7 1
+14 1
+#Dependency Lists(Users Of)
+0 2
+1 14 13 9 7 0
+2 10
+3 2
+4 2
+5 4
+6 4
+7 13
+8 10
+9 10
+10 -1
+11 2
+12 2
+13 2
+14 10
+#Design Unit to File Association
+module work latticeDulPortRam512x8 14
+module work ledDisplay 13
+module work latticehx1k 10
+module work vbuf 14
+module work latticehx1k_pll 10
+module work inpin 10
+module work resetGen 9
+module work buart 8
+module work rxuart 8
+module work uart 8
+module work baudgen2 8
+module work baudgen 8
+module work countrce 7
+module work dicClockFsm 5
+module work decodeKeys 6
+module work Lab3_140L 2
+module work dispString 12
+module work bcd2segment 3
+module work didp 13
+module work dictrl 4
+module work regrce 11
+module work Half_Sec_Pulse_Per_Sec 0
+module work N_bit_counter 1

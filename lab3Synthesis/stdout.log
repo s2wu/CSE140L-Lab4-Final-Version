@@ -1,0 +1,78 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\iCEcube2.2017.08\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\iCEcube2.2017.08\synpbase
+Hostname:    DESKTOP-H0LOVGM
+Date:        Fri Feb 28 19:06:49 2020
+Version:     L-2016.09L+ice40
+
+Arguments:   -product synplify_pro -batch lab3Synthesis_syn.prj
+ProductType: synplify_pro
+
+
+
+
+
+log file: "D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\lab3Synthesis\lab3Synthesis_Implmnt\lab3Synthesis.srr"
+Running: lab3Synthesis_Implmnt in foreground
+
+Running lab3Synthesis_syn|lab3Synthesis_Implmnt
+
+Running: compile (Compile) on lab3Synthesis_syn|lab3Synthesis_Implmnt
+# Fri Feb 28 19:06:49 2020
+
+Running: compile_flow (Compile Process) on lab3Synthesis_syn|lab3Synthesis_Implmnt
+# Fri Feb 28 19:06:49 2020
+
+Running: compiler (Compile Input) on lab3Synthesis_syn|lab3Synthesis_Implmnt
+# Fri Feb 28 19:06:49 2020
+Copied D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\lab3Synthesis\lab3Synthesis_Implmnt\synwork\lab3Synthesis_comp.srs to D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\lab3Synthesis\lab3Synthesis_Implmnt\lab3Synthesis.srs
+
+compiler completed
+# Fri Feb 28 19:06:51 2020
+
+Return Code: 0
+Run Time:00h:00m:02s
+
+Running: multi_srs_gen (Multi-srs Generator) on lab3Synthesis_syn|lab3Synthesis_Implmnt
+# Fri Feb 28 19:06:51 2020
+
+multi_srs_gen completed
+# Fri Feb 28 19:06:52 2020
+
+Return Code: 0
+Run Time:00h:00m:01s
+Copied D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\lab3Synthesis\lab3Synthesis_Implmnt\synwork\lab3Synthesis_mult.srs to D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\lab3Synthesis\lab3Synthesis_Implmnt\lab3Synthesis.srs
+Complete: Compile Process on lab3Synthesis_syn|lab3Synthesis_Implmnt
+
+Running: premap (Pre-mapping) on lab3Synthesis_syn|lab3Synthesis_Implmnt
+# Fri Feb 28 19:06:52 2020
+
+premap completed
+# Fri Feb 28 19:06:52 2020
+
+Return Code: 0
+Run Time:00h:00m:00s
+Complete: Compile on lab3Synthesis_syn|lab3Synthesis_Implmnt
+
+Running: map (Map) on lab3Synthesis_syn|lab3Synthesis_Implmnt
+# Fri Feb 28 19:06:52 2020
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on lab3Synthesis_syn|lab3Synthesis_Implmnt
+# Fri Feb 28 19:06:52 2020
+Copied D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\lab3Synthesis\lab3Synthesis_Implmnt\synwork\lab3Synthesis_m.srm to D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\lab3Synthesis\lab3Synthesis_Implmnt\lab3Synthesis.srm
+
+fpga_mapper completed with warnings
+# Fri Feb 28 19:06:57 2020
+
+Return Code: 1
+Run Time:00h:00m:05s
+Complete: Map on lab3Synthesis_syn|lab3Synthesis_Implmnt
+Complete: Logic Synthesis on lab3Synthesis_syn|lab3Synthesis_Implmnt
+
+exit status=0
+
+exit status=0
+

@@ -1,0 +1,555 @@
+# Fri Feb 28 19:06:52 2020
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":47:19:47:27|Tristate driver di_ASones_1 (in view: work.Lab3_140L(verilog)) on net di_ASones_1 (in view: work.Lab3_140L(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":47:19:47:27|Tristate driver di_ASones_2 (in view: work.Lab3_140L(verilog)) on net di_ASones_2 (in view: work.Lab3_140L(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":47:19:47:27|Tristate driver di_ASones_3 (in view: work.Lab3_140L(verilog)) on net di_ASones_3 (in view: work.Lab3_140L(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":47:19:47:27|Tristate driver di_ASones_4 (in view: work.Lab3_140L(verilog)) on net di_ASones_4 (in view: work.Lab3_140L(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":46:19:46:27|Tristate driver di_AStens_1 (in view: work.Lab3_140L(verilog)) on net di_AStens_1 (in view: work.Lab3_140L(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":46:19:46:27|Tristate driver di_AStens_2 (in view: work.Lab3_140L(verilog)) on net di_AStens_2 (in view: work.Lab3_140L(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":46:19:46:27|Tristate driver di_AStens_3 (in view: work.Lab3_140L(verilog)) on net di_AStens_3 (in view: work.Lab3_140L(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":46:19:46:27|Tristate driver di_AStens_4 (in view: work.Lab3_140L(verilog)) on net di_AStens_4 (in view: work.Lab3_140L(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":45:19:45:27|Tristate driver di_AMones_1 (in view: work.Lab3_140L(verilog)) on net di_AMones_1 (in view: work.Lab3_140L(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":45:19:45:27|Tristate driver di_AMones_2 (in view: work.Lab3_140L(verilog)) on net di_AMones_2 (in view: work.Lab3_140L(verilog)) has its enable tied to GND.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+@N: BN362 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\vbuf.v":355:1:355:6|Removing sequential instance vram_wr_tap_4_user[1:0] (in view: work.vbuf_Z1(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@W: FX1039 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\buart.v":185:2:185:7|User-specified initial value defined for instance buart._rx.hh[1:0] is being ignored. 
+@W: FX1039 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\digclockdp.v":122:4:122:9|User-specified initial value defined for instance Lab_UT.didpuu0.ledDisp00.selLed[1:0] is being ignored. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+@N: MO231 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\buart.v":185:2:185:7|Found counter in view:work.rxuart(verilog) instance bitcount[4:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 135MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 147MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 147MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 147MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 143MB peak: 147MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 147MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 147MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 147MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 172MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		    -7.76ns		 435 /       154
+   2		0h:00m:01s		    -6.36ns		 418 /       154
+   3		0h:00m:01s		    -4.96ns		 417 /       154
+@N: FX271 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\vbuf.v":355:1:355:6|Replicating instance uu2.w_addr_displaying[4] (in view: work.latticehx1k(verilog)) with 37 loads 3 times to improve timing.
+@N: FX271 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\vbuf.v":355:1:355:6|Replicating instance uu2.w_addr_displaying[3] (in view: work.latticehx1k(verilog)) with 36 loads 2 times to improve timing.
+@N: FX271 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\vbuf.v":355:1:355:6|Replicating instance uu2.w_addr_displaying[7] (in view: work.latticehx1k(verilog)) with 27 loads 2 times to improve timing.
+@N: FX271 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\vbuf.v":355:1:355:6|Replicating instance uu2.w_addr_displaying[2] (in view: work.latticehx1k(verilog)) with 25 loads 2 times to improve timing.
+@N: FX271 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\vbuf.v":355:1:355:6|Replicating instance uu2.w_addr_displaying[8] (in view: work.latticehx1k(verilog)) with 25 loads 2 times to improve timing.
+@N: FX271 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\vbuf.v":355:1:355:6|Replicating instance uu2.w_addr_displaying[6] (in view: work.latticehx1k(verilog)) with 18 loads 2 times to improve timing.
+@N: FX271 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\vbuf.v":355:1:355:6|Replicating instance uu2.w_addr_displaying[0] (in view: work.latticehx1k(verilog)) with 24 loads 2 times to improve timing.
+@N: FX271 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\vbuf.v":355:1:355:6|Replicating instance uu2.w_addr_displaying[5] (in view: work.latticehx1k(verilog)) with 16 loads 2 times to improve timing.
+Timing driven replication report
+Added 17 Registers via timing driven replication
+Added 17 LUTs via timing driven replication
+
+   4		0h:00m:02s		    -4.96ns		 468 /       171
+   5		0h:00m:03s		    -3.56ns		 468 /       171
+   6		0h:00m:03s		    -3.56ns		 468 /       171
+
+
+   7		0h:00m:03s		    -3.56ns		 470 /       171
+@N: FX1017 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\latticehx1k.v":118:19:118:38|SB_GB inserted on the net clk.
+@N: FX1017 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\resetgen.v":56:3:56:8|SB_GB inserted on the net rst.
+@N: FX1017 :|SB_GB inserted on the net Lab_UT.secuu0.un11_l_count_i.
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 189MB peak: 190MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 190MB peak: 190MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 174 clock pin(s) of sequential element(s)
+0 instances converted, 174 sequential instances remain driven by gated/generated clocks
+
+==================================================================================================================== Gated/Generated Clocks =====================================================================================================================
+Clock Tree ID     Driving Element                               Drive Element Type     Fanout     Sample Instance                  Explanation                                                                                                                   
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       latticehx1k_pll_inst.latticehx1k_pll_inst     SB_PLL40_CORE          174        uu2.w_addr_displaying_5_rep1     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+=================================================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 162MB peak: 191MB)
+
+Writing Analyst data base D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\lab3Synthesis\lab3Synthesis_Implmnt\synwork\lab3Synthesis_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 187MB peak: 191MB)
+
+Writing EDIF Netlist and constraint files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\lab3Synthesis\lab3Synthesis_Implmnt\lab3Synthesis.edf
+L-2016.09L+ice40
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 188MB peak: 191MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 186MB peak: 191MB)
+
+@W: MT420 |Found inferred clock latticehx1k|clk_in with period 18.30ns. Please declare a user-defined clock on object "p:clk_in"
+@N: MT615 |Found clock latticehx1k_pll|PLLOUTCORE_derived_clock with period 18.30ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Feb 28 19:06:57 2020
+#
+
+
+Top view:               latticehx1k
+Requested Frequency:    54.6 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -9.064
+
+                                             Requested     Estimated     Requested     Estimated                 Clock                                 Clock                
+Starting Clock                               Frequency     Frequency     Period        Period        Slack       Type                                  Group                
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+latticehx1k_pll|PLLOUTCORE_derived_clock     54.6 MHz      27.5 MHz      18.302        36.429        -9.064      derived (from latticehx1k|clk_in)     Autoconstr_clkgroup_0
+latticehx1k|clk_in                           54.6 MHz      NA            18.302        NA            DCM/PLL     inferred                              Autoconstr_clkgroup_0
+============================================================================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                              |    rise  to  rise    |    fall  to  fall   |    rise  to  fall    |    fall  to  rise  
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                  Ending                                    |  constraint  slack   |  constraint  slack  |  constraint  slack   |  constraint  slack 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+latticehx1k_pll|PLLOUTCORE_derived_clock  latticehx1k_pll|PLLOUTCORE_derived_clock  |  18.302      -3.230  |  18.302      6.921  |  9.151       -3.847  |  9.151       -9.064
+=============================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: latticehx1k_pll|PLLOUTCORE_derived_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                  Starting                                                                                         Arrival           
+Instance                          Reference                                    Type          Pin     Net                           Time        Slack 
+                                  Clock                                                                                                              
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+uu2.w_addr_displaying_fast[7]     latticehx1k_pll|PLLOUTCORE_derived_clock     SB_DFFNSR     Q       w_addr_displaying_fast[7]     0.540       -9.064
+uu2.w_addr_displaying_3_rep1      latticehx1k_pll|PLLOUTCORE_derived_clock     SB_DFFNSR     Q       w_addr_displaying_3_rep1      0.540       -9.015
+uu2.w_addr_displaying_fast[8]     latticehx1k_pll|PLLOUTCORE_derived_clock     SB_DFFNSR     Q       w_addr_displaying_fast[8]     0.540       -9.015
+uu2.w_addr_displaying_2_rep1      latticehx1k_pll|PLLOUTCORE_derived_clock     SB_DFFNSR     Q       w_addr_displaying_2_rep1      0.540       -8.993
+uu2.w_addr_displaying_4_rep1      latticehx1k_pll|PLLOUTCORE_derived_clock     SB_DFFNSR     Q       w_addr_displaying_4_rep1      0.540       -8.965
+uu2.w_addr_displaying_0_rep1      latticehx1k_pll|PLLOUTCORE_derived_clock     SB_DFFNSR     Q       w_addr_displaying_0_rep1      0.540       -8.951
+uu2.w_addr_displaying_7_rep1      latticehx1k_pll|PLLOUTCORE_derived_clock     SB_DFFNSR     Q       w_addr_displaying_7_rep1      0.540       -8.944
+uu2.w_addr_displaying_4_rep2      latticehx1k_pll|PLLOUTCORE_derived_clock     SB_DFFNSR     Q       w_addr_displaying_4_rep2      0.540       -8.881
+uu2.w_addr_displaying_5_rep1      latticehx1k_pll|PLLOUTCORE_derived_clock     SB_DFFNSR     Q       w_addr_displaying_5_rep1      0.540       -8.881
+uu2.w_addr_displaying_8_rep1      latticehx1k_pll|PLLOUTCORE_derived_clock     SB_DFFNSR     Q       w_addr_displaying_8_rep1      0.540       -8.881
+=====================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                 Starting                                                                                                  Required           
+Instance                         Reference                                    Type            Pin          Net                             Time         Slack 
+                                 Clock                                                                                                                        
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+uu2.mem0.ram512X8_inst           latticehx1k_pll|PLLOUTCORE_derived_clock     SB_RAM512x8     WDATA[1]     w_data[1]                       8.990        -9.064
+uu2.mem0.ram512X8_inst           latticehx1k_pll|PLLOUTCORE_derived_clock     SB_RAM512x8     WDATA[3]     w_data[3]                       8.990        -8.951
+uu2.w_addr_user[0]               latticehx1k_pll|PLLOUTCORE_derived_clock     SB_DFFNSR       D            w_addr_user_en[0]               9.046        -3.847
+uu2.w_addr_user[1]               latticehx1k_pll|PLLOUTCORE_derived_clock     SB_DFFNSR       D            w_addr_user_en[1]               9.046        -3.826
+uu2.w_addr_user[3]               latticehx1k_pll|PLLOUTCORE_derived_clock     SB_DFFNSR       D            w_addr_user_en[3]               9.046        -3.826
+uu2.w_addr_user[4]               latticehx1k_pll|PLLOUTCORE_derived_clock     SB_DFFNSR       D            w_addr_user_en[4]               9.046        -3.826
+uu2.w_addr_user[7]               latticehx1k_pll|PLLOUTCORE_derived_clock     SB_DFFNSR       D            w_addr_user_en[7]               9.046        -3.826
+uu2.w_addr_user[8]               latticehx1k_pll|PLLOUTCORE_derived_clock     SB_DFFNSR       D            w_addr_user_en[8]               9.046        -3.826
+uu2.w_addr_displaying[0]         latticehx1k_pll|PLLOUTCORE_derived_clock     SB_DFFNSR       D            w_addr_displaying_en[0]         9.046        -3.791
+uu2.w_addr_displaying_0_rep1     latticehx1k_pll|PLLOUTCORE_derived_clock     SB_DFFNSR       D            w_addr_displaying_0_rep1_en     9.046        -3.791
+==============================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      9.151
+    - Setup time:                            0.161
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.990
+
+    - Propagation time:                      18.053
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -9.064
+
+    Number of logic level(s):                7
+    Starting point:                          uu2.w_addr_displaying_fast[7] / Q
+    Ending point:                            uu2.mem0.ram512X8_inst / WDATA[1]
+    The start point is clocked by            latticehx1k_pll|PLLOUTCORE_derived_clock [falling] on pin C
+    The end   point is clocked by            latticehx1k_pll|PLLOUTCORE_derived_clock [rising] on pin WCLK
+
+Instance / Net                                            Pin          Pin               Arrival     No. of    
+Name                                      Type            Name         Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------
+uu2.w_addr_displaying_fast[7]             SB_DFFNSR       Q            Out     0.540     0.540       -         
+w_addr_displaying_fast[7]                 Net             -            -       1.599     -           7         
+uu2.w_addr_displaying_fast_RNIL396[8]     SB_LUT4         I0           In      -         2.139       -         
+uu2.w_addr_displaying_fast_RNIL396[8]     SB_LUT4         O            Out     0.449     2.588       -         
+N_315_1                                   Net             -            -       1.371     -           5         
+uu2.w_addr_displaying_RNIPHFA2[4]         SB_LUT4         I0           In      -         3.959       -         
+uu2.w_addr_displaying_RNIPHFA2[4]         SB_LUT4         O            Out     0.449     4.408       -         
+N_813_0                                   Net             -            -       1.371     -           2         
+uu2.mem0.ram512X8_inst_RNO_58             SB_LUT4         I0           In      -         5.779       -         
+uu2.mem0.ram512X8_inst_RNO_58             SB_LUT4         O            Out     0.449     6.227       -         
+ram512X8_inst_RNO_58                      Net             -            -       1.371     -           1         
+uu2.mem0.ram512X8_inst_RNO_50             SB_LUT4         I1           In      -         7.598       -         
+uu2.mem0.ram512X8_inst_RNO_50             SB_LUT4         O            Out     0.400     7.998       -         
+N_14                                      Net             -            -       1.371     -           1         
+uu2.mem0.ram512X8_inst_RNO_38             SB_LUT4         I0           In      -         9.369       -         
+uu2.mem0.ram512X8_inst_RNO_38             SB_LUT4         O            Out     0.449     9.818       -         
+N_18                                      Net             -            -       1.371     -           1         
+uu2.mem0.ram512X8_inst_RNO_24             SB_LUT4         I1           In      -         11.189      -         
+uu2.mem0.ram512X8_inst_RNO_24             SB_LUT4         O            Out     0.400     11.589      -         
+N_7_0                                     Net             -            -       1.371     -           1         
+uu2.mem0.ram512X8_inst_RNO_9              SB_LUT4         I2           In      -         12.960      -         
+uu2.mem0.ram512X8_inst_RNO_9              SB_LUT4         O            Out     0.379     13.338      -         
+w_data[1]                                 Net             -            -       4.715     -           1         
+uu2.mem0.ram512X8_inst                    SB_RAM512x8     WDATA[1]     In      -         18.053      -         
+===============================================================================================================
+Total path delay (propagation time + setup) of 18.215 is 3.675(20.2%) logic and 14.540(79.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      9.151
+    - Setup time:                            0.161
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.990
+
+    - Propagation time:                      18.032
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -9.043
+
+    Number of logic level(s):                7
+    Starting point:                          uu2.w_addr_displaying_fast[7] / Q
+    Ending point:                            uu2.mem0.ram512X8_inst / WDATA[1]
+    The start point is clocked by            latticehx1k_pll|PLLOUTCORE_derived_clock [falling] on pin C
+    The end   point is clocked by            latticehx1k_pll|PLLOUTCORE_derived_clock [rising] on pin WCLK
+
+Instance / Net                                            Pin          Pin               Arrival     No. of    
+Name                                      Type            Name         Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------
+uu2.w_addr_displaying_fast[7]             SB_DFFNSR       Q            Out     0.540     0.540       -         
+w_addr_displaying_fast[7]                 Net             -            -       1.599     -           7         
+uu2.w_addr_displaying_fast_RNIL396[8]     SB_LUT4         I0           In      -         2.139       -         
+uu2.w_addr_displaying_fast_RNIL396[8]     SB_LUT4         O            Out     0.449     2.588       -         
+N_315_1                                   Net             -            -       1.371     -           5         
+uu2.w_addr_displaying_RNIPHFA2[4]         SB_LUT4         I0           In      -         3.959       -         
+uu2.w_addr_displaying_RNIPHFA2[4]         SB_LUT4         O            Out     0.449     4.408       -         
+N_813_0                                   Net             -            -       1.371     -           2         
+uu2.mem0.ram512X8_inst_RNO_59             SB_LUT4         I0           In      -         5.779       -         
+uu2.mem0.ram512X8_inst_RNO_59             SB_LUT4         O            Out     0.449     6.227       -         
+ram512X8_inst_RNO_59                      Net             -            -       1.371     -           1         
+uu2.mem0.ram512X8_inst_RNO_50             SB_LUT4         I2           In      -         7.598       -         
+uu2.mem0.ram512X8_inst_RNO_50             SB_LUT4         O            Out     0.379     7.977       -         
+N_14                                      Net             -            -       1.371     -           1         
+uu2.mem0.ram512X8_inst_RNO_38             SB_LUT4         I0           In      -         9.348       -         
+uu2.mem0.ram512X8_inst_RNO_38             SB_LUT4         O            Out     0.449     9.797       -         
+N_18                                      Net             -            -       1.371     -           1         
+uu2.mem0.ram512X8_inst_RNO_24             SB_LUT4         I1           In      -         11.168      -         
+uu2.mem0.ram512X8_inst_RNO_24             SB_LUT4         O            Out     0.400     11.568      -         
+N_7_0                                     Net             -            -       1.371     -           1         
+uu2.mem0.ram512X8_inst_RNO_9              SB_LUT4         I2           In      -         12.939      -         
+uu2.mem0.ram512X8_inst_RNO_9              SB_LUT4         O            Out     0.379     13.317      -         
+w_data[1]                                 Net             -            -       4.715     -           1         
+uu2.mem0.ram512X8_inst                    SB_RAM512x8     WDATA[1]     In      -         18.032      -         
+===============================================================================================================
+Total path delay (propagation time + setup) of 18.194 is 3.654(20.1%) logic and 14.540(79.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      9.151
+    - Setup time:                            0.161
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.990
+
+    - Propagation time:                      18.004
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -9.015
+
+    Number of logic level(s):                7
+    Starting point:                          uu2.w_addr_displaying_3_rep1 / Q
+    Ending point:                            uu2.mem0.ram512X8_inst / WDATA[1]
+    The start point is clocked by            latticehx1k_pll|PLLOUTCORE_derived_clock [falling] on pin C
+    The end   point is clocked by            latticehx1k_pll|PLLOUTCORE_derived_clock [rising] on pin WCLK
+
+Instance / Net                                           Pin          Pin               Arrival     No. of    
+Name                                     Type            Name         Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------
+uu2.w_addr_displaying_3_rep1             SB_DFFNSR       Q            Out     0.540     0.540       -         
+w_addr_displaying_3_rep1                 Net             -            -       1.599     -           14        
+uu2.w_addr_displaying_4_rep1_RNI65VM     SB_LUT4         I0           In      -         2.139       -         
+uu2.w_addr_displaying_4_rep1_RNI65VM     SB_LUT4         O            Out     0.449     2.588       -         
+un1_w_addr_displaying_35_0               Net             -            -       1.371     -           2         
+uu2.w_addr_displaying_RNIPHFA2[4]        SB_LUT4         I1           In      -         3.959       -         
+uu2.w_addr_displaying_RNIPHFA2[4]        SB_LUT4         O            Out     0.400     4.359       -         
+N_813_0                                  Net             -            -       1.371     -           2         
+uu2.mem0.ram512X8_inst_RNO_58            SB_LUT4         I0           In      -         5.729       -         
+uu2.mem0.ram512X8_inst_RNO_58            SB_LUT4         O            Out     0.449     6.178       -         
+ram512X8_inst_RNO_58                     Net             -            -       1.371     -           1         
+uu2.mem0.ram512X8_inst_RNO_50            SB_LUT4         I1           In      -         7.549       -         
+uu2.mem0.ram512X8_inst_RNO_50            SB_LUT4         O            Out     0.400     7.949       -         
+N_14                                     Net             -            -       1.371     -           1         
+uu2.mem0.ram512X8_inst_RNO_38            SB_LUT4         I0           In      -         9.320       -         
+uu2.mem0.ram512X8_inst_RNO_38            SB_LUT4         O            Out     0.449     9.769       -         
+N_18                                     Net             -            -       1.371     -           1         
+uu2.mem0.ram512X8_inst_RNO_24            SB_LUT4         I1           In      -         11.140      -         
+uu2.mem0.ram512X8_inst_RNO_24            SB_LUT4         O            Out     0.400     11.540      -         
+N_7_0                                    Net             -            -       1.371     -           1         
+uu2.mem0.ram512X8_inst_RNO_9             SB_LUT4         I2           In      -         12.911      -         
+uu2.mem0.ram512X8_inst_RNO_9             SB_LUT4         O            Out     0.379     13.289      -         
+w_data[1]                                Net             -            -       4.715     -           1         
+uu2.mem0.ram512X8_inst                   SB_RAM512x8     WDATA[1]     In      -         18.004      -         
+==============================================================================================================
+Total path delay (propagation time + setup) of 18.166 is 3.626(20.0%) logic and 14.540(80.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      9.151
+    - Setup time:                            0.161
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.990
+
+    - Propagation time:                      18.004
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -9.015
+
+    Number of logic level(s):                7
+    Starting point:                          uu2.w_addr_displaying_fast[8] / Q
+    Ending point:                            uu2.mem0.ram512X8_inst / WDATA[1]
+    The start point is clocked by            latticehx1k_pll|PLLOUTCORE_derived_clock [falling] on pin C
+    The end   point is clocked by            latticehx1k_pll|PLLOUTCORE_derived_clock [rising] on pin WCLK
+
+Instance / Net                                            Pin          Pin               Arrival     No. of    
+Name                                      Type            Name         Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------
+uu2.w_addr_displaying_fast[8]             SB_DFFNSR       Q            Out     0.540     0.540       -         
+w_addr_displaying_fast[8]                 Net             -            -       1.599     -           6         
+uu2.w_addr_displaying_fast_RNIL396[8]     SB_LUT4         I1           In      -         2.139       -         
+uu2.w_addr_displaying_fast_RNIL396[8]     SB_LUT4         O            Out     0.400     2.539       -         
+N_315_1                                   Net             -            -       1.371     -           5         
+uu2.w_addr_displaying_RNIPHFA2[4]         SB_LUT4         I0           In      -         3.910       -         
+uu2.w_addr_displaying_RNIPHFA2[4]         SB_LUT4         O            Out     0.449     4.359       -         
+N_813_0                                   Net             -            -       1.371     -           2         
+uu2.mem0.ram512X8_inst_RNO_58             SB_LUT4         I0           In      -         5.729       -         
+uu2.mem0.ram512X8_inst_RNO_58             SB_LUT4         O            Out     0.449     6.178       -         
+ram512X8_inst_RNO_58                      Net             -            -       1.371     -           1         
+uu2.mem0.ram512X8_inst_RNO_50             SB_LUT4         I1           In      -         7.549       -         
+uu2.mem0.ram512X8_inst_RNO_50             SB_LUT4         O            Out     0.400     7.949       -         
+N_14                                      Net             -            -       1.371     -           1         
+uu2.mem0.ram512X8_inst_RNO_38             SB_LUT4         I0           In      -         9.320       -         
+uu2.mem0.ram512X8_inst_RNO_38             SB_LUT4         O            Out     0.449     9.769       -         
+N_18                                      Net             -            -       1.371     -           1         
+uu2.mem0.ram512X8_inst_RNO_24             SB_LUT4         I1           In      -         11.140      -         
+uu2.mem0.ram512X8_inst_RNO_24             SB_LUT4         O            Out     0.400     11.540      -         
+N_7_0                                     Net             -            -       1.371     -           1         
+uu2.mem0.ram512X8_inst_RNO_9              SB_LUT4         I2           In      -         12.911      -         
+uu2.mem0.ram512X8_inst_RNO_9              SB_LUT4         O            Out     0.379     13.289      -         
+w_data[1]                                 Net             -            -       4.715     -           1         
+uu2.mem0.ram512X8_inst                    SB_RAM512x8     WDATA[1]     In      -         18.004      -         
+===============================================================================================================
+Total path delay (propagation time + setup) of 18.166 is 3.626(20.0%) logic and 14.540(80.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      9.151
+    - Setup time:                            0.161
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.990
+
+    - Propagation time:                      17.983
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -8.994
+
+    Number of logic level(s):                7
+    Starting point:                          uu2.w_addr_displaying_2_rep1 / Q
+    Ending point:                            uu2.mem0.ram512X8_inst / WDATA[1]
+    The start point is clocked by            latticehx1k_pll|PLLOUTCORE_derived_clock [falling] on pin C
+    The end   point is clocked by            latticehx1k_pll|PLLOUTCORE_derived_clock [rising] on pin WCLK
+
+Instance / Net                                            Pin          Pin               Arrival     No. of    
+Name                                      Type            Name         Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------
+uu2.w_addr_displaying_2_rep1              SB_DFFNSR       Q            Out     0.540     0.540       -         
+w_addr_displaying_2_rep1                  Net             -            -       1.599     -           9         
+uu2.w_addr_displaying_2_rep1_RNI4RA21     SB_LUT4         I0           In      -         2.139       -         
+uu2.w_addr_displaying_2_rep1_RNI4RA21     SB_LUT4         O            Out     0.449     2.588       -         
+un1_w_addr_displaying_inv_2               Net             -            -       1.371     -           2         
+uu2.w_addr_displaying_RNIPHFA2[4]         SB_LUT4         I2           In      -         3.959       -         
+uu2.w_addr_displaying_RNIPHFA2[4]         SB_LUT4         O            Out     0.379     4.338       -         
+N_813_0                                   Net             -            -       1.371     -           2         
+uu2.mem0.ram512X8_inst_RNO_58             SB_LUT4         I0           In      -         5.708       -         
+uu2.mem0.ram512X8_inst_RNO_58             SB_LUT4         O            Out     0.449     6.157       -         
+ram512X8_inst_RNO_58                      Net             -            -       1.371     -           1         
+uu2.mem0.ram512X8_inst_RNO_50             SB_LUT4         I1           In      -         7.528       -         
+uu2.mem0.ram512X8_inst_RNO_50             SB_LUT4         O            Out     0.400     7.928       -         
+N_14                                      Net             -            -       1.371     -           1         
+uu2.mem0.ram512X8_inst_RNO_38             SB_LUT4         I0           In      -         9.299       -         
+uu2.mem0.ram512X8_inst_RNO_38             SB_LUT4         O            Out     0.449     9.748       -         
+N_18                                      Net             -            -       1.371     -           1         
+uu2.mem0.ram512X8_inst_RNO_24             SB_LUT4         I1           In      -         11.119      -         
+uu2.mem0.ram512X8_inst_RNO_24             SB_LUT4         O            Out     0.400     11.519      -         
+N_7_0                                     Net             -            -       1.371     -           1         
+uu2.mem0.ram512X8_inst_RNO_9              SB_LUT4         I2           In      -         12.890      -         
+uu2.mem0.ram512X8_inst_RNO_9              SB_LUT4         O            Out     0.379     13.268      -         
+w_data[1]                                 Net             -            -       4.715     -           1         
+uu2.mem0.ram512X8_inst                    SB_RAM512x8     WDATA[1]     In      -         17.983      -         
+===============================================================================================================
+Total path delay (propagation time + setup) of 18.145 is 3.605(19.9%) logic and 14.540(80.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 187MB peak: 191MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 187MB peak: 191MB)
+
+---------------------------------------
+Resource Usage Report for latticehx1k 
+
+Mapping to part: ice40hx1ktq144
+Cell usage:
+GND             35 uses
+SB_CARRY        19 uses
+SB_DFF          30 uses
+SB_DFFE         23 uses
+SB_DFFER        19 uses
+SB_DFFESR       23 uses
+SB_DFFNSR       32 uses
+SB_DFFNSS       3 uses
+SB_DFFR         7 uses
+SB_DFFSR        34 uses
+SB_GB           3 uses
+SB_PLL40_CORE   1 use
+SB_RAM512x8     1 use
+VCC             35 uses
+SB_LUT4         459 uses
+
+I/O ports: 10
+I/O primitives: 10
+SB_IO          10 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   171 (13%)
+
+RAM/ROM usage summary
+Block Rams : 1 of 16 (6%)
+
+Total load per clock:
+   latticehx1k|clk_in: 1
+   latticehx1k_pll|PLLOUTCORE_derived_clock: 174
+
+@S |Mapping Summary:
+Total  LUTs: 459 (35%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 459 = 459 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 31MB peak: 191MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:04s cputime
+# Fri Feb 28 19:06:57 2020
+
+###########################################################]

@@ -1,0 +1,689 @@
+ble_pack Lab_UT.secuu0.l_count_5_LC_1_3_0 { Lab_UT.secuu0.vbuf_count_cntrl1.result_1[5], Lab_UT.secuu0.l_count[5] }
+clb_pack LT_1_3 { Lab_UT.secuu0.l_count_5_LC_1_3_0 }
+set_location LT_1_3 1 3
+ble_pack Lab_UT.secuu0.vbuf_count_cntrl1.counter_gen_label_10__un175_ci_3_LC_1_4_1 { Lab_UT.secuu0.vbuf_count_cntrl1.counter_gen_label[10].un175_ci_3 }
+ble_pack Lab_UT.secuu0.vbuf_count_cntrl1.counter_gen_label_7__un142_ci_0_LC_1_4_2 { Lab_UT.secuu0.vbuf_count_cntrl1.counter_gen_label[7].un142_ci_0 }
+ble_pack Lab_UT.secuu0.vbuf_count_cntrl1.counter_gen_label_15__un230_ci_1_LC_1_4_7 { Lab_UT.secuu0.vbuf_count_cntrl1.counter_gen_label[15].un230_ci_1 }
+clb_pack LT_1_4 { Lab_UT.secuu0.vbuf_count_cntrl1.counter_gen_label_10__un175_ci_3_LC_1_4_1, Lab_UT.secuu0.vbuf_count_cntrl1.counter_gen_label_7__un142_ci_0_LC_1_4_2, Lab_UT.secuu0.vbuf_count_cntrl1.counter_gen_label_15__un230_ci_1_LC_1_4_7 }
+set_location LT_1_4 1 4
+ble_pack Lab_UT.secuu0.l_count_3_LC_1_5_3 { Lab_UT.secuu0.l_count_RNO[3], Lab_UT.secuu0.l_count[3] }
+ble_pack Lab_UT.secuu0.l_count_7_LC_1_5_4 { Lab_UT.secuu0.l_count_RNO[7], Lab_UT.secuu0.l_count[7] }
+ble_pack Lab_UT.secuu0.l_count_6_LC_1_5_5 { Lab_UT.secuu0.l_count_RNO[6], Lab_UT.secuu0.l_count[6] }
+ble_pack Lab_UT.secuu0.vbuf_count_cntrl1.counter_gen_label_10__un175_ci_8_LC_1_5_6 { Lab_UT.secuu0.vbuf_count_cntrl1.counter_gen_label[10].un175_ci_8 }
+clb_pack LT_1_5 { Lab_UT.secuu0.l_count_3_LC_1_5_3, Lab_UT.secuu0.l_count_7_LC_1_5_4, Lab_UT.secuu0.l_count_6_LC_1_5_5, Lab_UT.secuu0.vbuf_count_cntrl1.counter_gen_label_10__un175_ci_8_LC_1_5_6 }
+set_location LT_1_5 1 5
+ble_pack Lab_UT.secuu0.vbuf_count_cntrl1.counter_gen_label_10__un175_ci_6_LC_1_6_0 { Lab_UT.secuu0.vbuf_count_cntrl1.counter_gen_label[10].un175_ci_6 }
+ble_pack Lab_UT.secuu0.l_count_1_LC_1_6_1 { Lab_UT.secuu0.vbuf_count_cntrl1.result_1[1], Lab_UT.secuu0.l_count[1] }
+ble_pack Lab_UT.secuu0.l_count_0_LC_1_6_2 { Lab_UT.secuu0.l_count_RNO[0], Lab_UT.secuu0.l_count[0] }
+ble_pack Lab_UT.secuu0.vbuf_count_cntrl1.counter_gen_label_10__un175_ci_1_LC_1_6_3 { Lab_UT.secuu0.vbuf_count_cntrl1.counter_gen_label[10].un175_ci_1 }
+ble_pack Lab_UT.secuu0.l_count_2_LC_1_6_4 { Lab_UT.secuu0.vbuf_count_cntrl1.result_1[2], Lab_UT.secuu0.l_count[2] }
+ble_pack Lab_UT.secuu0.l_count_RNIFM2M_13_LC_1_6_6 { Lab_UT.secuu0.l_count_RNIFM2M[13] }
+clb_pack LT_1_6 { Lab_UT.secuu0.vbuf_count_cntrl1.counter_gen_label_10__un175_ci_6_LC_1_6_0, Lab_UT.secuu0.l_count_1_LC_1_6_1, Lab_UT.secuu0.l_count_0_LC_1_6_2, Lab_UT.secuu0.vbuf_count_cntrl1.counter_gen_label_10__un175_ci_1_LC_1_6_3, Lab_UT.secuu0.l_count_2_LC_1_6_4, Lab_UT.secuu0.l_count_RNIFM2M_13_LC_1_6_6 }
+set_location LT_1_6 1 6
+ble_pack Lab_UT.dspStr.cnt_RNIMHJI1_2_LC_1_7_0 { Lab_UT.dspStr.cnt_RNIMHJI1[2] }
+ble_pack uu2.un1_w_user_lf_4_LC_1_7_1 { uu2.un1_w_user_lf_4 }
+ble_pack Lab_UT.dspStr.cnt_RNIKFJI1_2_LC_1_7_2 { Lab_UT.dspStr.cnt_RNIKFJI1[2] }
+ble_pack Lab_UT.Lab3U00.q_esr_2_LC_1_7_4 { Lab_UT.Lab3U00.q_esr_2_THRU_LUT4_0, Lab_UT.Lab3U00.q_esr[2] }
+ble_pack Lab_UT.dspStr.cnt_RNI57RQ_2_LC_1_7_5 { Lab_UT.dspStr.cnt_RNI57RQ[2] }
+ble_pack uu2.un1_w_user_cr_0_LC_1_7_6 { uu2.un1_w_user_cr_0 }
+clb_pack LT_1_7 { Lab_UT.dspStr.cnt_RNIMHJI1_2_LC_1_7_0, uu2.un1_w_user_lf_4_LC_1_7_1, Lab_UT.dspStr.cnt_RNIKFJI1_2_LC_1_7_2, Lab_UT.Lab3U00.q_esr_2_LC_1_7_4, Lab_UT.dspStr.cnt_RNI57RQ_2_LC_1_7_5, uu2.un1_w_user_cr_0_LC_1_7_6 }
+set_location LT_1_7 1 7
+ble_pack Lab_UT.dspStr.cnt_0_LC_1_8_0 { Lab_UT.dspStr.cnt_RNO[0], Lab_UT.dspStr.cnt[0], Lab_UT.dspStr.un1_cnt_3_cry_0_c }
+ble_pack Lab_UT.dspStr.cnt_1_LC_1_8_1 { Lab_UT.dspStr.cnt_RNO[1], Lab_UT.dspStr.cnt[1], Lab_UT.dspStr.un1_cnt_3_cry_1_c }
+ble_pack Lab_UT.dspStr.cnt_2_LC_1_8_2 { Lab_UT.dspStr.cnt_RNO[2], Lab_UT.dspStr.cnt[2], Lab_UT.dspStr.un1_cnt_3_cry_2_c }
+ble_pack Lab_UT.dspStr.cnt_3_LC_1_8_3 { Lab_UT.dspStr.cnt_RNO[3], Lab_UT.dspStr.cnt[3] }
+clb_pack LT_1_8 { Lab_UT.dspStr.cnt_0_LC_1_8_0, Lab_UT.dspStr.cnt_1_LC_1_8_1, Lab_UT.dspStr.cnt_2_LC_1_8_2, Lab_UT.dspStr.cnt_3_LC_1_8_3 }
+set_location LT_1_8 1 8
+ble_pack uu2.w_addr_user_RNIKHHEL_2_LC_1_9_0 { uu2.w_addr_user_RNIKHHEL[2] }
+ble_pack Lab_UT.dspStr.cnt_RNIIDJI1_0_2_LC_1_9_4 { Lab_UT.dspStr.cnt_RNIIDJI1_0[2] }
+ble_pack uu2.un1_w_user_lf_LC_1_9_5 { uu2.un1_w_user_lf }
+ble_pack uu2.w_addr_user_RNILJEE01_2_LC_1_9_6 { uu2.w_addr_user_RNILJEE01[2] }
+clb_pack LT_1_9 { uu2.w_addr_user_RNIKHHEL_2_LC_1_9_0, Lab_UT.dspStr.cnt_RNIIDJI1_0_2_LC_1_9_4, uu2.un1_w_user_lf_LC_1_9_5, uu2.w_addr_user_RNILJEE01_2_LC_1_9_6 }
+set_location LT_1_9 1 9
+ble_pack uu2.w_addr_user_4_LC_1_10_0 { uu2.w_addr_user_RNO[4], uu2.w_addr_user[4] }
+ble_pack uu2.w_addr_user_8_LC_1_10_1 { uu2.w_addr_user_RNO[8], uu2.w_addr_user[8] }
+ble_pack uu2.w_addr_user_7_LC_1_10_4 { uu2.w_addr_user_RNO[7], uu2.w_addr_user[7] }
+ble_pack uu2.w_addr_user_6_LC_1_10_7 { uu2.w_addr_user_RNO[6], uu2.w_addr_user[6] }
+clb_pack LT_1_10 { uu2.w_addr_user_4_LC_1_10_0, uu2.w_addr_user_8_LC_1_10_1, uu2.w_addr_user_7_LC_1_10_4, uu2.w_addr_user_6_LC_1_10_7 }
+set_location LT_1_10 1 10
+ble_pack buart.Z_rx.hh_0_LC_1_11_0 { buart.Z_rx.hh_0_THRU_LUT4_0, buart.Z_rx.hh[0] }
+ble_pack uu2.vbuf_w_addr_user.counter_gen_label_6__un447_ci_3_LC_1_11_1 { uu2.vbuf_w_addr_user.counter_gen_label[6].un447_ci_3 }
+ble_pack uu2.vbuf_w_addr_user.result_1_7_LC_1_11_2 { uu2.vbuf_w_addr_user.result_1[7] }
+ble_pack uu2.mem0.ram512X8_inst_RNO_5_LC_1_11_3 { uu2.mem0.ram512X8_inst_RNO_5 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_6_LC_1_11_4 { uu2.mem0.ram512X8_inst_RNO_6 }
+ble_pack uu2.w_addr_user_RNIOGH7_8_LC_1_11_5 { uu2.w_addr_user_RNIOGH7[8] }
+ble_pack uu2.vbuf_w_addr_user.counter_gen_label_8__un469_ci_0_LC_1_11_6 { uu2.vbuf_w_addr_user.counter_gen_label[8].un469_ci_0 }
+ble_pack uu2.vbuf_w_addr_user.result_1_8_LC_1_11_7 { uu2.vbuf_w_addr_user.result_1[8] }
+clb_pack LT_1_11 { buart.Z_rx.hh_0_LC_1_11_0, uu2.vbuf_w_addr_user.counter_gen_label_6__un447_ci_3_LC_1_11_1, uu2.vbuf_w_addr_user.result_1_7_LC_1_11_2, uu2.mem0.ram512X8_inst_RNO_5_LC_1_11_3, uu2.mem0.ram512X8_inst_RNO_6_LC_1_11_4, uu2.w_addr_user_RNIOGH7_8_LC_1_11_5, uu2.vbuf_w_addr_user.counter_gen_label_8__un469_ci_0_LC_1_11_6, uu2.vbuf_w_addr_user.result_1_8_LC_1_11_7 }
+set_location LT_1_11 1 11
+ble_pack Lab_UT.secuu0.l_count_9_LC_2_3_0 { Lab_UT.secuu0.vbuf_count_cntrl1.result_1[9], Lab_UT.secuu0.l_count[9] }
+clb_pack LT_2_3 { Lab_UT.secuu0.l_count_9_LC_2_3_0 }
+set_location LT_2_3 2 3
+ble_pack Lab_UT.secuu0.l_count_10_LC_2_4_0 { Lab_UT.secuu0.vbuf_count_cntrl1.result_1[10], Lab_UT.secuu0.l_count[10] }
+ble_pack Lab_UT.secuu0.vbuf_count_cntrl1.counter_gen_label_16__un241_ci_2_LC_2_4_1 { Lab_UT.secuu0.vbuf_count_cntrl1.counter_gen_label[16].un241_ci_2 }
+ble_pack Lab_UT.secuu0.l_count_15_LC_2_4_3 { Lab_UT.secuu0.l_count_RNO[15], Lab_UT.secuu0.l_count[15] }
+ble_pack Lab_UT.secuu0.l_count_4_LC_2_4_4 { Lab_UT.secuu0.l_count_RNO[4], Lab_UT.secuu0.l_count[4] }
+ble_pack Lab_UT.secuu0.vbuf_count_cntrl1.counter_gen_label_12__un197_ci_9_LC_2_4_5 { Lab_UT.secuu0.vbuf_count_cntrl1.counter_gen_label[12].un197_ci_9 }
+ble_pack Lab_UT.secuu0.l_count_14_LC_2_4_6 { Lab_UT.secuu0.vbuf_count_cntrl1.result_1[14], Lab_UT.secuu0.l_count[14] }
+ble_pack Lab_UT.secuu0.l_count_RNIGLN81_15_LC_2_4_7 { Lab_UT.secuu0.l_count_RNIGLN81[15] }
+clb_pack LT_2_4 { Lab_UT.secuu0.l_count_10_LC_2_4_0, Lab_UT.secuu0.vbuf_count_cntrl1.counter_gen_label_16__un241_ci_2_LC_2_4_1, Lab_UT.secuu0.l_count_15_LC_2_4_3, Lab_UT.secuu0.l_count_4_LC_2_4_4, Lab_UT.secuu0.vbuf_count_cntrl1.counter_gen_label_12__un197_ci_9_LC_2_4_5, Lab_UT.secuu0.l_count_14_LC_2_4_6, Lab_UT.secuu0.l_count_RNIGLN81_15_LC_2_4_7 }
+set_location LT_2_4 2 4
+ble_pack Lab_UT.secuu0.delay_line_0_LC_2_5_0 { Lab_UT.secuu0.delay_line_RNO[0], Lab_UT.secuu0.delay_line[0] }
+ble_pack Lab_UT.secuu0.l_precount_3_LC_2_5_1 { Lab_UT.secuu0.vbuf_precount_cntrl1.result_1[3], Lab_UT.secuu0.l_precount[3] }
+ble_pack Lab_UT.secuu0.l_count_RNI8TM21_5_LC_2_5_2 { Lab_UT.secuu0.l_count_RNI8TM21[5] }
+ble_pack Lab_UT.secuu0.l_precount_1_LC_2_5_3 { Lab_UT.secuu0.vbuf_precount_cntrl1.result_1[1], Lab_UT.secuu0.l_precount[1] }
+ble_pack Lab_UT.secuu0.l_precount_2_LC_2_5_4 { Lab_UT.secuu0.vbuf_precount_cntrl1.result_1[2], Lab_UT.secuu0.l_precount[2] }
+ble_pack Lab_UT.secuu0.l_count_RNI3II01_2_LC_2_5_5 { Lab_UT.secuu0.l_count_RNI3II01[2] }
+ble_pack Lab_UT.secuu0.l_count_RNIOIEB2_16_LC_2_5_6 { Lab_UT.secuu0.l_count_RNIOIEB2[16] }
+ble_pack Lab_UT.secuu0.l_count_RNI82GM6_5_LC_2_5_7 { Lab_UT.secuu0.l_count_RNI82GM6[5] }
+clb_pack LT_2_5 { Lab_UT.secuu0.delay_line_0_LC_2_5_0, Lab_UT.secuu0.l_precount_3_LC_2_5_1, Lab_UT.secuu0.l_count_RNI8TM21_5_LC_2_5_2, Lab_UT.secuu0.l_precount_1_LC_2_5_3, Lab_UT.secuu0.l_precount_2_LC_2_5_4, Lab_UT.secuu0.l_count_RNI3II01_2_LC_2_5_5, Lab_UT.secuu0.l_count_RNIOIEB2_16_LC_2_5_6, Lab_UT.secuu0.l_count_RNI82GM6_5_LC_2_5_7 }
+set_location LT_2_5 2 5
+ble_pack Lab_UT.Lab3U00.q_esr_0_LC_2_6_0 { Lab_UT.Lab3U00.q_esr_0_THRU_LUT4_0, Lab_UT.Lab3U00.q_esr[0] }
+ble_pack Lab_UT.Lab3U00.q_esr_3_LC_2_6_1 { Lab_UT.Lab3U00.q_esr_3_THRU_LUT4_0, Lab_UT.Lab3U00.q_esr[3] }
+ble_pack Lab_UT.Lab3U00.q_esr_5_LC_2_6_2 { Lab_UT.Lab3U00.q_esr_5_THRU_LUT4_0, Lab_UT.Lab3U00.q_esr[5] }
+ble_pack Lab_UT.Lab3U00.q_esr_6_LC_2_6_3 { Lab_UT.Lab3U00.q_esr_6_THRU_LUT4_0, Lab_UT.Lab3U00.q_esr[6] }
+ble_pack Lab_UT.Lab3U00.q_esr_7_LC_2_6_4 { Lab_UT.Lab3U00.q_esr_7_THRU_LUT4_0, Lab_UT.Lab3U00.q_esr[7] }
+ble_pack Lab_UT.Lab3U00.q_esr_4_LC_2_6_5 { Lab_UT.Lab3U00.q_esr_4_THRU_LUT4_0, Lab_UT.Lab3U00.q_esr[4] }
+clb_pack LT_2_6 { Lab_UT.Lab3U00.q_esr_0_LC_2_6_0, Lab_UT.Lab3U00.q_esr_3_LC_2_6_1, Lab_UT.Lab3U00.q_esr_5_LC_2_6_2, Lab_UT.Lab3U00.q_esr_6_LC_2_6_3, Lab_UT.Lab3U00.q_esr_7_LC_2_6_4, Lab_UT.Lab3U00.q_esr_4_LC_2_6_5 }
+set_location LT_2_6 2 6
+ble_pack Lab_UT.dspStr.cnt_RNI11B71_2_LC_2_7_1 { Lab_UT.dspStr.cnt_RNI11B71[2] }
+ble_pack Lab_UT.dspStr.cnt_RNI24622_0_LC_2_7_2 { Lab_UT.dspStr.cnt_RNI24622[0] }
+ble_pack Lab_UT.secuu0.delay_line_RNILBAI7_1_LC_2_7_3 { Lab_UT.secuu0.delay_line_RNILBAI7[1] }
+ble_pack uu2.un1_w_user_lf_1_LC_2_7_4 { uu2.un1_w_user_lf_1 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_26_LC_2_7_5 { uu2.mem0.ram512X8_inst_RNO_26 }
+ble_pack Lab_UT.dspStr.cnt_RNIOJJI1_2_LC_2_7_6 { Lab_UT.dspStr.cnt_RNIOJJI1[2] }
+ble_pack Lab_UT.dspStr.cnt_RNIPKJI1_2_LC_2_7_7 { Lab_UT.dspStr.cnt_RNIPKJI1[2] }
+clb_pack LT_2_7 { Lab_UT.dspStr.cnt_RNI11B71_2_LC_2_7_1, Lab_UT.dspStr.cnt_RNI24622_0_LC_2_7_2, Lab_UT.secuu0.delay_line_RNILBAI7_1_LC_2_7_3, uu2.un1_w_user_lf_1_LC_2_7_4, uu2.mem0.ram512X8_inst_RNO_26_LC_2_7_5, Lab_UT.dspStr.cnt_RNIOJJI1_2_LC_2_7_6, Lab_UT.dspStr.cnt_RNIPKJI1_2_LC_2_7_7 }
+set_location LT_2_7 2 7
+ble_pack Lab_UT.dspStr.cnt_RNILGJI1_2_LC_2_8_0 { Lab_UT.dspStr.cnt_RNILGJI1[2] }
+ble_pack uu2.w_addr_user_RNIG1C8B_2_LC_2_8_1 { uu2.w_addr_user_RNIG1C8B[2] }
+ble_pack Lab_UT.dspStr.rdy_LC_2_8_2 { Lab_UT.dspStr.rdy_THRU_LUT4_0, Lab_UT.dspStr.rdy }
+ble_pack uu2.un1_w_user_cr_5_1_LC_2_8_3 { uu2.un1_w_user_cr_5_1 }
+ble_pack uu2.un1_w_user_lf_3_LC_2_8_4 { uu2.un1_w_user_lf_3 }
+ble_pack uu2.un1_w_user_cr_2_LC_2_8_5 { uu2.un1_w_user_cr_2 }
+ble_pack uu2.un19_w_addr_user_0_LC_2_8_6 { uu2.un19_w_addr_user_0 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_15_LC_2_8_7 { uu2.mem0.ram512X8_inst_RNO_15 }
+clb_pack LT_2_8 { Lab_UT.dspStr.cnt_RNILGJI1_2_LC_2_8_0, uu2.w_addr_user_RNIG1C8B_2_LC_2_8_1, Lab_UT.dspStr.rdy_LC_2_8_2, uu2.un1_w_user_cr_5_1_LC_2_8_3, uu2.un1_w_user_lf_3_LC_2_8_4, uu2.un1_w_user_cr_2_LC_2_8_5, uu2.un19_w_addr_user_0_LC_2_8_6, uu2.mem0.ram512X8_inst_RNO_15_LC_2_8_7 }
+set_location LT_2_8 2 8
+ble_pack Lab_UT.dspStr.cnt_RNIIDJI1_2_LC_2_9_0 { Lab_UT.dspStr.cnt_RNIIDJI1[2] }
+ble_pack uu2.un1_w_user_cr_5_LC_2_9_1 { uu2.un1_w_user_cr_5 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_14_LC_2_9_2 { uu2.mem0.ram512X8_inst_RNO_14 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_7_LC_2_9_3 { uu2.mem0.ram512X8_inst_RNO_7 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_21_LC_2_9_4 { uu2.mem0.ram512X8_inst_RNO_21 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_22_LC_2_9_5 { uu2.mem0.ram512X8_inst_RNO_22 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_0_LC_2_9_6 { uu2.mem0.ram512X8_inst_RNO_0 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_10_LC_2_9_7 { uu2.mem0.ram512X8_inst_RNO_10 }
+clb_pack LT_2_9 { Lab_UT.dspStr.cnt_RNIIDJI1_2_LC_2_9_0, uu2.un1_w_user_cr_5_LC_2_9_1, uu2.mem0.ram512X8_inst_RNO_14_LC_2_9_2, uu2.mem0.ram512X8_inst_RNO_7_LC_2_9_3, uu2.mem0.ram512X8_inst_RNO_21_LC_2_9_4, uu2.mem0.ram512X8_inst_RNO_22_LC_2_9_5, uu2.mem0.ram512X8_inst_RNO_0_LC_2_9_6, uu2.mem0.ram512X8_inst_RNO_10_LC_2_9_7 }
+set_location LT_2_9 2 9
+ble_pack uu2.w_addr_user_3_LC_2_10_1 { uu2.w_addr_user_RNO[3], uu2.w_addr_user[3] }
+ble_pack uu2.w_addr_user_1_LC_2_10_2 { uu2.w_addr_user_RNO[1], uu2.w_addr_user[1] }
+ble_pack uu2.w_addr_user_RNIDD1A_5_LC_2_10_3 { uu2.w_addr_user_RNIDD1A[5] }
+ble_pack uu2.w_addr_user_RNIDMJM_2_LC_2_10_4 { uu2.w_addr_user_RNIDMJM[2] }
+ble_pack uu2.w_addr_user_0_LC_2_10_5 { uu2.w_addr_user_RNO[0], uu2.w_addr_user[0] }
+ble_pack uu2.w_addr_user_2_LC_2_10_6 { uu2.w_addr_user_RNO[2], uu2.w_addr_user[2] }
+ble_pack uu2.w_addr_user_5_LC_2_10_7 { uu2.w_addr_user_RNO[5], uu2.w_addr_user[5] }
+clb_pack LT_2_10 { uu2.w_addr_user_3_LC_2_10_1, uu2.w_addr_user_1_LC_2_10_2, uu2.w_addr_user_RNIDD1A_5_LC_2_10_3, uu2.w_addr_user_RNIDMJM_2_LC_2_10_4, uu2.w_addr_user_0_LC_2_10_5, uu2.w_addr_user_2_LC_2_10_6, uu2.w_addr_user_5_LC_2_10_7 }
+set_location LT_2_10 2 10
+ble_pack uu2.vbuf_w_addr_user.result_1_3_LC_2_11_0 { uu2.vbuf_w_addr_user.result_1[3] }
+ble_pack uu2.vbuf_w_addr_user.counter_gen_label_4__un425_ci_LC_2_11_7 { uu2.vbuf_w_addr_user.counter_gen_label[4].un425_ci }
+clb_pack LT_2_11 { uu2.vbuf_w_addr_user.result_1_3_LC_2_11_0, uu2.vbuf_w_addr_user.counter_gen_label_4__un425_ci_LC_2_11_7 }
+set_location LT_2_11 2 11
+ble_pack uu2.r_data_reg_esr_3_LC_2_12_4 { uu2.r_data_reg_esr_3_THRU_LUT4_0, uu2.r_data_reg_esr[3] }
+clb_pack LT_2_12 { uu2.r_data_reg_esr_3_LC_2_12_4 }
+set_location LT_2_12 2 12
+ble_pack Lab_UT.secuu0.l_count_17_LC_4_4_1 { Lab_UT.secuu0.vbuf_count_cntrl1.result_1[17], Lab_UT.secuu0.l_count[17] }
+ble_pack Lab_UT.secuu0.vbuf_count_cntrl1.counter_gen_label_11__un186_ci_0_LC_4_4_2 { Lab_UT.secuu0.vbuf_count_cntrl1.counter_gen_label[11].un186_ci_0 }
+ble_pack Lab_UT.secuu0.l_count_11_LC_4_4_3 { Lab_UT.secuu0.l_count_RNO[11], Lab_UT.secuu0.l_count[11] }
+ble_pack Lab_UT.secuu0.l_count_16_LC_4_4_4 { Lab_UT.secuu0.l_count_RNO[16], Lab_UT.secuu0.l_count[16] }
+ble_pack Lab_UT.secuu0.l_count_8_LC_4_4_5 { Lab_UT.secuu0.vbuf_count_cntrl1.result_1[8], Lab_UT.secuu0.l_count[8] }
+clb_pack LT_4_4 { Lab_UT.secuu0.l_count_17_LC_4_4_1, Lab_UT.secuu0.vbuf_count_cntrl1.counter_gen_label_11__un186_ci_0_LC_4_4_2, Lab_UT.secuu0.l_count_11_LC_4_4_3, Lab_UT.secuu0.l_count_16_LC_4_4_4, Lab_UT.secuu0.l_count_8_LC_4_4_5 }
+set_location LT_4_4 4 4
+ble_pack Lab_UT.secuu0.l_count_RNIRDS11_3_LC_4_5_0 { Lab_UT.secuu0.l_count_RNIRDS11[3] }
+ble_pack Lab_UT.secuu0.l_count_RNIOSIV1_18_LC_4_5_1 { Lab_UT.secuu0.l_count_RNIOSIV1[18] }
+ble_pack Lab_UT.secuu0.vbuf_count_cntrl1.counter_gen_label_13__un208_ci_0_LC_4_5_4 { Lab_UT.secuu0.vbuf_count_cntrl1.counter_gen_label[13].un208_ci_0 }
+ble_pack Lab_UT.secuu0.vbuf_count_cntrl1.counter_gen_label_18__un263_ci_LC_4_5_6 { Lab_UT.secuu0.vbuf_count_cntrl1.counter_gen_label[18].un263_ci }
+clb_pack LT_4_5 { Lab_UT.secuu0.l_count_RNIRDS11_3_LC_4_5_0, Lab_UT.secuu0.l_count_RNIOSIV1_18_LC_4_5_1, Lab_UT.secuu0.vbuf_count_cntrl1.counter_gen_label_13__un208_ci_0_LC_4_5_4, Lab_UT.secuu0.vbuf_count_cntrl1.counter_gen_label_18__un263_ci_LC_4_5_6 }
+set_location LT_4_5 4 5
+ble_pack Lab_UT.secuu0.l_count_18_LC_4_6_0 { Lab_UT.secuu0.l_count_RNO[18], Lab_UT.secuu0.l_count[18] }
+ble_pack Lab_UT.secuu0.l_count_12_LC_4_6_4 { Lab_UT.secuu0.l_count_RNO[12], Lab_UT.secuu0.l_count[12] }
+ble_pack Lab_UT.secuu0.l_count_13_LC_4_6_7 { Lab_UT.secuu0.l_count_RNO[13], Lab_UT.secuu0.l_count[13] }
+clb_pack LT_4_6 { Lab_UT.secuu0.l_count_18_LC_4_6_0, Lab_UT.secuu0.l_count_12_LC_4_6_4, Lab_UT.secuu0.l_count_13_LC_4_6_7 }
+set_location LT_4_6 4 6
+ble_pack Lab_UT.secuu0.l_precount_0_LC_4_7_1 { Lab_UT.secuu0.l_precount_RNO[0], Lab_UT.secuu0.l_precount[0] }
+ble_pack uu2.r_addr_5_LC_4_7_2 { uu2.r_addr_RNO[5], uu2.r_addr[5] }
+ble_pack uu2.r_addr_4_LC_4_7_5 { uu2.r_addr_RNO[4], uu2.r_addr[4] }
+ble_pack uu2.r_addr_0_LC_4_7_6 { uu2.r_addr_RNO[0], uu2.r_addr[0] }
+clb_pack LT_4_7 { Lab_UT.secuu0.l_precount_0_LC_4_7_1, uu2.r_addr_5_LC_4_7_2, uu2.r_addr_4_LC_4_7_5, uu2.r_addr_0_LC_4_7_6 }
+set_location LT_4_7 4 7
+ble_pack uu2.vbuf_raddr.counter_gen_label_4__un425_ci_LC_4_8_0 { uu2.vbuf_raddr.counter_gen_label[4].un425_ci }
+ble_pack uu2.r_addr_esr_6_LC_4_8_1 { uu2.vbuf_raddr.result_1[6], uu2.r_addr_esr[6] }
+ble_pack uu2.vbuf_raddr.counter_gen_label_8__un469_ci_0_LC_4_8_2 { uu2.vbuf_raddr.counter_gen_label[8].un469_ci_0 }
+ble_pack uu2.r_addr_esr_8_LC_4_8_3 { uu2.vbuf_raddr.result_1[8], uu2.r_addr_esr[8] }
+ble_pack uu2.vbuf_raddr.counter_gen_label_6__un447_ci_3_LC_4_8_4 { uu2.vbuf_raddr.counter_gen_label[6].un447_ci_3 }
+ble_pack uu2.r_addr_esr_7_LC_4_8_5 { uu2.vbuf_raddr.result_1[7], uu2.r_addr_esr[7] }
+ble_pack uu2.r_addr_esr_3_LC_4_8_6 { uu2.vbuf_raddr.result_1[3], uu2.r_addr_esr[3] }
+clb_pack LT_4_8 { uu2.vbuf_raddr.counter_gen_label_4__un425_ci_LC_4_8_0, uu2.r_addr_esr_6_LC_4_8_1, uu2.vbuf_raddr.counter_gen_label_8__un469_ci_0_LC_4_8_2, uu2.r_addr_esr_8_LC_4_8_3, uu2.vbuf_raddr.counter_gen_label_6__un447_ci_3_LC_4_8_4, uu2.r_addr_esr_7_LC_4_8_5, uu2.r_addr_esr_3_LC_4_8_6 }
+set_location LT_4_8 4 8
+ble_pack uu2.mem0.ram512X8_inst_RNO_8_LC_4_9_0 { uu2.mem0.ram512X8_inst_RNO_8 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_13_LC_4_9_1 { uu2.mem0.ram512X8_inst_RNO_13 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_17_LC_4_9_2 { uu2.mem0.ram512X8_inst_RNO_17 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_37_LC_4_9_3 { uu2.mem0.ram512X8_inst_RNO_37 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_24_LC_4_9_4 { uu2.mem0.ram512X8_inst_RNO_24 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_9_LC_4_9_5 { uu2.mem0.ram512X8_inst_RNO_9 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_18_LC_4_9_6 { uu2.mem0.ram512X8_inst_RNO_18 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_12_LC_4_9_7 { uu2.mem0.ram512X8_inst_RNO_12 }
+clb_pack LT_4_9 { uu2.mem0.ram512X8_inst_RNO_8_LC_4_9_0, uu2.mem0.ram512X8_inst_RNO_13_LC_4_9_1, uu2.mem0.ram512X8_inst_RNO_17_LC_4_9_2, uu2.mem0.ram512X8_inst_RNO_37_LC_4_9_3, uu2.mem0.ram512X8_inst_RNO_24_LC_4_9_4, uu2.mem0.ram512X8_inst_RNO_9_LC_4_9_5, uu2.mem0.ram512X8_inst_RNO_18_LC_4_9_6, uu2.mem0.ram512X8_inst_RNO_12_LC_4_9_7 }
+set_location LT_4_9 4 9
+ble_pack uu2.w_addr_displaying_RNII1IB1_5_LC_4_10_0 { uu2.w_addr_displaying_RNII1IB1[5] }
+ble_pack uu2.mem0.ram512X8_inst_RNO_49_LC_4_10_1 { uu2.mem0.ram512X8_inst_RNO_49 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_11_LC_4_10_2 { uu2.mem0.ram512X8_inst_RNO_11 }
+ble_pack uu2.w_addr_displaying_fast_RNI979P_3_LC_4_10_3 { uu2.w_addr_displaying_fast_RNI979P[3] }
+ble_pack uu2.w_addr_displaying_RNI0QUP1_6_LC_4_10_4 { uu2.w_addr_displaying_RNI0QUP1[6] }
+ble_pack uu2.w_addr_displaying_fast_RNI28SI1_7_LC_4_10_5 { uu2.w_addr_displaying_fast_RNI28SI1[7] }
+ble_pack uu2.w_addr_displaying_fast_RNITAMH5_7_LC_4_10_6 { uu2.w_addr_displaying_fast_RNITAMH5[7] }
+ble_pack uu2.mem0.ram512X8_inst_RNO_29_LC_4_10_7 { uu2.mem0.ram512X8_inst_RNO_29 }
+clb_pack LT_4_10 { uu2.w_addr_displaying_RNII1IB1_5_LC_4_10_0, uu2.mem0.ram512X8_inst_RNO_49_LC_4_10_1, uu2.mem0.ram512X8_inst_RNO_11_LC_4_10_2, uu2.w_addr_displaying_fast_RNI979P_3_LC_4_10_3, uu2.w_addr_displaying_RNI0QUP1_6_LC_4_10_4, uu2.w_addr_displaying_fast_RNI28SI1_7_LC_4_10_5, uu2.w_addr_displaying_fast_RNITAMH5_7_LC_4_10_6, uu2.mem0.ram512X8_inst_RNO_29_LC_4_10_7 }
+set_location LT_4_10 4 10
+ble_pack uu2.mem0.ram512X8_inst_RNO_25_LC_4_11_0 { uu2.mem0.ram512X8_inst_RNO_25 }
+ble_pack uu2.vram_wr_en_0_i_LC_4_11_2 { uu2.vram_wr_en_0_i }
+ble_pack uu2.mem0.ram512X8_inst_RNO_LC_4_11_3 { uu2.mem0.ram512X8_inst_RNO }
+ble_pack uu2.w_addr_displaying_1_LC_4_11_7 { uu2.w_addr_displaying_RNO[1], uu2.w_addr_displaying[1] }
+clb_pack LT_4_11 { uu2.mem0.ram512X8_inst_RNO_25_LC_4_11_0, uu2.vram_wr_en_0_i_LC_4_11_2, uu2.mem0.ram512X8_inst_RNO_LC_4_11_3, uu2.w_addr_displaying_1_LC_4_11_7 }
+set_location LT_4_11 4 11
+ble_pack uu2.r_data_reg_esr_1_LC_4_12_1 { uu2.r_data_reg_esr_1_THRU_LUT4_0, uu2.r_data_reg_esr[1] }
+ble_pack uu2.r_data_reg_esr_2_LC_4_12_2 { uu2.r_data_reg_esr_2_THRU_LUT4_0, uu2.r_data_reg_esr[2] }
+ble_pack uu2.r_data_reg_esr_0_LC_4_12_3 { uu2.r_data_reg_esr_0_THRU_LUT4_0, uu2.r_data_reg_esr[0] }
+ble_pack uu2.r_data_reg_esr_4_LC_4_12_4 { uu2.r_data_reg_esr_4_THRU_LUT4_0, uu2.r_data_reg_esr[4] }
+ble_pack uu2.r_data_reg_esr_5_LC_4_12_5 { uu2.r_data_reg_esr_5_THRU_LUT4_0, uu2.r_data_reg_esr[5] }
+ble_pack uu2.r_data_reg_esr_6_LC_4_12_6 { uu2.r_data_reg_esr_6_THRU_LUT4_0, uu2.r_data_reg_esr[6] }
+ble_pack uu2.r_data_reg_esr_7_LC_4_12_7 { uu2.r_data_reg_esr_7_THRU_LUT4_0, uu2.r_data_reg_esr[7] }
+clb_pack LT_4_12 { uu2.r_data_reg_esr_1_LC_4_12_1, uu2.r_data_reg_esr_2_LC_4_12_2, uu2.r_data_reg_esr_0_LC_4_12_3, uu2.r_data_reg_esr_4_LC_4_12_4, uu2.r_data_reg_esr_5_LC_4_12_5, uu2.r_data_reg_esr_6_LC_4_12_6, uu2.r_data_reg_esr_7_LC_4_12_7 }
+set_location LT_4_12 4 12
+ble_pack buart.Z_tx.shifter_1_LC_4_13_0 { buart.Z_tx.shifter_RNO[1], buart.Z_tx.shifter[1] }
+ble_pack buart.Z_tx.shifter_0_LC_4_13_1 { buart.Z_tx.shifter_RNO[0], buart.Z_tx.shifter[0] }
+ble_pack buart.Z_tx.uart_tx_LC_4_13_2 { buart.Z_tx.uart_tx_RNO, buart.Z_tx.uart_tx }
+ble_pack buart.Z_tx.shifter_2_LC_4_13_3 { buart.Z_tx.shifter_RNO[2], buart.Z_tx.shifter[2] }
+ble_pack buart.Z_tx.shifter_3_LC_4_13_4 { buart.Z_tx.shifter_RNO[3], buart.Z_tx.shifter[3] }
+ble_pack buart.Z_tx.shifter_4_LC_4_13_5 { buart.Z_tx.shifter_RNO[4], buart.Z_tx.shifter[4] }
+ble_pack buart.Z_tx.shifter_5_LC_4_13_6 { buart.Z_tx.shifter_RNO[5], buart.Z_tx.shifter[5] }
+ble_pack buart.Z_tx.shifter_6_LC_4_13_7 { buart.Z_tx.shifter_RNO[6], buart.Z_tx.shifter[6] }
+clb_pack LT_4_13 { buart.Z_tx.shifter_1_LC_4_13_0, buart.Z_tx.shifter_0_LC_4_13_1, buart.Z_tx.uart_tx_LC_4_13_2, buart.Z_tx.shifter_2_LC_4_13_3, buart.Z_tx.shifter_3_LC_4_13_4, buart.Z_tx.shifter_4_LC_4_13_5, buart.Z_tx.shifter_5_LC_4_13_6, buart.Z_tx.shifter_6_LC_4_13_7 }
+set_location LT_4_13 4 13
+ble_pack CONSTANT_ONE_LUT4_LC_5_2_2 { CONSTANT_ONE_LUT4 }
+clb_pack LT_5_2 { CONSTANT_ONE_LUT4_LC_5_2_2 }
+set_location LT_5_2 5 2
+ble_pack buart.Z_rx.bitcount_cry_c_0_LC_5_3_0 { buart.Z_rx.bitcount_cry_c[0] }
+ble_pack buart.Z_rx.bitcount_cry_0_THRU_LUT4_0_LC_5_3_1 { buart.Z_rx.bitcount_cry_0_THRU_LUT4_0, buart.Z_rx.bitcount_cry_c[1] }
+ble_pack buart.Z_rx.bitcount_cry_1_THRU_LUT4_0_LC_5_3_2 { buart.Z_rx.bitcount_cry_1_THRU_LUT4_0, buart.Z_rx.bitcount_cry_c[2] }
+ble_pack buart.Z_rx.bitcount_cry_2_THRU_LUT4_0_LC_5_3_3 { buart.Z_rx.bitcount_cry_2_THRU_LUT4_0, buart.Z_rx.bitcount_cry_c[3] }
+ble_pack buart.Z_rx.bitcount_e_0_4_LC_5_3_4 { buart.Z_rx.bitcount_e_0_RNO[4], buart.Z_rx.bitcount_e_0[4] }
+clb_pack LT_5_3 { buart.Z_rx.bitcount_cry_c_0_LC_5_3_0, buart.Z_rx.bitcount_cry_0_THRU_LUT4_0_LC_5_3_1, buart.Z_rx.bitcount_cry_1_THRU_LUT4_0_LC_5_3_2, buart.Z_rx.bitcount_cry_2_THRU_LUT4_0_LC_5_3_3, buart.Z_rx.bitcount_e_0_4_LC_5_3_4 }
+set_location LT_5_3 5 3
+ble_pack buart.Z_rx.bitcount_e_0_RNI2B26_4_LC_5_4_0 { buart.Z_rx.bitcount_e_0_RNI2B26[4] }
+ble_pack buart.Z_rx.bitcount_e_0_RNIBJOC_0_LC_5_4_1 { buart.Z_rx.bitcount_e_0_RNIBJOC[0] }
+ble_pack resetGen.reset_count_2_i_0_o2_4_LC_5_4_3 { resetGen.reset_count_2_i_0_o2[4] }
+ble_pack buart.Z_rx.bitcount_e_0_1_LC_5_4_4 { buart.Z_rx.bitcount_e_0_RNO[1], buart.Z_rx.bitcount_e_0[1] }
+ble_pack buart.Z_rx.bitcount_e_0_2_LC_5_4_5 { buart.Z_rx.bitcount_e_0_RNO[2], buart.Z_rx.bitcount_e_0[2] }
+ble_pack buart.Z_rx.bitcount_e_0_3_LC_5_4_6 { buart.Z_rx.bitcount_e_0_RNO[3], buart.Z_rx.bitcount_e_0[3] }
+ble_pack buart.Z_rx.bitcount_e_0_0_LC_5_4_7 { buart.Z_rx.bitcount_e_0_RNO[0], buart.Z_rx.bitcount_e_0[0] }
+clb_pack LT_5_4 { buart.Z_rx.bitcount_e_0_RNI2B26_4_LC_5_4_0, buart.Z_rx.bitcount_e_0_RNIBJOC_0_LC_5_4_1, resetGen.reset_count_2_i_0_o2_4_LC_5_4_3, buart.Z_rx.bitcount_e_0_1_LC_5_4_4, buart.Z_rx.bitcount_e_0_2_LC_5_4_5, buart.Z_rx.bitcount_e_0_3_LC_5_4_6, buart.Z_rx.bitcount_e_0_0_LC_5_4_7 }
+set_location LT_5_4 5 4
+ble_pack buart.Z_rx.shifter_4_LC_5_5_0 { buart.Z_rx.shifter_4_THRU_LUT4_0, buart.Z_rx.shifter[4] }
+ble_pack resetGen.reset_count_2_i_0_a3_5_4_LC_5_5_2 { resetGen.reset_count_2_i_0_a3_5[4] }
+ble_pack resetGen.reset_count_2_i_0_a3_4_LC_5_5_3 { resetGen.reset_count_2_i_0_a3[4] }
+ble_pack buart.Z_rx.shifter_5_LC_5_5_4 { buart.Z_rx.shifter_5_THRU_LUT4_0, buart.Z_rx.shifter[5] }
+ble_pack buart.Z_rx.shifter_7_LC_5_5_6 { buart.Z_rx.shifter_7_THRU_LUT4_0, buart.Z_rx.shifter[7] }
+ble_pack resetGen.reset_count_2_i_0_a3_6_4_LC_5_5_7 { resetGen.reset_count_2_i_0_a3_6[4] }
+clb_pack LT_5_5 { buart.Z_rx.shifter_4_LC_5_5_0, resetGen.reset_count_2_i_0_a3_5_4_LC_5_5_2, resetGen.reset_count_2_i_0_a3_4_LC_5_5_3, buart.Z_rx.shifter_5_LC_5_5_4, buart.Z_rx.shifter_7_LC_5_5_6, resetGen.reset_count_2_i_0_a3_6_4_LC_5_5_7 }
+set_location LT_5_5 5 5
+ble_pack resetGen.reset_count_2_i_0_a3_4_4_LC_5_6_2 { resetGen.reset_count_2_i_0_a3_4[4] }
+ble_pack buart.Z_rx.hh_1_LC_5_6_3 { buart.Z_rx.hh_1_THRU_LUT4_0, buart.Z_rx.hh[1] }
+ble_pack buart.Z_rx.bitcount_e_0_RNI8RI7_0_LC_5_6_4 { buart.Z_rx.bitcount_e_0_RNI8RI7[0] }
+ble_pack buart.Z_rx.hh_RNIVHME_0_LC_5_6_5 { buart.Z_rx.hh_RNIVHME[0] }
+ble_pack Lab_UT.Lab3U00.q_esr_ctle_7_LC_5_6_6 { Lab_UT.Lab3U00.q_esr_ctle[7] }
+ble_pack buart.Z_rx.bitcount_e_0_RNIGM5F_0_LC_5_6_7 { buart.Z_rx.bitcount_e_0_RNIGM5F[0] }
+clb_pack LT_5_6 { resetGen.reset_count_2_i_0_a3_4_4_LC_5_6_2, buart.Z_rx.hh_1_LC_5_6_3, buart.Z_rx.bitcount_e_0_RNI8RI7_0_LC_5_6_4, buart.Z_rx.hh_RNIVHME_0_LC_5_6_5, Lab_UT.Lab3U00.q_esr_ctle_7_LC_5_6_6, buart.Z_rx.bitcount_e_0_RNIGM5F_0_LC_5_6_7 }
+set_location LT_5_6 5 6
+ble_pack Lab_UT.dec1.segmentUQ_0_LC_5_7_0 { Lab_UT.dec1.segmentUQ[0] }
+ble_pack Lab_UT.dictrluu0.dicfsm.cState_RNO_3_LC_5_7_2 { Lab_UT.dictrluu0.dicfsm.cState_RNO_3 }
+ble_pack Lab_UT.dictrluu0.dek.det_N_0_a3_1_LC_5_7_4 { Lab_UT.dictrluu0.dek.det_N_0_a3_1 }
+ble_pack Lab_UT.dictrluu0.dicfsm.cState_RNO_1_LC_5_7_5 { Lab_UT.dictrluu0.dicfsm.cState_RNO_1 }
+ble_pack Lab_UT.dec3.g0_0_LC_5_7_7 { Lab_UT.dec3.g0_0 }
+clb_pack LT_5_7 { Lab_UT.dec1.segmentUQ_0_LC_5_7_0, Lab_UT.dictrluu0.dicfsm.cState_RNO_3_LC_5_7_2, Lab_UT.dictrluu0.dek.det_N_0_a3_1_LC_5_7_4, Lab_UT.dictrluu0.dicfsm.cState_RNO_1_LC_5_7_5, Lab_UT.dec3.g0_0_LC_5_7_7 }
+set_location LT_5_7 5 7
+ble_pack uu2.un1_w_user_lf_3_1_LC_5_8_0 { uu2.un1_w_user_lf_3_1 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_44_LC_5_8_1 { uu2.mem0.ram512X8_inst_RNO_44 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_31_LC_5_8_2 { uu2.mem0.ram512X8_inst_RNO_31 }
+ble_pack Lab_UT.Lab3U00.q_esr_1_LC_5_8_3 { Lab_UT.Lab3U00.q_esr_1_THRU_LUT4_0, Lab_UT.Lab3U00.q_esr[1] }
+ble_pack uu2.mem0.ram512X8_inst_RNO_1_LC_5_8_4 { uu2.mem0.ram512X8_inst_RNO_1 }
+ble_pack uu2.w_addr_displaying_fast_RNI80631_4_LC_5_8_5 { uu2.w_addr_displaying_fast_RNI80631[4] }
+ble_pack uu2.mem0.ram512X8_inst_RNO_2_LC_5_8_7 { uu2.mem0.ram512X8_inst_RNO_2 }
+clb_pack LT_5_8 { uu2.un1_w_user_lf_3_1_LC_5_8_0, uu2.mem0.ram512X8_inst_RNO_44_LC_5_8_1, uu2.mem0.ram512X8_inst_RNO_31_LC_5_8_2, Lab_UT.Lab3U00.q_esr_1_LC_5_8_3, uu2.mem0.ram512X8_inst_RNO_1_LC_5_8_4, uu2.w_addr_displaying_fast_RNI80631_4_LC_5_8_5, uu2.mem0.ram512X8_inst_RNO_2_LC_5_8_7 }
+set_location LT_5_8 5 8
+ble_pack Lab_UT.dec1.g0_i_LC_5_9_0 { Lab_UT.dec1.g0_i }
+ble_pack uu2.mem0.ram512X8_inst_RNO_32_LC_5_9_2 { uu2.mem0.ram512X8_inst_RNO_32 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_19_LC_5_9_3 { uu2.mem0.ram512X8_inst_RNO_19 }
+ble_pack uu2.w_addr_displaying_fast_RNI6NLE_7_LC_5_9_4 { uu2.w_addr_displaying_fast_RNI6NLE[7] }
+ble_pack uu2.w_addr_displaying_RNIV60G2_2_LC_5_9_5 { uu2.w_addr_displaying_RNIV60G2[2] }
+ble_pack uu2.mem0.ram512X8_inst_RNO_57_LC_5_9_6 { uu2.mem0.ram512X8_inst_RNO_57 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_50_LC_5_9_7 { uu2.mem0.ram512X8_inst_RNO_50 }
+clb_pack LT_5_9 { Lab_UT.dec1.g0_i_LC_5_9_0, uu2.mem0.ram512X8_inst_RNO_32_LC_5_9_2, uu2.mem0.ram512X8_inst_RNO_19_LC_5_9_3, uu2.w_addr_displaying_fast_RNI6NLE_7_LC_5_9_4, uu2.w_addr_displaying_RNIV60G2_2_LC_5_9_5, uu2.mem0.ram512X8_inst_RNO_57_LC_5_9_6, uu2.mem0.ram512X8_inst_RNO_50_LC_5_9_7 }
+set_location LT_5_9 5 9
+ble_pack uu2.mem0.ram512X8_inst_RNO_20_LC_5_10_0 { uu2.mem0.ram512X8_inst_RNO_20 }
+ble_pack uu2.w_addr_displaying_fast_RNI0OT22_4_LC_5_10_1 { uu2.w_addr_displaying_fast_RNI0OT22[4] }
+ble_pack uu2.mem0.ram512X8_inst_RNO_41_LC_5_10_2 { uu2.mem0.ram512X8_inst_RNO_41 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_28_LC_5_10_3 { uu2.mem0.ram512X8_inst_RNO_28 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_16_LC_5_10_4 { uu2.mem0.ram512X8_inst_RNO_16 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_38_LC_5_10_5 { uu2.mem0.ram512X8_inst_RNO_38 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_46_LC_5_10_6 { uu2.mem0.ram512X8_inst_RNO_46 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_27_LC_5_10_7 { uu2.mem0.ram512X8_inst_RNO_27 }
+clb_pack LT_5_10 { uu2.mem0.ram512X8_inst_RNO_20_LC_5_10_0, uu2.w_addr_displaying_fast_RNI0OT22_4_LC_5_10_1, uu2.mem0.ram512X8_inst_RNO_41_LC_5_10_2, uu2.mem0.ram512X8_inst_RNO_28_LC_5_10_3, uu2.mem0.ram512X8_inst_RNO_16_LC_5_10_4, uu2.mem0.ram512X8_inst_RNO_38_LC_5_10_5, uu2.mem0.ram512X8_inst_RNO_46_LC_5_10_6, uu2.mem0.ram512X8_inst_RNO_27_LC_5_10_7 }
+set_location LT_5_10 5 10
+ble_pack uu2.mem0.ram512X8_inst_RNO_34_LC_5_11_0 { uu2.mem0.ram512X8_inst_RNO_34 }
+ble_pack uu2.w_addr_displaying_RNIHKAF2_0_8_LC_5_11_1 { uu2.w_addr_displaying_RNIHKAF2_0[8] }
+ble_pack uu2.mem0.ram512X8_inst_RNO_47_LC_5_11_3 { uu2.mem0.ram512X8_inst_RNO_47 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_35_LC_5_11_4 { uu2.mem0.ram512X8_inst_RNO_35 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_55_LC_5_11_5 { uu2.mem0.ram512X8_inst_RNO_55 }
+ble_pack Lab_UT.dec3.segmentUQ_i_0_LC_5_11_6 { Lab_UT.dec3.segmentUQ_i[0] }
+ble_pack uu2.mem0.ram512X8_inst_RNO_48_LC_5_11_7 { uu2.mem0.ram512X8_inst_RNO_48 }
+clb_pack LT_5_11 { uu2.mem0.ram512X8_inst_RNO_34_LC_5_11_0, uu2.w_addr_displaying_RNIHKAF2_0_8_LC_5_11_1, uu2.mem0.ram512X8_inst_RNO_47_LC_5_11_3, uu2.mem0.ram512X8_inst_RNO_35_LC_5_11_4, uu2.mem0.ram512X8_inst_RNO_55_LC_5_11_5, Lab_UT.dec3.segmentUQ_i_0_LC_5_11_6, uu2.mem0.ram512X8_inst_RNO_48_LC_5_11_7 }
+set_location LT_5_11 5 11
+ble_pack buart.Z_tx.shifter_7_LC_5_12_0 { buart.Z_tx.shifter_RNO[7], buart.Z_tx.shifter[7] }
+ble_pack buart.Z_tx.shifter_8_LC_5_12_1 { buart.Z_tx.shifter_RNO[8], buart.Z_tx.shifter[8] }
+ble_pack uu2.mem0.ram512X8_inst_RNO_3_LC_5_12_2 { uu2.mem0.ram512X8_inst_RNO_3 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_4_LC_5_12_4 { uu2.mem0.ram512X8_inst_RNO_4 }
+ble_pack uu2.w_addr_displaying_RNI362A1_3_LC_5_12_6 { uu2.w_addr_displaying_RNI362A1[3] }
+clb_pack LT_5_12 { buart.Z_tx.shifter_7_LC_5_12_0, buart.Z_tx.shifter_8_LC_5_12_1, uu2.mem0.ram512X8_inst_RNO_3_LC_5_12_2, uu2.mem0.ram512X8_inst_RNO_4_LC_5_12_4, uu2.w_addr_displaying_RNI362A1_3_LC_5_12_6 }
+set_location LT_5_12 5 12
+ble_pack uu2.w_addr_displaying_RNI50L01_0_2_LC_5_13_0 { uu2.w_addr_displaying_RNI50L01_0[2] }
+ble_pack uu2.mem0.ram512X8_inst_RNO_56_LC_5_13_6 { uu2.mem0.ram512X8_inst_RNO_56 }
+clb_pack LT_5_13 { uu2.w_addr_displaying_RNI50L01_0_2_LC_5_13_0, uu2.mem0.ram512X8_inst_RNO_56_LC_5_13_6 }
+set_location LT_5_13 5 13
+ble_pack buart.Z_tx.Z_baudgen.un2_counter_cry_1_c_LC_6_1_0 { buart.Z_tx.Z_baudgen.un2_counter_cry_1_c }
+ble_pack buart.Z_tx.Z_baudgen.counter_2_LC_6_1_1 { buart.Z_tx.Z_baudgen.counter_RNO[2], buart.Z_tx.Z_baudgen.counter[2], buart.Z_tx.Z_baudgen.un2_counter_cry_2_c }
+ble_pack buart.Z_tx.Z_baudgen.counter_3_LC_6_1_2 { buart.Z_tx.Z_baudgen.counter_RNO[3], buart.Z_tx.Z_baudgen.counter[3], buart.Z_tx.Z_baudgen.un2_counter_cry_3_c }
+ble_pack buart.Z_tx.Z_baudgen.counter_4_LC_6_1_3 { buart.Z_tx.Z_baudgen.counter_RNO[4], buart.Z_tx.Z_baudgen.counter[4], buart.Z_tx.Z_baudgen.un2_counter_cry_4_c }
+ble_pack buart.Z_tx.Z_baudgen.counter_5_LC_6_1_4 { buart.Z_tx.Z_baudgen.counter_RNO[5], buart.Z_tx.Z_baudgen.counter[5], buart.Z_tx.Z_baudgen.un2_counter_cry_5_c }
+ble_pack buart.Z_tx.Z_baudgen.counter_6_LC_6_1_5 { buart.Z_tx.Z_baudgen.counter_RNO[6], buart.Z_tx.Z_baudgen.counter[6] }
+ble_pack buart.Z_tx.Z_baudgen.counter_RNIHV38_6_LC_6_1_6 { buart.Z_tx.Z_baudgen.counter_RNIHV38[6] }
+ble_pack buart.Z_tx.Z_baudgen.counter_RNI5M6E_1_LC_6_1_7 { buart.Z_tx.Z_baudgen.counter_RNI5M6E[1] }
+clb_pack LT_6_1 { buart.Z_tx.Z_baudgen.un2_counter_cry_1_c_LC_6_1_0, buart.Z_tx.Z_baudgen.counter_2_LC_6_1_1, buart.Z_tx.Z_baudgen.counter_3_LC_6_1_2, buart.Z_tx.Z_baudgen.counter_4_LC_6_1_3, buart.Z_tx.Z_baudgen.counter_5_LC_6_1_4, buart.Z_tx.Z_baudgen.counter_6_LC_6_1_5, buart.Z_tx.Z_baudgen.counter_RNIHV38_6_LC_6_1_6, buart.Z_tx.Z_baudgen.counter_RNI5M6E_1_LC_6_1_7 }
+set_location LT_6_1 6 1
+ble_pack buart.Z_tx.bitcount_0_LC_6_2_0 { buart.Z_tx.bitcount_RNO[0], buart.Z_tx.bitcount[0] }
+ble_pack buart.Z_tx.Z_baudgen.counter_0_LC_6_2_1 { buart.Z_tx.Z_baudgen.counter_RNO[0], buart.Z_tx.Z_baudgen.counter[0] }
+ble_pack buart.Z_tx.Z_baudgen.counter_1_LC_6_2_2 { buart.Z_tx.Z_baudgen.counter_RNO[1], buart.Z_tx.Z_baudgen.counter[1] }
+ble_pack buart.Z_tx.bitcount_RNO_0_3_LC_6_2_3 { buart.Z_tx.bitcount_RNO_0[3] }
+clb_pack LT_6_2 { buart.Z_tx.bitcount_0_LC_6_2_0, buart.Z_tx.Z_baudgen.counter_0_LC_6_2_1, buart.Z_tx.Z_baudgen.counter_1_LC_6_2_2, buart.Z_tx.bitcount_RNO_0_3_LC_6_2_3 }
+set_location LT_6_2 6 2
+ble_pack buart.Z_rx.Z_baudgen.un5_counter_cry_1_c_LC_6_3_0 { buart.Z_rx.Z_baudgen.un5_counter_cry_1_c }
+ble_pack buart.Z_rx.Z_baudgen.un5_counter_cry_1_THRU_LUT4_0_LC_6_3_1 { buart.Z_rx.Z_baudgen.un5_counter_cry_1_THRU_LUT4_0, buart.Z_rx.Z_baudgen.un5_counter_cry_2_c }
+ble_pack buart.Z_rx.Z_baudgen.counter_3_LC_6_3_2 { buart.Z_rx.Z_baudgen.counter_RNO[3], buart.Z_rx.Z_baudgen.counter[3], buart.Z_rx.Z_baudgen.un5_counter_cry_3_c }
+ble_pack buart.Z_rx.Z_baudgen.un5_counter_cry_3_THRU_LUT4_0_LC_6_3_3 { buart.Z_rx.Z_baudgen.un5_counter_cry_3_THRU_LUT4_0, buart.Z_rx.Z_baudgen.un5_counter_cry_4_c }
+ble_pack buart.Z_rx.Z_baudgen.counter_5_LC_6_3_4 { buart.Z_rx.Z_baudgen.counter_RNO[5], buart.Z_rx.Z_baudgen.counter[5] }
+ble_pack buart.Z_rx.Z_baudgen.counter_4_LC_6_3_6 { buart.Z_rx.Z_baudgen.counter_RNO[4], buart.Z_rx.Z_baudgen.counter[4] }
+clb_pack LT_6_3 { buart.Z_rx.Z_baudgen.un5_counter_cry_1_c_LC_6_3_0, buart.Z_rx.Z_baudgen.un5_counter_cry_1_THRU_LUT4_0_LC_6_3_1, buart.Z_rx.Z_baudgen.counter_3_LC_6_3_2, buart.Z_rx.Z_baudgen.un5_counter_cry_3_THRU_LUT4_0_LC_6_3_3, buart.Z_rx.Z_baudgen.counter_5_LC_6_3_4, buart.Z_rx.Z_baudgen.counter_4_LC_6_3_6 }
+set_location LT_6_3 6 3
+ble_pack buart.Z_tx.bitcount_RNIV5CT5_3_LC_6_4_0 { buart.Z_tx.bitcount_RNIV5CT5[3] }
+ble_pack buart.Z_rx.Z_baudgen.counter_0_LC_6_4_1 { buart.Z_rx.Z_baudgen.counter_RNO[0], buart.Z_rx.Z_baudgen.counter[0] }
+ble_pack buart.Z_rx.Z_baudgen.counter_1_LC_6_4_2 { buart.Z_rx.Z_baudgen.counter_RNO[1], buart.Z_rx.Z_baudgen.counter[1] }
+ble_pack buart.Z_rx.Z_baudgen.counter_RNI2GE3_1_LC_6_4_3 { buart.Z_rx.Z_baudgen.counter_RNI2GE3[1] }
+ble_pack buart.Z_rx.Z_baudgen.counter_RNI3O55_5_LC_6_4_4 { buart.Z_rx.Z_baudgen.counter_RNI3O55[5] }
+ble_pack buart.Z_rx.Z_baudgen.counter_2_LC_6_4_5 { buart.Z_rx.Z_baudgen.counter_RNO[2], buart.Z_rx.Z_baudgen.counter[2] }
+ble_pack resetGen.reset_count_3_LC_6_4_7 { resetGen.reset_count_RNO[3], resetGen.reset_count[3] }
+clb_pack LT_6_4 { buart.Z_tx.bitcount_RNIV5CT5_3_LC_6_4_0, buart.Z_rx.Z_baudgen.counter_0_LC_6_4_1, buart.Z_rx.Z_baudgen.counter_1_LC_6_4_2, buart.Z_rx.Z_baudgen.counter_RNI2GE3_1_LC_6_4_3, buart.Z_rx.Z_baudgen.counter_RNI3O55_5_LC_6_4_4, buart.Z_rx.Z_baudgen.counter_2_LC_6_4_5, resetGen.reset_count_3_LC_6_4_7 }
+set_location LT_6_4 6 4
+ble_pack buart.Z_rx.shifter_6_LC_6_5_0 { buart.Z_rx.shifter_6_THRU_LUT4_0, buart.Z_rx.shifter[6] }
+ble_pack buart.Z_rx.shifter_1_LC_6_5_1 { buart.Z_rx.shifter_1_THRU_LUT4_0, buart.Z_rx.shifter[1] }
+ble_pack buart.Z_rx.shifter_2_LC_6_5_2 { buart.Z_rx.shifter_2_THRU_LUT4_0, buart.Z_rx.shifter[2] }
+ble_pack buart.Z_rx.shifter_3_LC_6_5_3 { buart.Z_rx.shifter_3_THRU_LUT4_0, buart.Z_rx.shifter[3] }
+clb_pack LT_6_5 { buart.Z_rx.shifter_6_LC_6_5_0, buart.Z_rx.shifter_1_LC_6_5_1, buart.Z_rx.shifter_2_LC_6_5_2, buart.Z_rx.shifter_3_LC_6_5_3 }
+set_location LT_6_5 6 5
+ble_pack Lab_UT.dictrluu0.dek.det_N_0_o2_LC_6_6_0 { Lab_UT.dictrluu0.dek.det_N_0_o2 }
+ble_pack Lab_UT.dictrluu0.dicfsm.cState_RNO_0_LC_6_6_1 { Lab_UT.dictrluu0.dicfsm.cState_RNO_0 }
+ble_pack Lab_UT.Lab3U01.q_0_LC_6_6_2 { buart.Z_rx.bitcount_e_0_RNI8RI7_0_0_Lab_UT.Lab3U01.q_0_REP_LUT4_0, Lab_UT.Lab3U01.q[0] }
+ble_pack buart.Z_rx.bitcount_e_0_RNI8RI7_0_0_LC_6_6_6 { buart.Z_rx.bitcount_e_0_RNI8RI7_0[0] }
+ble_pack buart.Z_rx.bitcount_e_0_RNII0231_0_LC_6_6_7 { buart.Z_rx.bitcount_e_0_RNII0231[0] }
+clb_pack LT_6_6 { Lab_UT.dictrluu0.dek.det_N_0_o2_LC_6_6_0, Lab_UT.dictrluu0.dicfsm.cState_RNO_0_LC_6_6_1, Lab_UT.Lab3U01.q_0_LC_6_6_2, buart.Z_rx.bitcount_e_0_RNI8RI7_0_0_LC_6_6_6, buart.Z_rx.bitcount_e_0_RNII0231_0_LC_6_6_7 }
+set_location LT_6_6 6 6
+ble_pack Lab_UT.dec3.segmentUQ_0_6_LC_6_7_1 { Lab_UT.dec3.segmentUQ_0[6] }
+ble_pack uu2.un1_segment4_1_am_LC_6_7_2 { uu2.un1_segment4_1_am }
+ble_pack Lab_UT.didpuu0.didpmtens.q_RNIRE5_1_LC_6_7_3 { Lab_UT.didpuu0.didpmtens.q_RNIRE5[1] }
+ble_pack Lab_UT.didpuu0.didpmtens.q_2_LC_6_7_4 { Lab_UT.didpuu0.didpmtens.q_RNO[2], Lab_UT.didpuu0.didpmtens.q[2] }
+ble_pack Lab_UT.dec3.segmentUQ_1_1_LC_6_7_5 { Lab_UT.dec3.segmentUQ_1[1] }
+ble_pack uu2.un1_segment4_0_bm_LC_6_7_6 { uu2.un1_segment4_0_bm }
+ble_pack Lab_UT.didpuu0.didpmtens.q_RNITG5_1_LC_6_7_7 { Lab_UT.didpuu0.didpmtens.q_RNITG5[1] }
+clb_pack LT_6_7 { Lab_UT.dec3.segmentUQ_0_6_LC_6_7_1, uu2.un1_segment4_1_am_LC_6_7_2, Lab_UT.didpuu0.didpmtens.q_RNIRE5_1_LC_6_7_3, Lab_UT.didpuu0.didpmtens.q_2_LC_6_7_4, Lab_UT.dec3.segmentUQ_1_1_LC_6_7_5, uu2.un1_segment4_0_bm_LC_6_7_6, Lab_UT.didpuu0.didpmtens.q_RNITG5_1_LC_6_7_7 }
+set_location LT_6_7 6 7
+ble_pack uu2.w_addr_displaying_RNIAPHB1_0_5_LC_6_8_0 { uu2.w_addr_displaying_RNIAPHB1_0[5] }
+ble_pack uu2.w_addr_displaying_RNID8KP2_2_LC_6_8_1 { uu2.w_addr_displaying_RNID8KP2[2] }
+ble_pack Lab_UT.didpuu0.ledDisp00.selLed_1_LC_6_8_2 { Lab_UT.didpuu0.ledDisp00.selLed_RNO[1], Lab_UT.didpuu0.ledDisp00.selLed[1] }
+ble_pack Lab_UT.dictrluu0.dek.det_N_0_a3_LC_6_8_4 { Lab_UT.dictrluu0.dek.det_N_0_a3 }
+ble_pack Lab_UT.didpuu0.ledDisp00.selLed_0_LC_6_8_5 { Lab_UT.didpuu0.ledDisp00.selLed_RNO[0], Lab_UT.didpuu0.ledDisp00.selLed[0] }
+ble_pack Lab_UT.dictrluu0.dicfsm.cState_RNO_2_LC_6_8_6 { Lab_UT.dictrluu0.dicfsm.cState_RNO_2 }
+ble_pack Lab_UT.dictrluu0.dicfsm.cState_LC_6_8_7 { Lab_UT.dictrluu0.dicfsm.cState_RNO, Lab_UT.dictrluu0.dicfsm.cState }
+clb_pack LT_6_8 { uu2.w_addr_displaying_RNIAPHB1_0_5_LC_6_8_0, uu2.w_addr_displaying_RNID8KP2_2_LC_6_8_1, Lab_UT.didpuu0.ledDisp00.selLed_1_LC_6_8_2, Lab_UT.dictrluu0.dek.det_N_0_a3_LC_6_8_4, Lab_UT.didpuu0.ledDisp00.selLed_0_LC_6_8_5, Lab_UT.dictrluu0.dicfsm.cState_RNO_2_LC_6_8_6, Lab_UT.dictrluu0.dicfsm.cState_LC_6_8_7 }
+set_location LT_6_8 6 8
+ble_pack uu2.w_addr_displaying_RNIAGS21_4_LC_6_9_0 { uu2.w_addr_displaying_RNIAGS21[4] }
+ble_pack uu2.w_addr_displaying_fast_RNIU2OL2_5_LC_6_9_1 { uu2.w_addr_displaying_fast_RNIU2OL2[5] }
+ble_pack uu2.w_addr_displaying_fast_RNI9HV1J_5_LC_6_9_2 { uu2.w_addr_displaying_fast_RNI9HV1J[5] }
+ble_pack uu2.w_addr_displaying_RNIAH4P4_4_LC_6_9_3 { uu2.w_addr_displaying_RNIAH4P4[4] }
+ble_pack uu2.w_addr_displaying_RNINK1T81_2_LC_6_9_4 { uu2.w_addr_displaying_RNINK1T81[2] }
+ble_pack uu2.w_addr_displaying_4_rep1_RNIMMRIA_LC_6_9_5 { uu2.w_addr_displaying_4_rep1_RNIMMRIA }
+clb_pack LT_6_9 { uu2.w_addr_displaying_RNIAGS21_4_LC_6_9_0, uu2.w_addr_displaying_fast_RNIU2OL2_5_LC_6_9_1, uu2.w_addr_displaying_fast_RNI9HV1J_5_LC_6_9_2, uu2.w_addr_displaying_RNIAH4P4_4_LC_6_9_3, uu2.w_addr_displaying_RNINK1T81_2_LC_6_9_4, uu2.w_addr_displaying_4_rep1_RNIMMRIA_LC_6_9_5 }
+set_location LT_6_9 6 9
+ble_pack uu2.mem0.ram512X8_inst_RNO_53_LC_6_10_0 { uu2.mem0.ram512X8_inst_RNO_53 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_40_LC_6_10_1 { uu2.mem0.ram512X8_inst_RNO_40 }
+ble_pack uu2.w_addr_displaying_6_rep1_RNI9Q3H_LC_6_10_2 { uu2.w_addr_displaying_6_rep1_RNI9Q3H }
+ble_pack uu2.mem0.ram512X8_inst_RNO_52_LC_6_10_3 { uu2.mem0.ram512X8_inst_RNO_52 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_42_LC_6_10_4 { uu2.mem0.ram512X8_inst_RNO_42 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_30_LC_6_10_5 { uu2.mem0.ram512X8_inst_RNO_30 }
+ble_pack Lab_UT.dec0.un137_segmentUQ_LC_6_10_6 { Lab_UT.dec0.un137_segmentUQ }
+ble_pack uu2.un1_segment4_5_am_1_LC_6_10_7 { uu2.un1_segment4_5_am_1 }
+clb_pack LT_6_10 { uu2.mem0.ram512X8_inst_RNO_53_LC_6_10_0, uu2.mem0.ram512X8_inst_RNO_40_LC_6_10_1, uu2.w_addr_displaying_6_rep1_RNI9Q3H_LC_6_10_2, uu2.mem0.ram512X8_inst_RNO_52_LC_6_10_3, uu2.mem0.ram512X8_inst_RNO_42_LC_6_10_4, uu2.mem0.ram512X8_inst_RNO_30_LC_6_10_5, Lab_UT.dec0.un137_segmentUQ_LC_6_10_6, uu2.un1_segment4_5_am_1_LC_6_10_7 }
+set_location LT_6_10 6 10
+ble_pack Lab_UT.didpuu0.didpmtens.q_RNO_0_2_LC_6_11_0 { Lab_UT.didpuu0.didpmtens.q_RNO_0[2] }
+ble_pack uu2.un1_segment4_1_bm_LC_6_11_1 { uu2.un1_segment4_1_bm }
+ble_pack uu2.w_addr_displaying_fast_RNIPN54_8_LC_6_11_2 { uu2.w_addr_displaying_fast_RNIPN54[8] }
+ble_pack uu2.w_addr_displaying_fast_RNI9TKJ4_2_LC_6_11_3 { uu2.w_addr_displaying_fast_RNI9TKJ4[2] }
+ble_pack uu2.w_addr_displaying_fast_RNIV5694_2_LC_6_11_4 { uu2.w_addr_displaying_fast_RNIV5694[2] }
+ble_pack uu2.w_addr_displaying_fast_RNIHV86_5_LC_6_11_5 { uu2.w_addr_displaying_fast_RNIHV86[5] }
+ble_pack uu2.w_addr_displaying_RNI1BU61_7_LC_6_11_6 { uu2.w_addr_displaying_RNI1BU61[7] }
+ble_pack uu2.w_addr_displaying_RNI90195_7_LC_6_11_7 { uu2.w_addr_displaying_RNI90195[7] }
+clb_pack LT_6_11 { Lab_UT.didpuu0.didpmtens.q_RNO_0_2_LC_6_11_0, uu2.un1_segment4_1_bm_LC_6_11_1, uu2.w_addr_displaying_fast_RNIPN54_8_LC_6_11_2, uu2.w_addr_displaying_fast_RNI9TKJ4_2_LC_6_11_3, uu2.w_addr_displaying_fast_RNIV5694_2_LC_6_11_4, uu2.w_addr_displaying_fast_RNIHV86_5_LC_6_11_5, uu2.w_addr_displaying_RNI1BU61_7_LC_6_11_6, uu2.w_addr_displaying_RNI90195_7_LC_6_11_7 }
+set_location LT_6_11 6 11
+ble_pack uu2.mem0.ram512X8_inst_RNO_51_LC_6_12_1 { uu2.mem0.ram512X8_inst_RNO_51 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_39_LC_6_12_2 { uu2.mem0.ram512X8_inst_RNO_39 }
+ble_pack uu2.w_addr_displaying_RNIAPHB1_5_LC_6_12_3 { uu2.w_addr_displaying_RNIAPHB1[5] }
+ble_pack uu2.w_addr_displaying_5_LC_6_12_5 { uu2.w_addr_displaying_RNO[5], uu2.w_addr_displaying[5] }
+ble_pack uu2.w_addr_displaying_3_LC_6_12_6 { uu2.w_addr_displaying_RNO[3], uu2.w_addr_displaying[3] }
+ble_pack uu2.w_addr_displaying_0_rep1_RNIUUGB1_LC_6_12_7 { uu2.w_addr_displaying_0_rep1_RNIUUGB1 }
+clb_pack LT_6_12 { uu2.mem0.ram512X8_inst_RNO_51_LC_6_12_1, uu2.mem0.ram512X8_inst_RNO_39_LC_6_12_2, uu2.w_addr_displaying_RNIAPHB1_5_LC_6_12_3, uu2.w_addr_displaying_5_LC_6_12_5, uu2.w_addr_displaying_3_LC_6_12_6, uu2.w_addr_displaying_0_rep1_RNIUUGB1_LC_6_12_7 }
+set_location LT_6_12 6 12
+ble_pack uu2.un1_segment4_2_bm_LC_6_13_0 { uu2.un1_segment4_2_bm }
+ble_pack uu2.g1_LC_6_13_1 { uu2.g1 }
+ble_pack uu2.un1_segment4_5_bm_LC_6_13_2 { uu2.un1_segment4_5_bm }
+ble_pack Lab_UT.didpuu0.didpsones.q_RNO_0_3_LC_6_13_3 { Lab_UT.didpuu0.didpsones.q_RNO_0[3] }
+ble_pack Lab_UT.didpuu0.didpsones.q_RNI0GG11_3_LC_6_13_4 { Lab_UT.didpuu0.didpsones.q_RNI0GG11[3] }
+ble_pack Lab_UT.didpuu0.ledDisp00.selLed_RNIGTMU_0_LC_6_13_5 { Lab_UT.didpuu0.ledDisp00.selLed_RNIGTMU[0] }
+ble_pack Lab_UT.didpuu0.ledDisp00.selLed_RNIEH0Q1_1_LC_6_13_6 { Lab_UT.didpuu0.ledDisp00.selLed_RNIEH0Q1[1] }
+ble_pack Lab_UT.didpuu0.ledDisp00.selLed_RNIR2SJ_0_LC_6_13_7 { Lab_UT.didpuu0.ledDisp00.selLed_RNIR2SJ[0] }
+clb_pack LT_6_13 { uu2.un1_segment4_2_bm_LC_6_13_0, uu2.g1_LC_6_13_1, uu2.un1_segment4_5_bm_LC_6_13_2, Lab_UT.didpuu0.didpsones.q_RNO_0_3_LC_6_13_3, Lab_UT.didpuu0.didpsones.q_RNI0GG11_3_LC_6_13_4, Lab_UT.didpuu0.ledDisp00.selLed_RNIGTMU_0_LC_6_13_5, Lab_UT.didpuu0.ledDisp00.selLed_RNIEH0Q1_1_LC_6_13_6, Lab_UT.didpuu0.ledDisp00.selLed_RNIR2SJ_0_LC_6_13_7 }
+set_location LT_6_13 6 13
+ble_pack buart.Z_tx.un1_bitcount_cry_0_c_LC_7_2_0 { buart.Z_tx.un1_bitcount_cry_0_c }
+ble_pack buart.Z_tx.bitcount_1_LC_7_2_1 { buart.Z_tx.bitcount_RNO[1], buart.Z_tx.bitcount[1], buart.Z_tx.un1_bitcount_cry_1_c }
+ble_pack buart.Z_tx.bitcount_2_LC_7_2_2 { buart.Z_tx.bitcount_RNO[2], buart.Z_tx.bitcount[2], buart.Z_tx.un1_bitcount_cry_2_c }
+ble_pack buart.Z_tx.bitcount_3_LC_7_2_3 { buart.Z_tx.bitcount_RNO[3], buart.Z_tx.bitcount[3] }
+ble_pack buart.Z_tx.bitcount_RNIM5O32_2_LC_7_2_4 { buart.Z_tx.bitcount_RNIM5O32[2] }
+ble_pack buart.Z_tx.bitcount_RNIL4O32_1_LC_7_2_5 { buart.Z_tx.bitcount_RNIL4O32[1] }
+ble_pack buart.Z_tx.bitcount_RNIQOQA1_3_LC_7_2_6 { buart.Z_tx.bitcount_RNIQOQA1[3] }
+ble_pack buart.Z_tx.un1_bitcount_cry_0_c_RNO_LC_7_2_7 { buart.Z_tx.un1_bitcount_cry_0_c_RNO }
+clb_pack LT_7_2 { buart.Z_tx.un1_bitcount_cry_0_c_LC_7_2_0, buart.Z_tx.bitcount_1_LC_7_2_1, buart.Z_tx.bitcount_2_LC_7_2_2, buart.Z_tx.bitcount_3_LC_7_2_3, buart.Z_tx.bitcount_RNIM5O32_2_LC_7_2_4, buart.Z_tx.bitcount_RNIL4O32_1_LC_7_2_5, buart.Z_tx.bitcount_RNIQOQA1_3_LC_7_2_6, buart.Z_tx.un1_bitcount_cry_0_c_RNO_LC_7_2_7 }
+set_location LT_7_2 7 2
+ble_pack uu2.l_count_8_LC_7_3_7 { uu2.vbuf_count.result_1[8], uu2.l_count[8] }
+clb_pack LT_7_3 { uu2.l_count_8_LC_7_3_7 }
+set_location LT_7_3 7 3
+ble_pack resetGen.reset_count_RNITEEC1_2_LC_7_4_0 { resetGen.reset_count_RNITEEC1[2] }
+ble_pack resetGen.reset_count_4_LC_7_4_1 { resetGen.reset_count_RNO[4], resetGen.reset_count[4] }
+ble_pack resetGen.reset_count_1_LC_7_4_2 { resetGen.reset_count_RNO[1], resetGen.reset_count[1] }
+ble_pack resetGen.reset_count_0_LC_7_4_3 { resetGen.reset_count_RNO[0], resetGen.reset_count[0] }
+ble_pack resetGen.rst_LC_7_4_4 { resetGen.rst_RNO, resetGen.rst }
+ble_pack resetGen.reset_count_RNO_0_2_LC_7_4_6 { resetGen.reset_count_RNO_0[2] }
+ble_pack resetGen.reset_count_2_LC_7_4_7 { resetGen.reset_count_RNO[2], resetGen.reset_count[2] }
+clb_pack LT_7_4 { resetGen.reset_count_RNITEEC1_2_LC_7_4_0, resetGen.reset_count_4_LC_7_4_1, resetGen.reset_count_1_LC_7_4_2, resetGen.reset_count_0_LC_7_4_3, resetGen.rst_LC_7_4_4, resetGen.reset_count_RNO_0_2_LC_7_4_6, resetGen.reset_count_2_LC_7_4_7 }
+set_location LT_7_4 7 4
+ble_pack uu2.vbuf_count.counter_gen_label_10__un382_ci_8_1_LC_7_5_0 { uu2.vbuf_count.counter_gen_label[10].un382_ci_8_1 }
+ble_pack uu2.vbuf_count.counter_gen_label_7__un349_ci_0_LC_7_5_1 { uu2.vbuf_count.counter_gen_label[7].un349_ci_0 }
+ble_pack uu2.l_count_RNIQF5F5_4_LC_7_5_2 { uu2.l_count_RNIQF5F5[4] }
+ble_pack uu2.l_count_RNIU80H5_4_LC_7_5_3 { uu2.l_count_RNIU80H5[4] }
+ble_pack uu2.l_count_4_LC_7_5_4 { uu2.l_count_RNO[4], uu2.l_count[4] }
+ble_pack uu2.r_addr_1_LC_7_5_6 { uu2.r_addr_RNO[1], uu2.r_addr[1] }
+clb_pack LT_7_5 { uu2.vbuf_count.counter_gen_label_10__un382_ci_8_1_LC_7_5_0, uu2.vbuf_count.counter_gen_label_7__un349_ci_0_LC_7_5_1, uu2.l_count_RNIQF5F5_4_LC_7_5_2, uu2.l_count_RNIU80H5_4_LC_7_5_3, uu2.l_count_4_LC_7_5_4, uu2.r_addr_1_LC_7_5_6 }
+set_location LT_7_5 7 5
+ble_pack uu2.r_addr_2_LC_7_6_2 { uu2.r_addr_RNO[2], uu2.r_addr[2] }
+clb_pack LT_7_6 { uu2.r_addr_2_LC_7_6_2 }
+set_location LT_7_6 7 6
+ble_pack Lab_UT.didpuu0.didpmtens.q_0_LC_7_7_2 { Lab_UT.didpuu0.didpmtens.q_RNO[0], Lab_UT.didpuu0.didpmtens.q[0] }
+ble_pack uu2.un1_segment4_2_am_LC_7_7_4 { uu2.un1_segment4_2_am }
+ble_pack Lab_UT.secuu0.sec_clk_LC_7_7_5 { Lab_UT.secuu0.sec_clk_RNO, Lab_UT.secuu0.sec_clk }
+ble_pack Lab_UT.secuu0.delay_line_1_LC_7_7_6 { Lab_UT.secuu0.delay_line_1_THRU_LUT4_0, Lab_UT.secuu0.delay_line[1] }
+clb_pack LT_7_7 { Lab_UT.didpuu0.didpmtens.q_0_LC_7_7_2, uu2.un1_segment4_2_am_LC_7_7_4, Lab_UT.secuu0.sec_clk_LC_7_7_5, Lab_UT.secuu0.delay_line_1_LC_7_7_6 }
+set_location LT_7_7 7 7
+ble_pack Lab_UT.didpuu0.didpmtens.q_1_LC_7_8_0 { Lab_UT.didpuu0.didpmtens.q_RNO[1], Lab_UT.didpuu0.didpmtens.q[1] }
+ble_pack Lab_UT.didpuu0.didpmtens.q_RNO_0_1_LC_7_8_1 { Lab_UT.didpuu0.didpmtens.q_RNO_0[1] }
+ble_pack Lab_UT.dec3.segmentUQ_0_o2_5_LC_7_8_2 { Lab_UT.dec3.segmentUQ_0_o2[5] }
+ble_pack uu2.un1_segment4_0_am_LC_7_8_3 { uu2.un1_segment4_0_am }
+ble_pack uu2.w_addr_displaying_fast_RNIK7I7_2_LC_7_8_4 { uu2.w_addr_displaying_fast_RNIK7I7[2] }
+ble_pack uu2.w_addr_displaying_4_rep1_RNI6JSF4_LC_7_8_5 { uu2.w_addr_displaying_4_rep1_RNI6JSF4 }
+ble_pack Lab_UT.dec3.un75_segmentUQ_i_i_o2_LC_7_8_6 { Lab_UT.dec3.un75_segmentUQ_i_i_o2 }
+ble_pack Lab_UT.didpuu0.didpmtens.q_3_LC_7_8_7 { Lab_UT.didpuu0.didpmtens.q_RNO[3], Lab_UT.didpuu0.didpmtens.q[3] }
+clb_pack LT_7_8 { Lab_UT.didpuu0.didpmtens.q_1_LC_7_8_0, Lab_UT.didpuu0.didpmtens.q_RNO_0_1_LC_7_8_1, Lab_UT.dec3.segmentUQ_0_o2_5_LC_7_8_2, uu2.un1_segment4_0_am_LC_7_8_3, uu2.w_addr_displaying_fast_RNIK7I7_2_LC_7_8_4, uu2.w_addr_displaying_4_rep1_RNI6JSF4_LC_7_8_5, Lab_UT.dec3.un75_segmentUQ_i_i_o2_LC_7_8_6, Lab_UT.didpuu0.didpmtens.q_3_LC_7_8_7 }
+set_location LT_7_8 7 8
+ble_pack uu2.w_addr_displaying_fast_RNIK9D9_2_LC_7_9_0 { uu2.w_addr_displaying_fast_RNIK9D9[2] }
+ble_pack uu2.w_addr_displaying_fast_RNILAD9_2_LC_7_9_1 { uu2.w_addr_displaying_fast_RNILAD9[2] }
+ble_pack uu2.w_addr_displaying_5_rep1_RNIVO2E1_LC_7_9_2 { uu2.w_addr_displaying_5_rep1_RNIVO2E1 }
+ble_pack uu2.w_addr_displaying_fast_4_LC_7_9_3 { uu2.w_addr_displaying_fast_RNO[4], uu2.w_addr_displaying_fast[4] }
+ble_pack uu2.w_addr_displaying_fast_6_LC_7_9_4 { uu2.w_addr_displaying_fast_RNO[6], uu2.w_addr_displaying_fast[6] }
+ble_pack uu2.w_addr_displaying_8_rep1_LC_7_9_5 { uu2.w_addr_displaying_8_rep1_RNO, uu2.w_addr_displaying_8_rep1 }
+ble_pack uu2.w_addr_displaying_8_rep1_RNIN6OC_LC_7_9_6 { uu2.w_addr_displaying_8_rep1_RNIN6OC }
+ble_pack uu2.w_addr_displaying_7_rep1_LC_7_9_7 { uu2.w_addr_displaying_7_rep1_RNO, uu2.w_addr_displaying_7_rep1 }
+clb_pack LT_7_9 { uu2.w_addr_displaying_fast_RNIK9D9_2_LC_7_9_0, uu2.w_addr_displaying_fast_RNILAD9_2_LC_7_9_1, uu2.w_addr_displaying_5_rep1_RNIVO2E1_LC_7_9_2, uu2.w_addr_displaying_fast_4_LC_7_9_3, uu2.w_addr_displaying_fast_6_LC_7_9_4, uu2.w_addr_displaying_8_rep1_LC_7_9_5, uu2.w_addr_displaying_8_rep1_RNIN6OC_LC_7_9_6, uu2.w_addr_displaying_7_rep1_LC_7_9_7 }
+set_location LT_7_9 7 9
+ble_pack uu2.w_addr_displaying_2_rep1_RNIQ3R01_LC_7_10_0 { uu2.w_addr_displaying_2_rep1_RNIQ3R01 }
+ble_pack uu2.w_addr_displaying_4_rep2_RNI5R4M_LC_7_10_1 { uu2.w_addr_displaying_4_rep2_RNI5R4M }
+ble_pack uu2.w_addr_displaying_RNIDUPM1_2_LC_7_10_2 { uu2.w_addr_displaying_RNIDUPM1[2] }
+ble_pack uu2.w_addr_displaying_RNI50L01_2_LC_7_10_4 { uu2.w_addr_displaying_RNI50L01[2] }
+ble_pack uu2.vbuf_w_addr_displaying.counter_gen_label_5__un436_ci_0_a2_LC_7_10_5 { uu2.vbuf_w_addr_displaying.counter_gen_label[5].un436_ci_0_a2 }
+ble_pack uu2.w_addr_displaying_4_LC_7_10_6 { uu2.w_addr_displaying_RNO[4], uu2.w_addr_displaying[4] }
+ble_pack uu2.w_addr_displaying_fast_2_LC_7_10_7 { uu2.w_addr_displaying_fast_RNO[2], uu2.w_addr_displaying_fast[2] }
+clb_pack LT_7_10 { uu2.w_addr_displaying_2_rep1_RNIQ3R01_LC_7_10_0, uu2.w_addr_displaying_4_rep2_RNI5R4M_LC_7_10_1, uu2.w_addr_displaying_RNIDUPM1_2_LC_7_10_2, uu2.w_addr_displaying_RNI50L01_2_LC_7_10_4, uu2.vbuf_w_addr_displaying.counter_gen_label_5__un436_ci_0_a2_LC_7_10_5, uu2.w_addr_displaying_4_LC_7_10_6, uu2.w_addr_displaying_fast_2_LC_7_10_7 }
+set_location LT_7_10 7 10
+ble_pack uu2.w_addr_displaying_5_rep1_RNI50LS_LC_7_11_0 { uu2.w_addr_displaying_5_rep1_RNI50LS }
+ble_pack uu2.w_addr_displaying_5_rep1_RNIMG8P2_LC_7_11_1 { uu2.w_addr_displaying_5_rep1_RNIMG8P2 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_54_LC_7_11_2 { uu2.mem0.ram512X8_inst_RNO_54 }
+ble_pack uu2.w_addr_displaying_RNIKR5D1_6_LC_7_11_3 { uu2.w_addr_displaying_RNIKR5D1[6] }
+ble_pack uu2.w_addr_displaying_0_rep1_RNIN998E_LC_7_11_4 { uu2.w_addr_displaying_0_rep1_RNIN998E }
+ble_pack uu2.mem0.ram512X8_inst_RNO_43_LC_7_11_5 { uu2.mem0.ram512X8_inst_RNO_43 }
+ble_pack uu2.w_addr_displaying_RNIUCHB1_3_LC_7_11_6 { uu2.w_addr_displaying_RNIUCHB1[3] }
+clb_pack LT_7_11 { uu2.w_addr_displaying_5_rep1_RNI50LS_LC_7_11_0, uu2.w_addr_displaying_5_rep1_RNIMG8P2_LC_7_11_1, uu2.mem0.ram512X8_inst_RNO_54_LC_7_11_2, uu2.w_addr_displaying_RNIKR5D1_6_LC_7_11_3, uu2.w_addr_displaying_0_rep1_RNIN998E_LC_7_11_4, uu2.mem0.ram512X8_inst_RNO_43_LC_7_11_5, uu2.w_addr_displaying_RNIUCHB1_3_LC_7_11_6 }
+set_location LT_7_11 7 11
+ble_pack Lab_UT.dec2.segmentUQ_2_LC_7_12_0 { Lab_UT.dec2.segmentUQ[2] }
+ble_pack Lab_UT.didpuu0.didpmones.q_esr_3_LC_7_12_1 { Lab_UT.didpuu0.didpmones.q_esr_RNO[3], Lab_UT.didpuu0.didpmones.q_esr[3] }
+ble_pack uu2.segment3_m_1_6_LC_7_12_2 { uu2.segment3_m_1[6] }
+ble_pack uu2.w_addr_displaying_7_rep1_RNIA86H1_LC_7_12_3 { uu2.w_addr_displaying_7_rep1_RNIA86H1 }
+ble_pack uu2.w_addr_displaying_RNIE28D2_4_LC_7_12_4 { uu2.w_addr_displaying_RNIE28D2[4] }
+ble_pack uu2.un1_segment4_4_bm_LC_7_12_5 { uu2.un1_segment4_4_bm }
+ble_pack uu2.un1_segment4_4_am_LC_7_12_6 { uu2.un1_segment4_4_am }
+ble_pack uu2.w_addr_displaying_fast_RNICB763_0_LC_7_12_7 { uu2.w_addr_displaying_fast_RNICB763[0] }
+clb_pack LT_7_12 { Lab_UT.dec2.segmentUQ_2_LC_7_12_0, Lab_UT.didpuu0.didpmones.q_esr_3_LC_7_12_1, uu2.segment3_m_1_6_LC_7_12_2, uu2.w_addr_displaying_7_rep1_RNIA86H1_LC_7_12_3, uu2.w_addr_displaying_RNIE28D2_4_LC_7_12_4, uu2.un1_segment4_4_bm_LC_7_12_5, uu2.un1_segment4_4_am_LC_7_12_6, uu2.w_addr_displaying_fast_RNICB763_0_LC_7_12_7 }
+set_location LT_7_12 7 12
+ble_pack uu2.mem0.ram512X8_inst_RNO_23_LC_7_13_0 { uu2.mem0.ram512X8_inst_RNO_23 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_36_LC_7_13_1 { uu2.mem0.ram512X8_inst_RNO_36 }
+ble_pack uu2.w_addr_displaying_RNI83L01_2_LC_7_13_2 { uu2.w_addr_displaying_RNI83L01[2] }
+ble_pack uu2.mem0.ram512X8_inst_RNO_45_LC_7_13_3 { uu2.mem0.ram512X8_inst_RNO_45 }
+ble_pack uu2.mem0.ram512X8_inst_RNO_33_LC_7_13_4 { uu2.mem0.ram512X8_inst_RNO_33 }
+ble_pack uu2.w_addr_displaying_2_LC_7_13_5 { uu2.w_addr_displaying_RNO[2], uu2.w_addr_displaying[2] }
+ble_pack uu2.w_addr_displaying_RNI8NHB1_2_LC_7_13_6 { uu2.w_addr_displaying_RNI8NHB1[2] }
+ble_pack uu2.w_addr_displaying_RNI18582_8_LC_7_13_7 { uu2.w_addr_displaying_RNI18582[8] }
+clb_pack LT_7_13 { uu2.mem0.ram512X8_inst_RNO_23_LC_7_13_0, uu2.mem0.ram512X8_inst_RNO_36_LC_7_13_1, uu2.w_addr_displaying_RNI83L01_2_LC_7_13_2, uu2.mem0.ram512X8_inst_RNO_45_LC_7_13_3, uu2.mem0.ram512X8_inst_RNO_33_LC_7_13_4, uu2.w_addr_displaying_2_LC_7_13_5, uu2.w_addr_displaying_RNI8NHB1_2_LC_7_13_6, uu2.w_addr_displaying_RNI18582_8_LC_7_13_7 }
+set_location LT_7_13 7 13
+ble_pack Lab_UT.dec2.un152_segmentUQ_1_LC_7_14_1 { Lab_UT.dec2.un152_segmentUQ_1 }
+clb_pack LT_7_14 { Lab_UT.dec2.un152_segmentUQ_1_LC_7_14_1 }
+set_location LT_7_14 7 14
+ble_pack uu2.l_count_RNI89GK1_2_LC_8_3_0 { uu2.l_count_RNI89GK1[2] }
+ble_pack uu2.l_count_2_LC_8_3_1 { uu2.l_count_RNO[2], uu2.l_count[2] }
+ble_pack uu2.l_count_0_LC_8_3_2 { uu2.l_count_RNO[0], uu2.l_count[0] }
+ble_pack uu2.l_count_3_LC_8_3_3 { uu2.vbuf_count.result_1[3], uu2.l_count[3] }
+ble_pack uu2.vbuf_count.counter_gen_label_4__un316_ci_LC_8_3_4 { uu2.vbuf_count.counter_gen_label[4].un316_ci }
+ble_pack uu2.l_count_1_LC_8_3_7 { uu2.vbuf_count.result_1[1], uu2.l_count[1] }
+clb_pack LT_8_3 { uu2.l_count_RNI89GK1_2_LC_8_3_0, uu2.l_count_2_LC_8_3_1, uu2.l_count_0_LC_8_3_2, uu2.l_count_3_LC_8_3_3, uu2.vbuf_count.counter_gen_label_4__un316_ci_LC_8_3_4, uu2.l_count_1_LC_8_3_7 }
+set_location LT_8_3 8 3
+ble_pack uu2.l_count_RNI89GK1_3_LC_8_4_0 { uu2.l_count_RNI89GK1[3] }
+ble_pack uu2.l_count_RNI626E_10_LC_8_4_2 { uu2.l_count_RNI626E[10] }
+ble_pack uu2.l_count_RNI0NA44_4_LC_8_4_3 { uu2.l_count_RNI0NA44[4] }
+ble_pack uu2.l_count_5_LC_8_4_4 { uu2.l_count_RNO[5], uu2.l_count[5] }
+ble_pack uu2.l_count_7_LC_8_4_5 { uu2.l_count_RNO[7], uu2.l_count[7] }
+ble_pack uu2.l_count_9_LC_8_4_6 { uu2.vbuf_count.result_1[9], uu2.l_count[9] }
+ble_pack uu2.vbuf_count.counter_gen_label_10__un382_ci_LC_8_4_7 { uu2.vbuf_count.counter_gen_label[10].un382_ci }
+clb_pack LT_8_4 { uu2.l_count_RNI89GK1_3_LC_8_4_0, uu2.l_count_RNI626E_10_LC_8_4_2, uu2.l_count_RNI0NA44_4_LC_8_4_3, uu2.l_count_5_LC_8_4_4, uu2.l_count_7_LC_8_4_5, uu2.l_count_9_LC_8_4_6, uu2.vbuf_count.counter_gen_label_10__un382_ci_LC_8_4_7 }
+set_location LT_8_4 8 4
+ble_pack uu2.l_count_6_LC_8_5_4 { uu2.vbuf_count.result_1[6], uu2.l_count[6] }
+ble_pack uu2.l_count_10_LC_8_5_6 { uu2.l_count_RNO[10], uu2.l_count[10] }
+clb_pack LT_8_5 { uu2.l_count_6_LC_8_5_4, uu2.l_count_10_LC_8_5_6 }
+set_location LT_8_5 8 5
+ble_pack Lab_UT.didpuu0.didpstens.q_RNIL3BL3_1_LC_8_7_0 { Lab_UT.didpuu0.didpstens.q_RNIL3BL3[1] }
+ble_pack Lab_UT.didpuu0.didpmones.q_esr_RNO_0_3_LC_8_7_1 { Lab_UT.didpuu0.didpmones.q_esr_RNO_0[3] }
+ble_pack Lab_UT.didpuu0.didpstens.q_1_LC_8_7_2 { Lab_UT.didpuu0.didpstens.q_RNO[1], Lab_UT.didpuu0.didpstens.q[1] }
+ble_pack Lab_UT.didpuu0.didpstens.q_0_LC_8_7_3 { Lab_UT.didpuu0.didpstens.q_RNO[0], Lab_UT.didpuu0.didpstens.q[0] }
+ble_pack Lab_UT.didpuu0.didpsones.q_RNIHCAV1_0_LC_8_7_4 { Lab_UT.didpuu0.didpsones.q_RNIHCAV1[0] }
+ble_pack Lab_UT.didpuu0.didpstens.q_esr_ctle_3_LC_8_7_5 { Lab_UT.didpuu0.didpstens.q_esr_ctle[3] }
+ble_pack Lab_UT.didpuu0.didpsones.q_0_LC_8_7_6 { Lab_UT.didpuu0.didpsones.q_RNO[0], Lab_UT.didpuu0.didpsones.q[0] }
+ble_pack uu2.un1_segment4_2_am_1_LC_8_7_7 { uu2.un1_segment4_2_am_1 }
+clb_pack LT_8_7 { Lab_UT.didpuu0.didpstens.q_RNIL3BL3_1_LC_8_7_0, Lab_UT.didpuu0.didpmones.q_esr_RNO_0_3_LC_8_7_1, Lab_UT.didpuu0.didpstens.q_1_LC_8_7_2, Lab_UT.didpuu0.didpstens.q_0_LC_8_7_3, Lab_UT.didpuu0.didpsones.q_RNIHCAV1_0_LC_8_7_4, Lab_UT.didpuu0.didpstens.q_esr_ctle_3_LC_8_7_5, Lab_UT.didpuu0.didpsones.q_0_LC_8_7_6, uu2.un1_segment4_2_am_1_LC_8_7_7 }
+set_location LT_8_7 8 7
+ble_pack uu2.w_addr_displaying_RNO_0_6_LC_8_8_0 { uu2.w_addr_displaying_RNO_0[6] }
+ble_pack uu2.w_addr_displaying_6_LC_8_8_1 { uu2.w_addr_displaying_RNO[6], uu2.w_addr_displaying[6] }
+ble_pack uu2.w_addr_displaying_RNIKFL01_6_LC_8_8_2 { uu2.w_addr_displaying_RNIKFL01[6] }
+ble_pack uu2.w_addr_displaying_8_LC_8_8_3 { uu2.w_addr_displaying_RNO[8], uu2.w_addr_displaying[8] }
+ble_pack uu2.w_addr_displaying_fast_RNO_0_6_LC_8_8_4 { uu2.w_addr_displaying_fast_RNO_0[6] }
+ble_pack uu2.w_addr_displaying_RNIHKAF2_8_LC_8_8_5 { uu2.w_addr_displaying_RNIHKAF2[8] }
+ble_pack uu2.w_addr_displaying_RNIMF2HD_8_LC_8_8_6 { uu2.w_addr_displaying_RNIMF2HD[8] }
+ble_pack uu2.w_addr_displaying_7_LC_8_8_7 { uu2.w_addr_displaying_RNO[7], uu2.w_addr_displaying[7] }
+clb_pack LT_8_8 { uu2.w_addr_displaying_RNO_0_6_LC_8_8_0, uu2.w_addr_displaying_6_LC_8_8_1, uu2.w_addr_displaying_RNIKFL01_6_LC_8_8_2, uu2.w_addr_displaying_8_LC_8_8_3, uu2.w_addr_displaying_fast_RNO_0_6_LC_8_8_4, uu2.w_addr_displaying_RNIHKAF2_8_LC_8_8_5, uu2.w_addr_displaying_RNIMF2HD_8_LC_8_8_6, uu2.w_addr_displaying_7_LC_8_8_7 }
+set_location LT_8_8 8 8
+ble_pack uu2.w_addr_displaying_6_rep1_LC_8_9_0 { uu2.w_addr_displaying_6_rep1_RNO, uu2.w_addr_displaying_6_rep1 }
+ble_pack uu2.w_addr_displaying_6_rep1_RNO_0_LC_8_9_1 { uu2.w_addr_displaying_6_rep1_RNO_0 }
+ble_pack uu2.w_addr_displaying_5_rep1_RNI3HMT_LC_8_9_2 { uu2.w_addr_displaying_5_rep1_RNI3HMT }
+ble_pack uu2.w_addr_displaying_5_rep1_RNIMFM34_LC_8_9_3 { uu2.w_addr_displaying_5_rep1_RNIMFM34 }
+ble_pack uu2.w_addr_displaying_fast_5_LC_8_9_4 { uu2.w_addr_displaying_fast_RNO[5], uu2.w_addr_displaying_fast[5] }
+ble_pack uu2.w_addr_displaying_fast_RNID5QH_5_LC_8_9_5 { uu2.w_addr_displaying_fast_RNID5QH[5] }
+ble_pack uu2.w_addr_displaying_fast_RNI6N2K_5_LC_8_9_6 { uu2.w_addr_displaying_fast_RNI6N2K[5] }
+ble_pack uu2.w_addr_displaying_fast_RNI76AF1_2_LC_8_9_7 { uu2.w_addr_displaying_fast_RNI76AF1[2] }
+clb_pack LT_8_9 { uu2.w_addr_displaying_6_rep1_LC_8_9_0, uu2.w_addr_displaying_6_rep1_RNO_0_LC_8_9_1, uu2.w_addr_displaying_5_rep1_RNI3HMT_LC_8_9_2, uu2.w_addr_displaying_5_rep1_RNIMFM34_LC_8_9_3, uu2.w_addr_displaying_fast_5_LC_8_9_4, uu2.w_addr_displaying_fast_RNID5QH_5_LC_8_9_5, uu2.w_addr_displaying_fast_RNI6N2K_5_LC_8_9_6, uu2.w_addr_displaying_fast_RNI76AF1_2_LC_8_9_7 }
+set_location LT_8_9 8 9
+ble_pack uu2.w_addr_displaying_fast_RNI2VHC_4_LC_8_10_0 { uu2.w_addr_displaying_fast_RNI2VHC[4] }
+ble_pack uu2.w_addr_displaying_RNILB202_4_LC_8_10_1 { uu2.w_addr_displaying_RNILB202[4] }
+ble_pack uu2.w_addr_displaying_2_rep1_RNIR94U_LC_8_10_2 { uu2.w_addr_displaying_2_rep1_RNIR94U }
+ble_pack uu2.w_addr_displaying_4_rep2_RNI75VM_LC_8_10_3 { uu2.w_addr_displaying_4_rep2_RNI75VM }
+ble_pack uu2.w_addr_displaying_2_rep1_RNI4RA21_LC_8_10_4 { uu2.w_addr_displaying_2_rep1_RNI4RA21 }
+ble_pack uu2.w_addr_displaying_fast_3_LC_8_10_5 { uu2.w_addr_displaying_fast_RNO[3], uu2.w_addr_displaying_fast[3] }
+ble_pack uu2.w_addr_displaying_fast_RNIN0TS_4_LC_8_10_6 { uu2.w_addr_displaying_fast_RNIN0TS[4] }
+ble_pack uu2.w_addr_displaying_fast_RNILHHC_0_LC_8_10_7 { uu2.w_addr_displaying_fast_RNILHHC[0] }
+clb_pack LT_8_10 { uu2.w_addr_displaying_fast_RNI2VHC_4_LC_8_10_0, uu2.w_addr_displaying_RNILB202_4_LC_8_10_1, uu2.w_addr_displaying_2_rep1_RNIR94U_LC_8_10_2, uu2.w_addr_displaying_4_rep2_RNI75VM_LC_8_10_3, uu2.w_addr_displaying_2_rep1_RNI4RA21_LC_8_10_4, uu2.w_addr_displaying_fast_3_LC_8_10_5, uu2.w_addr_displaying_fast_RNIN0TS_4_LC_8_10_6, uu2.w_addr_displaying_fast_RNILHHC_0_LC_8_10_7 }
+set_location LT_8_10 8 10
+ble_pack Lab_UT.didpuu0.didpsones.q_1_LC_8_11_0 { Lab_UT.didpuu0.didpsones.q_RNO[1], Lab_UT.didpuu0.didpsones.q[1] }
+ble_pack Lab_UT.didpuu0.didpsones.q_2_LC_8_11_1 { Lab_UT.didpuu0.didpsones.q_RNO[2], Lab_UT.didpuu0.didpsones.q[2] }
+ble_pack Lab_UT.didpuu0.didpsones.q_3_LC_8_11_3 { Lab_UT.didpuu0.didpsones.q_RNO[3], Lab_UT.didpuu0.didpsones.q[3] }
+ble_pack uu2.segment1_m_2_0_LC_8_11_4 { uu2.segment1_m_2[0] }
+ble_pack uu2.w_addr_displaying_7_rep1_RNIPUSD1_LC_8_11_5 { uu2.w_addr_displaying_7_rep1_RNIPUSD1 }
+ble_pack uu2.w_addr_displaying_RNIBOM74_3_LC_8_11_6 { uu2.w_addr_displaying_RNIBOM74[3] }
+ble_pack uu2.w_addr_displaying_0_rep1_RNI2NR6D_LC_8_11_7 { uu2.w_addr_displaying_0_rep1_RNI2NR6D }
+clb_pack LT_8_11 { Lab_UT.didpuu0.didpsones.q_1_LC_8_11_0, Lab_UT.didpuu0.didpsones.q_2_LC_8_11_1, Lab_UT.didpuu0.didpsones.q_3_LC_8_11_3, uu2.segment1_m_2_0_LC_8_11_4, uu2.w_addr_displaying_7_rep1_RNIPUSD1_LC_8_11_5, uu2.w_addr_displaying_RNIBOM74_3_LC_8_11_6, uu2.w_addr_displaying_0_rep1_RNI2NR6D_LC_8_11_7 }
+set_location LT_8_11 8 11
+ble_pack Lab_UT.didpuu0.didpstens.q_esr_2_LC_8_12_1 { Lab_UT.didpuu0.didpstens.q_esr_RNO[2], Lab_UT.didpuu0.didpstens.q_esr[2] }
+ble_pack Lab_UT.didpuu0.didpstens.q_esr_3_LC_8_12_3 { Lab_UT.didpuu0.didpstens.uu0.result_1_0[3], Lab_UT.didpuu0.didpstens.q_esr[3] }
+ble_pack uu2.un1_segment4_3_bm_LC_8_12_4 { uu2.un1_segment4_3_bm }
+ble_pack uu2.un1_segment4_3_am_LC_8_12_5 { uu2.un1_segment4_3_am }
+ble_pack uu2.w_addr_displaying_0_rep1_RNI8N8R6_LC_8_12_6 { uu2.w_addr_displaying_0_rep1_RNI8N8R6 }
+ble_pack uu2.w_addr_displaying_fast_RNIFU9M8_8_LC_8_12_7 { uu2.w_addr_displaying_fast_RNIFU9M8[8] }
+clb_pack LT_8_12 { Lab_UT.didpuu0.didpstens.q_esr_2_LC_8_12_1, Lab_UT.didpuu0.didpstens.q_esr_3_LC_8_12_3, uu2.un1_segment4_3_bm_LC_8_12_4, uu2.un1_segment4_3_am_LC_8_12_5, uu2.w_addr_displaying_0_rep1_RNI8N8R6_LC_8_12_6, uu2.w_addr_displaying_fast_RNIFU9M8_8_LC_8_12_7 }
+set_location LT_8_12 8 12
+ble_pack uu2.w_addr_displaying_fast_RNIBHTT_3_LC_8_13_0 { uu2.w_addr_displaying_fast_RNIBHTT[3] }
+ble_pack uu2.w_addr_displaying_4_rep1_RNIAVDB_0_LC_8_13_1 { uu2.w_addr_displaying_4_rep1_RNIAVDB_0 }
+ble_pack uu2.w_addr_displaying_fast_RNIKFIE_6_LC_8_13_2 { uu2.w_addr_displaying_fast_RNIKFIE[6] }
+ble_pack Lab_UT.didpuu0.ledDisp00.selLed_RNIIVMU_0_LC_8_13_3 { Lab_UT.didpuu0.ledDisp00.selLed_RNIIVMU[0] }
+ble_pack Lab_UT.didpuu0.ledDisp00.selLed_RNIRNGO1_1_LC_8_13_4 { Lab_UT.didpuu0.ledDisp00.selLed_RNIRNGO1[1] }
+ble_pack Lab_UT.didpuu0.ledDisp00.selLed_RNI67CI_0_LC_8_13_5 { Lab_UT.didpuu0.ledDisp00.selLed_RNI67CI[0] }
+ble_pack Lab_UT.dec1.un11_segmentUQ_1_0_a2_LC_8_13_6 { Lab_UT.dec1.un11_segmentUQ_1_0_a2 }
+clb_pack LT_8_13 { uu2.w_addr_displaying_fast_RNIBHTT_3_LC_8_13_0, uu2.w_addr_displaying_4_rep1_RNIAVDB_0_LC_8_13_1, uu2.w_addr_displaying_fast_RNIKFIE_6_LC_8_13_2, Lab_UT.didpuu0.ledDisp00.selLed_RNIIVMU_0_LC_8_13_3, Lab_UT.didpuu0.ledDisp00.selLed_RNIRNGO1_1_LC_8_13_4, Lab_UT.didpuu0.ledDisp00.selLed_RNI67CI_0_LC_8_13_5, Lab_UT.dec1.un11_segmentUQ_1_0_a2_LC_8_13_6 }
+set_location LT_8_13 8 13
+ble_pack Lab_UT.didpuu0.didpmones.q_esr_RNIF7VF1_3_LC_8_14_0 { Lab_UT.didpuu0.didpmones.q_esr_RNIF7VF1[3] }
+ble_pack Lab_UT.didpuu0.didpstens.q_RNIJUV53_1_LC_8_14_1 { Lab_UT.didpuu0.didpstens.q_RNIJUV53[1] }
+ble_pack Lab_UT.didpuu0.didpstens.q_RNI4BA55_1_LC_8_14_2 { Lab_UT.didpuu0.didpstens.q_RNI4BA55[1] }
+ble_pack Lab_UT.didpuu0.didpmones.q_2_LC_8_14_3 { Lab_UT.didpuu0.didpmones.q_RNO[2], Lab_UT.didpuu0.didpmones.q[2] }
+ble_pack uu2.segment3_m_3_1_LC_8_14_4 { uu2.segment3_m_3[1] }
+ble_pack Lab_UT.didpuu0.didpmones.q_1_LC_8_14_5 { Lab_UT.didpuu0.didpmones.q_RNO[1], Lab_UT.didpuu0.didpmones.q[1] }
+ble_pack Lab_UT.didpuu0.didpmones.q_0_LC_8_14_6 { Lab_UT.didpuu0.didpmones.q_RNO[0], Lab_UT.didpuu0.didpmones.q[0] }
+ble_pack uu2.un1_segment3_m5_bm_LC_8_14_7 { uu2.un1_segment3_m5_bm }
+clb_pack LT_8_14 { Lab_UT.didpuu0.didpmones.q_esr_RNIF7VF1_3_LC_8_14_0, Lab_UT.didpuu0.didpstens.q_RNIJUV53_1_LC_8_14_1, Lab_UT.didpuu0.didpstens.q_RNI4BA55_1_LC_8_14_2, Lab_UT.didpuu0.didpmones.q_2_LC_8_14_3, uu2.segment3_m_3_1_LC_8_14_4, Lab_UT.didpuu0.didpmones.q_1_LC_8_14_5, Lab_UT.didpuu0.didpmones.q_0_LC_8_14_6, uu2.un1_segment3_m5_bm_LC_8_14_7 }
+set_location LT_8_14 8 14
+ble_pack buart.Z_rx.shifter_0_LC_9_5_2 { buart.Z_rx.shifter_0_THRU_LUT4_0, buart.Z_rx.shifter[0] }
+clb_pack LT_9_5 { buart.Z_rx.shifter_0_LC_9_5_2 }
+set_location LT_9_5 9 5
+ble_pack Lab_UT.secuu0.sec_clkD_LC_9_7_0 { Lab_UT.secuu0.sec_clkD_THRU_LUT4_0, Lab_UT.secuu0.sec_clkD }
+ble_pack Lab_UT.didpuu0.clkSecStrb_LC_9_7_1 { Lab_UT.didpuu0.clkSecStrb }
+ble_pack uu2.segment2_m_2_5_LC_9_7_4 { uu2.segment2_m_2[5] }
+clb_pack LT_9_7 { Lab_UT.secuu0.sec_clkD_LC_9_7_0, Lab_UT.didpuu0.clkSecStrb_LC_9_7_1, uu2.segment2_m_2_5_LC_9_7_4 }
+set_location LT_9_7 9 7
+ble_pack Lab_UT.dec1.segmentUQ_4_LC_9_8_0 { Lab_UT.dec1.segmentUQ[4] }
+ble_pack uu2.w_addr_displaying_4_rep1_RNIBG883_LC_9_8_1 { uu2.w_addr_displaying_4_rep1_RNIBG883 }
+ble_pack uu2.segment2_m_1_6_LC_9_8_2 { uu2.segment2_m_1[6] }
+ble_pack uu2.un1_segment3_m5_am_LC_9_8_3 { uu2.un1_segment3_m5_am }
+ble_pack uu2.w_addr_displaying_4_rep1_LC_9_8_4 { uu2.w_addr_displaying_4_rep1_RNO, uu2.w_addr_displaying_4_rep1 }
+ble_pack uu2.w_addr_displaying_fast_RNILLSO_7_LC_9_8_5 { uu2.w_addr_displaying_fast_RNILLSO[7] }
+ble_pack uu2.w_addr_displaying_5_rep1_LC_9_8_6 { uu2.w_addr_displaying_5_rep1_RNO, uu2.w_addr_displaying_5_rep1 }
+ble_pack uu2.w_addr_displaying_fast_7_LC_9_8_7 { uu2.w_addr_displaying_fast_RNO[7], uu2.w_addr_displaying_fast[7] }
+clb_pack LT_9_8 { Lab_UT.dec1.segmentUQ_4_LC_9_8_0, uu2.w_addr_displaying_4_rep1_RNIBG883_LC_9_8_1, uu2.segment2_m_1_6_LC_9_8_2, uu2.un1_segment3_m5_am_LC_9_8_3, uu2.w_addr_displaying_4_rep1_LC_9_8_4, uu2.w_addr_displaying_fast_RNILLSO_7_LC_9_8_5, uu2.w_addr_displaying_5_rep1_LC_9_8_6, uu2.w_addr_displaying_fast_7_LC_9_8_7 }
+set_location LT_9_8 9 8
+ble_pack uu2.w_addr_displaying_4_rep1_RNI65VM_LC_9_9_0 { uu2.w_addr_displaying_4_rep1_RNI65VM }
+ble_pack uu2.w_addr_displaying_RNIPHFA2_4_LC_9_9_1 { uu2.w_addr_displaying_RNIPHFA2[4] }
+ble_pack uu2.mem0.ram512X8_inst_RNO_58_LC_9_9_2 { uu2.mem0.ram512X8_inst_RNO_58 }
+ble_pack uu2.w_addr_displaying_4_rep1_RNIAVDB_LC_9_9_3 { uu2.w_addr_displaying_4_rep1_RNIAVDB }
+ble_pack Lab_UT.dec0.segmentUQ_3_LC_9_9_4 { Lab_UT.dec0.segmentUQ[3] }
+ble_pack uu2.w_addr_displaying_fast_RNIQD7R4_5_LC_9_9_5 { uu2.w_addr_displaying_fast_RNIQD7R4[5] }
+ble_pack uu2.w_addr_displaying_fast_RNIL396_8_LC_9_9_6 { uu2.w_addr_displaying_fast_RNIL396[8] }
+ble_pack uu2.mem0.ram512X8_inst_RNO_59_LC_9_9_7 { uu2.mem0.ram512X8_inst_RNO_59 }
+clb_pack LT_9_9 { uu2.w_addr_displaying_4_rep1_RNI65VM_LC_9_9_0, uu2.w_addr_displaying_RNIPHFA2_4_LC_9_9_1, uu2.mem0.ram512X8_inst_RNO_58_LC_9_9_2, uu2.w_addr_displaying_4_rep1_RNIAVDB_LC_9_9_3, Lab_UT.dec0.segmentUQ_3_LC_9_9_4, uu2.w_addr_displaying_fast_RNIQD7R4_5_LC_9_9_5, uu2.w_addr_displaying_fast_RNIL396_8_LC_9_9_6, uu2.mem0.ram512X8_inst_RNO_59_LC_9_9_7 }
+set_location LT_9_9 9 9
+ble_pack uu2.w_addr_displaying_0_rep1_RNIUV0B3_LC_9_10_0 { uu2.w_addr_displaying_0_rep1_RNIUV0B3 }
+ble_pack uu2.w_addr_displaying_0_rep1_LC_9_10_1 { uu2.w_addr_displaying_0_rep1_RNO, uu2.w_addr_displaying_0_rep1 }
+ble_pack uu2.w_addr_displaying_4_rep2_RNI4S6J_LC_9_10_2 { uu2.w_addr_displaying_4_rep2_RNI4S6J }
+ble_pack uu2.w_addr_displaying_fast_RNIEDBM_7_LC_9_10_3 { uu2.w_addr_displaying_fast_RNIEDBM[7] }
+ble_pack uu2.w_addr_displaying_fast_RNITRMC1_8_LC_9_10_4 { uu2.w_addr_displaying_fast_RNITRMC1[8] }
+ble_pack uu2.w_addr_displaying_4_rep2_LC_9_10_5 { uu2.w_addr_displaying_4_rep2_RNO, uu2.w_addr_displaying_4_rep2 }
+ble_pack uu2.w_addr_displaying_3_rep1_LC_9_10_6 { uu2.w_addr_displaying_3_rep1_RNO, uu2.w_addr_displaying_3_rep1 }
+ble_pack uu2.w_addr_displaying_fast_8_LC_9_10_7 { uu2.w_addr_displaying_fast_RNO[8], uu2.w_addr_displaying_fast[8] }
+clb_pack LT_9_10 { uu2.w_addr_displaying_0_rep1_RNIUV0B3_LC_9_10_0, uu2.w_addr_displaying_0_rep1_LC_9_10_1, uu2.w_addr_displaying_4_rep2_RNI4S6J_LC_9_10_2, uu2.w_addr_displaying_fast_RNIEDBM_7_LC_9_10_3, uu2.w_addr_displaying_fast_RNITRMC1_8_LC_9_10_4, uu2.w_addr_displaying_4_rep2_LC_9_10_5, uu2.w_addr_displaying_3_rep1_LC_9_10_6, uu2.w_addr_displaying_fast_8_LC_9_10_7 }
+set_location LT_9_10 9 10
+ble_pack Lab_UT.dec3.segmentUQ_2_LC_9_11_0 { Lab_UT.dec3.segmentUQ[2] }
+ble_pack uu2.w_addr_displaying_2_rep1_RNIABAE_LC_9_11_1 { uu2.w_addr_displaying_2_rep1_RNIABAE }
+ble_pack Lab_UT.dec3.segmentUQ_4_LC_9_11_2 { Lab_UT.dec3.segmentUQ[4] }
+ble_pack uu2.w_addr_displaying_2_rep1_LC_9_11_3 { uu2.w_addr_displaying_2_rep1_RNO, uu2.w_addr_displaying_2_rep1 }
+ble_pack uu2.w_addr_displaying_5_rep1_RNI9Q311_0_LC_9_11_4 { uu2.w_addr_displaying_5_rep1_RNI9Q311_0 }
+ble_pack uu2.w_addr_displaying_RNI8U3D2_0_LC_9_11_5 { uu2.w_addr_displaying_RNI8U3D2[0] }
+ble_pack uu2.w_addr_displaying_5_rep1_RNI9Q311_LC_9_11_6 { uu2.w_addr_displaying_5_rep1_RNI9Q311 }
+ble_pack uu2.w_addr_displaying_RNIBSR63_7_LC_9_11_7 { uu2.w_addr_displaying_RNIBSR63[7] }
+clb_pack LT_9_11 { Lab_UT.dec3.segmentUQ_2_LC_9_11_0, uu2.w_addr_displaying_2_rep1_RNIABAE_LC_9_11_1, Lab_UT.dec3.segmentUQ_4_LC_9_11_2, uu2.w_addr_displaying_2_rep1_LC_9_11_3, uu2.w_addr_displaying_5_rep1_RNI9Q311_0_LC_9_11_4, uu2.w_addr_displaying_RNI8U3D2_0_LC_9_11_5, uu2.w_addr_displaying_5_rep1_RNI9Q311_LC_9_11_6, uu2.w_addr_displaying_RNIBSR63_7_LC_9_11_7 }
+set_location LT_9_11 9 11
+ble_pack uu2.w_addr_displaying_0_LC_9_12_0 { uu2.w_addr_displaying_RNO[0], uu2.w_addr_displaying[0] }
+ble_pack uu2.w_addr_displaying_fast_0_LC_9_12_1 { uu2.w_addr_displaying_fast_RNO[0], uu2.w_addr_displaying_fast[0] }
+clb_pack LT_9_12 { uu2.w_addr_displaying_0_LC_9_12_0, uu2.w_addr_displaying_fast_0_LC_9_12_1 }
+set_location LT_9_12 9 12
+ble_pack uu2.mem0.ram512X8_inst_RNO_60_LC_9_13_0 { uu2.mem0.ram512X8_inst_RNO_60 }
+ble_pack Lab_UT.didpuu0.ledDisp00.selLed_RNI3BF11_0_LC_9_13_2 { Lab_UT.didpuu0.ledDisp00.selLed_RNI3BF11[0] }
+ble_pack Lab_UT.didpuu0.ledDisp00.selLed_RNITQOS1_1_LC_9_13_3 { Lab_UT.didpuu0.ledDisp00.selLed_RNITQOS1[1] }
+ble_pack Lab_UT.didpuu0.ledDisp00.selLed_RNINURJ_0_LC_9_13_4 { Lab_UT.didpuu0.ledDisp00.selLed_RNINURJ[0] }
+ble_pack Lab_UT.didpuu0.ledDisp00.selLed_RNI5DF11_0_LC_9_13_5 { Lab_UT.didpuu0.ledDisp00.selLed_RNI5DF11[0] }
+ble_pack Lab_UT.didpuu0.ledDisp00.selLed_RNI1VOS1_1_LC_9_13_6 { Lab_UT.didpuu0.ledDisp00.selLed_RNI1VOS1[1] }
+ble_pack Lab_UT.didpuu0.ledDisp00.selLed_RNIP0SJ_0_LC_9_13_7 { Lab_UT.didpuu0.ledDisp00.selLed_RNIP0SJ[0] }
+clb_pack LT_9_13 { uu2.mem0.ram512X8_inst_RNO_60_LC_9_13_0, Lab_UT.didpuu0.ledDisp00.selLed_RNI3BF11_0_LC_9_13_2, Lab_UT.didpuu0.ledDisp00.selLed_RNITQOS1_1_LC_9_13_3, Lab_UT.didpuu0.ledDisp00.selLed_RNINURJ_0_LC_9_13_4, Lab_UT.didpuu0.ledDisp00.selLed_RNI5DF11_0_LC_9_13_5, Lab_UT.didpuu0.ledDisp00.selLed_RNI1VOS1_1_LC_9_13_6, Lab_UT.didpuu0.ledDisp00.selLed_RNIP0SJ_0_LC_9_13_7 }
+set_location LT_9_13 9 13
+ble_pack uu2.g0_i_0_LC_9_14_7 { uu2.g0_i_0 }
+clb_pack LT_9_14 { uu2.g0_i_0_LC_9_14_7 }
+set_location LT_9_14 9 14
+ble_pack Lab_UT.didpuu0.o_oneSecPluse_LC_11_9_0 { Lab_UT.didpuu0.o_oneSecPluse }
+clb_pack LT_11_9 { Lab_UT.didpuu0.o_oneSecPluse_LC_11_9_0 }
+set_location LT_11_9 11 9
+set_location uu2.mem0.ram512X8_inst 3 9
+set_location latticehx1k_pll_inst.PLLOUTCORE_derived_clock_RNIALC1 6 17
+set_location Lab_UT.secuu0.delay_line_RNILBAI7_0[1] 0 9
+set_location resetGen.rst_RNI4PQ1 0 8
+set_io o_serial_data 8
+set_io led[1] 98
+set_io to_ir 105
+set_io sd 107
+set_io led[4] 95
+set_io led[2] 97
+set_io led[0] 99
+set_io from_pc 9
+set_io led[3] 96
+set_io clk_in 21

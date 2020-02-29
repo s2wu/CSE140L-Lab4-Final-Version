@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/Modeltech_pe_edu_10.4a/examples
 vbaudgen
-Z0 !s110 1582944553
+Z0 !s110 1582945396
 !i10b 1
 !s100 FhhgdY?Y49@cCa=m4chVK3
 I54Lgi9j8NC[KzCSFXkMS?0
@@ -23,7 +23,7 @@ Z7 OP;L;10.4a;61
 r1
 !s85 0
 31
-Z8 !s108 1582944553.000000
+Z8 !s108 1582945396.000000
 Z9 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/buart.v|
 Z10 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/buart.v|
 !s101 -O0
@@ -116,11 +116,11 @@ R11
 vdecodeKeys
 R0
 !i10b 1
-!s100 aTCQaH635Kb7ne15eA6=73
-I;S@]2^n:TM9mmBL^?3b?`2
+!s100 8OnUANKFLC@lz]WloD^X71
+INodnh31f:5ZB@2bzgMW]h3
 R1
 R2
-w1582654150
+w1582945277
 8D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/decodeKeys.v
 FD:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/decodeKeys.v
 L0 46
@@ -179,28 +179,28 @@ R8
 !i113 1
 R11
 vdidp
-Z13 !s110 1582944554
+R0
 !i10b 1
 !s100 `D5]fXYC9>bG8MBhKRKBH3
 IlJXOMoZLDF>hbSH?KYdQ_1
 R1
 R2
-Z14 w1582944550
-Z15 8D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/digclockdp.v
-Z16 FD:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/digclockdp.v
+Z13 w1582944550
+Z14 8D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/digclockdp.v
+Z15 FD:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/digclockdp.v
 L0 2
 R7
 r1
 !s85 0
 31
 R8
-Z17 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/digclockdp.v|
-Z18 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/digclockdp.v|
+Z16 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/digclockdp.v|
+Z17 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/digclockdp.v|
 !s101 -O0
 !i113 1
 R11
 vdispString
-R13
+R0
 !i10b 1
 !s100 gBN69BUVa8N5G;F:CG_Yi0
 IWS`3Nk0gh=1KY`I^NeDhU2
@@ -209,12 +209,12 @@ R2
 R3
 8D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/dispString.v
 FD:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/dispString.v
-Z19 L0 39
+Z18 L0 39
 R7
 r1
 !s85 0
 31
-Z20 !s108 1582944554.000000
+R8
 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/dispString.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/dispString.v|
 !s101 -O0
@@ -222,7 +222,7 @@ Z20 !s108 1582944554.000000
 R11
 ndisp@string
 vHalf_Sec_Pulse_Per_Sec
-R13
+R0
 !i10b 1
 !s100 mMaKMY8B=mzW05zB?7`O^1
 IJ]6l<_lh<`M^zI=WOjm_T0
@@ -236,7 +236,7 @@ R7
 r1
 !s85 0
 31
-R20
+R8
 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/Half_Sec_Pulse_Every_Sec.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/Half_Sec_Pulse_Every_Sec.v|
 !s101 -O0
@@ -244,28 +244,28 @@ R20
 R11
 n@half_@sec_@pulse_@per_@sec
 vinpin
-R13
+R0
 !i10b 1
 !s100 0RDVm3OT6_KR9Skd>7d<h1
 ITIzITXYhD0lA9K;ZX5l<j0
 R1
 R2
 R3
-Z21 8D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/latticehx1k.v
-Z22 FD:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/latticehx1k.v
+Z19 8D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/latticehx1k.v
+Z20 FD:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/latticehx1k.v
 R6
 R7
 r1
 !s85 0
 31
-R20
-Z23 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/latticehx1k.v|
-Z24 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/latticehx1k.v|
+R8
+Z21 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/latticehx1k.v|
+Z22 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/latticehx1k.v|
 !s101 -O0
 !i113 1
 R11
 vLab3_140L
-R13
+R0
 !i10b 1
 !s100 zDokZ9Im;Qc[P3jh03^=N0
 Icm<HGe2^85iI8zSJ^jlLm3
@@ -279,7 +279,7 @@ R7
 r1
 !s85 0
 31
-R20
+R8
 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/Lab3_140L.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/Lab3_140L.v|
 !s101 -O0
@@ -294,86 +294,86 @@ IjRCKOD9BSBKCAVg5DJVU11
 R1
 R2
 R3
-Z25 8D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/vbuf.v
-Z26 FD:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/vbuf.v
+Z23 8D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/vbuf.v
+Z24 FD:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/vbuf.v
 L0 533
 R7
 r1
 !s85 0
 31
 R8
-Z27 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/vbuf.v|
-Z28 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/vbuf.v|
+Z25 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/vbuf.v|
+Z26 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/vbuf.v|
 !s101 -O0
 !i113 1
 R11
 nlattice@dul@port@ram512x8
 vlatticehx1k
-R13
+R0
 !i10b 1
 !s100 iXD3H<T?dHahhlP01fTh`2
 I6ST02`FHRC28QTA4bQ<3e2
 R1
 R2
 R3
-R21
-R22
+R19
+R20
 L0 60
 R7
 r1
 !s85 0
 31
-R20
-R23
-R24
+R8
+R21
+R22
 !s101 -O0
 !i113 1
 R11
 vlatticehx1k_pll
-R13
+R0
 !i10b 1
 !s100 DW8HMg]4QAc_fL9=WRn0k3
 Ina24lb:B]DY`[bDU0m7@L0
 R1
 R2
 R3
-R21
-R22
+R19
+R20
 L0 274
 R7
 r1
 !s85 0
 31
-R20
-R23
-R24
+R8
+R21
+R22
 !s101 -O0
 !i113 1
 R11
 vledDisplay
-R13
+R0
 !i10b 1
 !s100 ^K=94gNDK]:zl[=Cd3jL21
 IcD>^8=fRDbPec0X_kaoz00
 R1
 R2
+R13
 R14
 R15
-R16
 L0 98
 R7
 r1
 !s85 0
 31
 R8
+R16
 R17
-R18
 !s101 -O0
 !i113 1
 R11
 nled@display
 vN_bit_counter
-R13
+R0
 !i10b 1
 !s100 >WhOd=R1PNN[1U2f8i1TR0
 IjB_XzHONZXS>l8LAAfAWz2
@@ -387,7 +387,7 @@ R7
 r1
 !s85 0
 31
-R20
+R8
 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/NBitCounter.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/NBitCounter.v|
 !s101 -O0
@@ -395,7 +395,7 @@ R20
 R11
 n@n_bit_counter
 vregrce
-R13
+Z27 !s110 1582945397
 !i10b 1
 !s100 WEEXG]_zS8BmB?FnemaBS3
 IW>Ob>>`S5nKAIS<f8IDaF1
@@ -404,19 +404,19 @@ R2
 R3
 8D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/regrce.v
 FD:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/regrce.v
-R19
+R18
 R7
 r1
 !s85 0
 31
-R20
+Z28 !s108 1582945397.000000
 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/regrce.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/regrce.v|
 !s101 -O0
 !i113 1
 R11
 vresetGen
-R13
+R27
 !i10b 1
 !s100 0C8OG_KWfGGYUGP[1Whgb1
 I47okYPR4]l1[VLVL8c_Rd1
@@ -430,7 +430,7 @@ R7
 r1
 !s85 0
 31
-R20
+R28
 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/resetGen.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/resetGen.v|
 !s101 -O0
@@ -487,16 +487,16 @@ IUUe<CKz_JUP3U^j@nni>O2
 R1
 R2
 R3
-R25
-R26
+R23
+R24
 L0 66
 R7
 r1
 !s85 0
 31
 R8
-R27
-R28
+R25
+R26
 !s101 -O0
 !i113 1
 R11

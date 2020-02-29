@@ -1,0 +1,33 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":47:19:47:27|Tristate driver di_ASones_1 (in view: work.Lab3_140L(verilog)) on net di_ASones_1 (in view: work.Lab3_140L(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":47:19:47:27|Tristate driver di_ASones_2 (in view: work.Lab3_140L(verilog)) on net di_ASones_2 (in view: work.Lab3_140L(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":47:19:47:27|Tristate driver di_ASones_3 (in view: work.Lab3_140L(verilog)) on net di_ASones_3 (in view: work.Lab3_140L(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":47:19:47:27|Tristate driver di_ASones_4 (in view: work.Lab3_140L(verilog)) on net di_ASones_4 (in view: work.Lab3_140L(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":46:19:46:27|Tristate driver di_AStens_1 (in view: work.Lab3_140L(verilog)) on net di_AStens_1 (in view: work.Lab3_140L(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":46:19:46:27|Tristate driver di_AStens_2 (in view: work.Lab3_140L(verilog)) on net di_AStens_2 (in view: work.Lab3_140L(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":46:19:46:27|Tristate driver di_AStens_3 (in view: work.Lab3_140L(verilog)) on net di_AStens_3 (in view: work.Lab3_140L(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":46:19:46:27|Tristate driver di_AStens_4 (in view: work.Lab3_140L(verilog)) on net di_AStens_4 (in view: work.Lab3_140L(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":45:19:45:27|Tristate driver di_AMones_1 (in view: work.Lab3_140L(verilog)) on net di_AMones_1 (in view: work.Lab3_140L(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\lab3_140l.v":45:19:45:27|Tristate driver di_AMones_2 (in view: work.Lab3_140L(verilog)) on net di_AMones_2 (in view: work.Lab3_140L(verilog)) has its enable tied to GND.
+@N: MT206 |Auto Constrain mode is enabled
+@N: BN362 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\vbuf.v":355:1:355:6|Removing sequential instance vram_wr_tap_4_user[1:0] (in view: work.vbuf_Z1(verilog)) of type view:PrimLib.sdffr(prim) because it does not drive other instances.
+@N: MO231 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\buart.v":185:2:185:7|Found counter in view:work.rxuart(verilog) instance bitcount[4:0] 
+@N: FX271 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\vbuf.v":355:1:355:6|Replicating instance uu2.w_addr_displaying[4] (in view: work.latticehx1k(verilog)) with 37 loads 3 times to improve timing.
+@N: FX271 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\vbuf.v":355:1:355:6|Replicating instance uu2.w_addr_displaying[3] (in view: work.latticehx1k(verilog)) with 36 loads 2 times to improve timing.
+@N: FX271 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\vbuf.v":355:1:355:6|Replicating instance uu2.w_addr_displaying[7] (in view: work.latticehx1k(verilog)) with 27 loads 2 times to improve timing.
+@N: FX271 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\vbuf.v":355:1:355:6|Replicating instance uu2.w_addr_displaying[2] (in view: work.latticehx1k(verilog)) with 25 loads 2 times to improve timing.
+@N: FX271 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\vbuf.v":355:1:355:6|Replicating instance uu2.w_addr_displaying[8] (in view: work.latticehx1k(verilog)) with 25 loads 2 times to improve timing.
+@N: FX271 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\vbuf.v":355:1:355:6|Replicating instance uu2.w_addr_displaying[6] (in view: work.latticehx1k(verilog)) with 18 loads 2 times to improve timing.
+@N: FX271 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\vbuf.v":355:1:355:6|Replicating instance uu2.w_addr_displaying[0] (in view: work.latticehx1k(verilog)) with 24 loads 2 times to improve timing.
+@N: FX271 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\vbuf.v":355:1:355:6|Replicating instance uu2.w_addr_displaying[5] (in view: work.latticehx1k(verilog)) with 16 loads 2 times to improve timing.
+@N: FX1017 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\latticehx1k.v":118:19:118:38|SB_GB inserted on the net clk.
+@N: FX1017 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\resetgen.v":56:3:56:8|SB_GB inserted on the net rst.
+@N: FX1017 :|SB_GB inserted on the net Lab_UT.secuu0.un11_l_count_i.
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\lab3Synthesis\lab3Synthesis_Implmnt\lab3Synthesis.edf
+@N: MT615 |Found clock latticehx1k_pll|PLLOUTCORE_derived_clock with period 18.30ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack

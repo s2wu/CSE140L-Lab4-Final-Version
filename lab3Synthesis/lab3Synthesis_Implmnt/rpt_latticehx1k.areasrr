@@ -1,0 +1,672 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40HX1KTQ144 (Lattice)
+
+---------------------------------------------------------------------------
+########   Utilization report for  Top level view:   latticehx1k   ########
+===========================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     171                100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block latticehx1k:	171 (23.20 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       459                100 %                
+CARRYS     19                 100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block latticehx1k:	478 (64.86 % Utilization)
+
+
+MEMORY ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+RAMS     1                  100 %                
+=================================================
+Total MEMORY ELEMENTS in the block latticehx1k:	1 (0.14 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     13                 100 %                
+=================================================
+Total IO PADS in the block latticehx1k:	13 (1.76 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   Lab3_140L   ########
+Instance path:   latticehx1k.Lab3_140L                         
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     60                 35.1 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block latticehx1k.Lab3_140L:	60 (8.14 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       129                28.1 %               
+CARRYS     3                  15.8 %               
+===================================================
+Total COMBINATIONAL LOGIC in the block latticehx1k.Lab3_140L:	132 (17.91 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     1                  7.69 %               
+=================================================
+Total IO PADS in the block latticehx1k.Lab3_140L:	1 (0.14 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   Half_Sec_Pulse_Per_Sec   ########
+Instance path:   Lab3_140L.Half_Sec_Pulse_Per_Sec                           
+============================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     27                 15.8 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block Lab3_140L.Half_Sec_Pulse_Per_Sec:	27 (3.66 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     45                 9.8 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block Lab3_140L.Half_Sec_Pulse_Per_Sec:	45 (6.11 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     1                  7.69 %               
+=================================================
+Total IO PADS in the block Lab3_140L.Half_Sec_Pulse_Per_Sec:	1 (0.14 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   N_bit_counter_19s   ########
+Instance path:   Half_Sec_Pulse_Per_Sec.N_bit_counter_19s              
+=======================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     19                 4.14 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block Half_Sec_Pulse_Per_Sec.N_bit_counter_19s:	19 (2.58 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   N_bit_counter_4s_1_3   ########
+Instance path:   Half_Sec_Pulse_Per_Sec.N_bit_counter_4s_1_3              
+==========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     3                  0.6540 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block Half_Sec_Pulse_Per_Sec.N_bit_counter_4s_1_3:	3 (0.41 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   bcd2segment   ########
+Instance path:   Lab3_140L.bcd2segment                           
+=================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     2                  0.4360 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block Lab3_140L.bcd2segment:	2 (0.27 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   bcd2segment_0   ########
+Instance path:   Lab3_140L.bcd2segment_0                           
+===================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     4                  0.8710 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block Lab3_140L.bcd2segment_0:	4 (0.54 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   bcd2segment_1   ########
+Instance path:   Lab3_140L.bcd2segment_1                           
+===================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     2                  0.4360 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block Lab3_140L.bcd2segment_1:	2 (0.27 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   bcd2segment_2   ########
+Instance path:   Lab3_140L.bcd2segment_2                           
+===================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     8                  1.74 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block Lab3_140L.bcd2segment_2:	8 (1.09 % Utilization)
+
+------------------------------------------------------------
+########   Utilization report for  cell:   dictrl   ########
+Instance path:   Lab3_140L.dictrl                           
+============================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  0.5850 %             
+==================================================
+Total SEQUENTIAL ELEMENTS in the block Lab3_140L.dictrl:	1 (0.14 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     8                  1.74 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block Lab3_140L.dictrl:	8 (1.09 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   decodeKeys   ########
+Instance path:   dictrl.decodeKeys                              
+================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     3                  0.6540 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block dictrl.decodeKeys:	3 (0.41 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   dicClockFsm   ########
+Instance path:   dictrl.dicClockFsm                              
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  0.5850 %             
+==================================================
+Total SEQUENTIAL ELEMENTS in the block dictrl.dicClockFsm:	1 (0.14 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     5                  1.09 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block dictrl.dicClockFsm:	5 (0.68 % Utilization)
+
+----------------------------------------------------------
+########   Utilization report for  cell:   didp   ########
+Instance path:   Lab3_140L.didp                           
+==========================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     18                 10.5 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block Lab3_140L.didp:	18 (2.44 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     45                 9.8 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block Lab3_140L.didp:	45 (6.11 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   countrce   ########
+Instance path:   didp.countrce                                
+==============================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     4                  2.34 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block didp.countrce:	4 (0.54 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     7                  1.53 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block didp.countrce:	7 (0.95 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   countrce_0   ########
+Instance path:   didp.countrce_0                                
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     4                  2.34 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block didp.countrce_0:	4 (0.54 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     8                  1.74 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block didp.countrce_0:	8 (1.09 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   N_bit_counter_4s_1_3_1   ########
+Instance path:   countrce_0.N_bit_counter_4s_1_3_1                          
+============================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     1                  0.2180 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block countrce_0.N_bit_counter_4s_1_3_1:	1 (0.14 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   countrce_1   ########
+Instance path:   didp.countrce_1                                
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     4                  2.34 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block didp.countrce_1:	4 (0.54 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     6                  1.31 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block didp.countrce_1:	6 (0.81 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   countrce_2   ########
+Instance path:   didp.countrce_2                                
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     4                  2.34 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block didp.countrce_2:	4 (0.54 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     8                  1.74 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block didp.countrce_2:	8 (1.09 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   ledDisplay   ########
+Instance path:   didp.ledDisplay                                
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     2                  1.17 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block didp.ledDisplay:	2 (0.27 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     14                 3.05 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block didp.ledDisplay:	14 (1.90 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   dispString   ########
+Instance path:   Lab3_140L.dispString                           
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     5                  2.92 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block Lab3_140L.dispString:	5 (0.68 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       14                 3.05 %               
+CARRYS     3                  15.8 %               
+===================================================
+Total COMBINATIONAL LOGIC in the block Lab3_140L.dispString:	17 (2.31 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   regrce_1s   ########
+Instance path:   Lab3_140L.regrce_1s                           
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     1                  0.5850 %             
+==================================================
+Total SEQUENTIAL ELEMENTS in the block Lab3_140L.regrce_1s:	1 (0.14 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   regrce_8s   ########
+Instance path:   Lab3_140L.regrce_8s                           
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     8                  4.68 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block Lab3_140L.regrce_8s:	8 (1.09 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     1                  0.2180 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block Lab3_140L.regrce_8s:	1 (0.14 % Utilization)
+
+-----------------------------------------------------------
+########   Utilization report for  cell:   buart   ########
+Instance path:   latticehx1k.buart                         
+===========================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     42                 24.6 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block latticehx1k.buart:	42 (5.70 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       49                 10.7 %               
+CARRYS     16                 84.2 %               
+===================================================
+Total COMBINATIONAL LOGIC in the block latticehx1k.buart:	65 (8.82 % Utilization)
+
+------------------------------------------------------------
+########   Utilization report for  cell:   rxuart   ########
+Instance path:   buart.rxuart                               
+============================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     21                 12.3 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block buart.rxuart:	21 (2.85 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       20                 4.36 %               
+CARRYS     8                  42.1 %               
+===================================================
+Total COMBINATIONAL LOGIC in the block buart.rxuart:	28 (3.80 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   baudgen2   ########
+Instance path:   rxuart.baudgen2                              
+==============================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     6                  3.51 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block rxuart.baudgen2:	6 (0.81 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       8                  1.74 %               
+CARRYS     4                  21.1 %               
+===================================================
+Total COMBINATIONAL LOGIC in the block rxuart.baudgen2:	12 (1.63 % Utilization)
+
+----------------------------------------------------------
+########   Utilization report for  cell:   uart   ########
+Instance path:   buart.uart                               
+==========================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     21                 12.3 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block buart.uart:	21 (2.85 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       29                 6.32 %               
+CARRYS     8                  42.1 %               
+===================================================
+Total COMBINATIONAL LOGIC in the block buart.uart:	37 (5.02 % Utilization)
+
+-------------------------------------------------------------
+########   Utilization report for  cell:   baudgen   ########
+Instance path:   uart.baudgen                                
+=============================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     7                  4.09 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block uart.baudgen:	7 (0.95 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       9                  1.96 %               
+CARRYS     5                  26.3 %               
+===================================================
+Total COMBINATIONAL LOGIC in the block uart.baudgen:	14 (1.90 % Utilization)
+
+-----------------------------------------------------------
+########   Utilization report for  cell:   inpin   ########
+Instance path:   latticehx1k.inpin                         
+===========================================================
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     1                  7.69 %               
+=================================================
+Total IO PADS in the block latticehx1k.inpin:	1 (0.14 % Utilization)
+
+---------------------------------------------------------------------
+########   Utilization report for  cell:   latticehx1k_pll   ########
+Instance path:   latticehx1k.latticehx1k_pll                         
+=====================================================================
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     1                  7.69 %               
+=================================================
+Total IO PADS in the block latticehx1k.latticehx1k_pll:	1 (0.14 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   resetGen   ########
+Instance path:   latticehx1k.resetGen                         
+==============================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     6                  3.51 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block latticehx1k.resetGen:	6 (0.81 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     13                 2.83 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block latticehx1k.resetGen:	13 (1.76 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     1                  7.69 %               
+=================================================
+Total IO PADS in the block latticehx1k.resetGen:	1 (0.14 % Utilization)
+
+-------------------------------------------------------------
+########   Utilization report for  cell:   vbuf_Z1   ########
+Instance path:   latticehx1k.vbuf_Z1                         
+=============================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     63                 36.8 %               
+==================================================
+Total SEQUENTIAL ELEMENTS in the block latticehx1k.vbuf_Z1:	63 (8.55 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     268                58.4 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block latticehx1k.vbuf_Z1:	268 (36.36 % Utilization)
+
+
+MEMORY ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+RAMS     1                  100 %                
+=================================================
+Total MEMORY ELEMENTS in the block latticehx1k.vbuf_Z1:	1 (0.14 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   N_bit_counter_11s   ########
+Instance path:   vbuf_Z1.N_bit_counter_11s                             
+=======================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     9                  1.96 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block vbuf_Z1.N_bit_counter_11s:	9 (1.22 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   N_bit_counter_9s_2   ########
+Instance path:   vbuf_Z1.N_bit_counter_9s_2                             
+========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     7                  1.53 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block vbuf_Z1.N_bit_counter_9s_2:	7 (0.95 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   N_bit_counter_9s_2_0   ########
+Instance path:   vbuf_Z1.N_bit_counter_9s_2_0                             
+==========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     6                  1.31 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block vbuf_Z1.N_bit_counter_9s_2_0:	6 (0.81 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   N_bit_counter_9s_2_1   ########
+Instance path:   vbuf_Z1.N_bit_counter_9s_2_1                             
+==========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     1                  0.2180 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block vbuf_Z1.N_bit_counter_9s_2_1:	1 (0.14 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   latticeDulPortRam512x8   ########
+Instance path:   vbuf_Z1.latticeDulPortRam512x8                             
+============================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     62                 13.5 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block vbuf_Z1.latticeDulPortRam512x8:	62 (8.41 % Utilization)
+
+
+MEMORY ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+RAMS     1                  100 %                
+=================================================
+Total MEMORY ELEMENTS in the block vbuf_Z1.latticeDulPortRam512x8:	1 (0.14 % Utilization)
+
+#### START OF Block RAM DETAILED REPORT ####
+
+Total Block RAMs: 1
+
+uu2.mem0.ram512X8_inst
+----------------------------
+----------------------------
+
+#### END OF  Block RAM DETAILED REPORT ####
+
+
+##### END OF AREA REPORT #####]
+

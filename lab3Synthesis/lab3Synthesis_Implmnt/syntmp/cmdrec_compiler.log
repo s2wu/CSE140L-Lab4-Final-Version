@@ -1,0 +1,22 @@
+C:\lscc\iCEcube2.2017.08\synpbase\bin64\c_hdl.exe  -osyn  "D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\lab3Synthesis\lab3Synthesis_Implmnt\synwork\lab3Synthesis_comp.srs"  -hdllog  "D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\lab3Synthesis\lab3Synthesis_Implmnt\synlog\lab3Synthesis_compiler.srr"  -encrypt  -mp  4  -verification_mode 0  -verilog  -prodtype  synplify_pro  -primux -fixsmult -infer_seqShift -ice -sdff_counter -nram -divnmod -nostructver   -I "D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\lab3Synthesis\"  -I C:\lscc\iCEcube2.2017.08\synpbase\lib   -v2001  -devicelib  C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v  -encrypt  -pro  -dmgen  "D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\lab3Synthesis\lab3Synthesis_Implmnt\dm"  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -lib work "D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\Half_Sec_Pulse_Every_Sec.v" -lib work "D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\NBitCounter.v" -lib work "D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\Lab3_140L.v" -lib work "D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\bcd2segment.v" -lib work "D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\digclockctrl.v" -lib work "D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\dictrFSM.v" -lib work "D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\decodeKeys.v" -lib work "D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\countrce.v" -lib work "D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\buart.v" -lib work "D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\resetGen.v" -lib work "D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\latticehx1k.v" -lib work "D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\regrce.v" -lib work "D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\dispString.v" -lib work "D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\digclockdp.v" -lib work "D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\vbuf.v" 
+rc:0 success:1 runtime:2
+file:D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\lab3Synthesis\lab3Synthesis_Implmnt\synwork\lab3Synthesis_comp.srs|io:o|time:1582945610|size:51851|exec:0
+file:D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\lab3Synthesis\lab3Synthesis_Implmnt\synlog\lab3Synthesis_compiler.srr|io:o|time:1582945610|size:15055|exec:0
+file:C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v|io:i|time:1580919622|size:224837|exec:0
+file:D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\Half_Sec_Pulse_Every_Sec.v|io:i|time:1582642738|size:3982|exec:0
+file:D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\NBitCounter.v|io:i|time:1582642738|size:1515|exec:0
+file:D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\Lab3_140L.v|io:i|time:1582642738|size:5672|exec:0
+file:D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\bcd2segment.v|io:i|time:1582939403|size:4679|exec:0
+file:D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\digclockctrl.v|io:i|time:1582642738|size:2332|exec:0
+file:D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\dictrFSM.v|io:i|time:1582937351|size:3133|exec:0
+file:D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\decodeKeys.v|io:i|time:1582945277|size:3892|exec:0
+file:D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\countrce.v|io:i|time:1582934321|size:2268|exec:0
+file:D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\buart.v|io:i|time:1582642738|size:6512|exec:0
+file:D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\resetGen.v|io:i|time:1582642738|size:2114|exec:0
+file:D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\latticehx1k.v|io:i|time:1582642738|size:8266|exec:0
+file:D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\regrce.v|io:i|time:1582642738|size:1733|exec:0
+file:D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\dispString.v|io:i|time:1582642738|size:2280|exec:0
+file:D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\digclockdp.v|io:i|time:1582944550|size:5375|exec:0
+file:D:\Desktop\CSE 140L\CSE140L_3\lab3-s2wu\vbuf.v|io:i|time:1582642738|size:23408|exec:0
+file:C:\lscc\iCEcube2.2017.08\synpbase\bin\c_hdl.exe|io:i|time:1580919618|size:1338368|exec:1
+file:C:\lscc\iCEcube2.2017.08\synpbase\bin64\c_hdl.exe|io:i|time:1580919620|size:1754112|exec:1

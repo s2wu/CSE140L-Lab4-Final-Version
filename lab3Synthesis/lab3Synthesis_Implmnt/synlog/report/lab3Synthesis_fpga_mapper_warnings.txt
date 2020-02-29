@@ -1,0 +1,3 @@
+@W: FX1039 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\buart.v":185:2:185:7|User-specified initial value defined for instance buart._rx.hh[1:0] is being ignored. 
+@W: FX1039 :"d:\desktop\cse 140l\cse140l_3\lab3-s2wu\digclockdp.v":122:4:122:9|User-specified initial value defined for instance Lab_UT.didpuu0.ledDisp00.selLed[1:0] is being ignored. 
+@W: MT420 |Found inferred clock latticehx1k|clk_in with period 18.30ns. Please declare a user-defined clock on object "p:clk_in"
