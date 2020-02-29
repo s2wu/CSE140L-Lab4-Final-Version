@@ -121,7 +121,7 @@ module ledDisplay (
 
     always @(posedge clk) begin
         if (dicSelectLEDdisp)
-		selLed = nextLed;
+		selLed <= nextLed;
     end // always @ (posedge clk_in)
 
     assign L3_led = 

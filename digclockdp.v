@@ -110,7 +110,7 @@ module ledDisplay (
 	//dp.6 add code to select output to LED	
     //     10% of points assigned to lab3
     reg [1:0] selLed = {1'b0, 1'b0};
-    reg [1:0] nextLed;
+    wire [1:0] nextLed;
 
     defparam uu0.N = 2;
     N_bit_counter uu0(
