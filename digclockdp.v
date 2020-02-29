@@ -47,8 +47,8 @@ module didp (
     //   these 4 wires generate a strobe to advance counter: 10% of points assigned to Lab3
     wire countEnSones = clkSecStrb; // enable the counter Sones
     wire countEnStens = clkSecStrb & rollSones;
-    wire countEnMones = clkSecStrb & rollStens;
-    wire countEnMtens = clkSecStrb & rollMones;
+    wire countEnMones = clkSecStrb & rollStens & rollSones;
+    wire countEnMtens = clkSecStrb & rollMones & rollStens & rollSones;
  
     //(dp.4) add code to set sTensDin, mOnesDin, mTensDin
     //   0% of points assigned to Lab3, used in Lab4
