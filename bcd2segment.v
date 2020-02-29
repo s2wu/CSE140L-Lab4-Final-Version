@@ -62,7 +62,7 @@ module bcd2segment (
    // a
    assign segmentUQ[0] =  ( 
 			// 1, 4 doesn't use
-			!(!num[3] & !num[2] & !num[1] & num[0]) | 
+			!(!num[3] & !num[2] & !num[1] & num[0])&
 			!(!num[3] & num[2] & !num[1] & !num[0]));
 
 //		       (num == 4'd0) | (num == 4'd2) | (num == 4'd3) | (num == 4'd5) | (num == 4'd6) 
@@ -71,7 +71,7 @@ module bcd2segment (
    // b
    assign segmentUQ[1] = (
 			// 5, 6 doesn't use
-			!(!num[3] & num[2] & !num[1] & num[0]) | 
+			!(!num[3] & num[2] & !num[1] & num[0])&
 			!(!num[3] & num[2] & num[1] & !num[0]));
 	
 //		       (num == 4'd0) | (num == 4'd1) | (num == 4'd2) | (num == 4'd3) | (num == 4'd4) | (num == 4'd7) |
@@ -84,27 +84,27 @@ module bcd2segment (
    // d
    assign segmentUQ[3] = (
 			// 1, 4, 7, 9 doesn't use
-			!(!num[3] & !num[2] & !num[1] & num[0]) | 
-			!(!num[3] & num[2] & !num[1] & !num[0])| 
-			!(!num[3] & num[2] & num[1] & num[0])| 
+			!(!num[3] & !num[2] & !num[1] & num[0])& 
+			!(!num[3] & num[2] & !num[1] & !num[0])& 
+			!(!num[3] & num[2] & num[1] & num[0])&
 			!(num[3] & !num[2] & !num[1] & num[0]));
    
    // e
    assign segmentUQ[4] = (
 			// 1, 3, 4, 5, 7, 9 doesn't use
-			!(!num[3] & !num[2] & !num[1] & num[0]) | 
-			!(!num[3] & !num[2] & num[1] & num[0])| 
-			!(!num[3] & num[2] & !num[1] & !num[0])| 
-			!(!num[3] & num[2] & !num[1] & num[0])| 
-			!(!num[3] & num[2] & num[1] & num[0])| 
+			!(!num[3] & !num[2] & !num[1] & num[0])& 
+			!(!num[3] & !num[2] & num[1] & num[0])& 
+			!(!num[3] & num[2] & !num[1] & !num[0])& 
+			!(!num[3] & num[2] & !num[1] & num[0])& 
+			!(!num[3] & num[2] & num[1] & num[0])&
 			!(num[3] & !num[2] & !num[1] & num[0]));
    
    // f
    assign segmentUQ[5] = (
 			// 1, 2, 3, 7 doesn't use
-			!(!num[3] & !num[2] & !num[1] & num[0])| 
-			!(!num[3] & !num[2] & num[1] & !num[0])| 
-			!(!num[3] & !num[2] & num[1] & num[0])| 
+			!(!num[3] & !num[2] & !num[1] & num[0])&
+			!(!num[3] & !num[2] & num[1] & !num[0])&
+			!(!num[3] & !num[2] & num[1] & num[0])& 
 			!(!num[3] & num[2] & num[1] & num[0]));
    // g
    assign segmentUQ[6] = (
