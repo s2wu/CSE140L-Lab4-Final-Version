@@ -5,13 +5,6 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	dispString
 
-} {} {}} {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/decodeKeys.v} {1 {vlog -work work -stats=none {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/decodeKeys.v}
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module decodeKeys
-
-Top level modules:
-	decodeKeys
-
 } {} {}} {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/regrce.v} {1 {vlog -work work -stats=none {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/regrce.v}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module regrce
@@ -97,6 +90,14 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 
 Top level modules:
 	Lab3_140L
+
+} {} {}} {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/digclockdp.v} {1 {vlog -work work -stats=none {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/digclockdp.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module didp
+-- Compiling module ledDisplay
+
+Top level modules:
+	didp
 
 } {} {}} {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/NBitCounter.v} {1 {vlog -work work -stats=none {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/NBitCounter.v}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015

@@ -94,10 +94,10 @@ module decodeKeys(
 		charData[3] & charData[2] & charData[1] & !charData[0])) & charDataValid;
 
    // "S/s" = 53/73
-   assign det_S = ((!charData[7] & !charData[6] & charData[5] & charData[4] & 
-		!charData[3] & charData[2] & !charData[1] & charData[0]) | 
-		(!charData[7] & charData[6] & !charData[5] & !charData[4] & 
-		charData[3] & !charData[2] & !charData[1] & charData[0])) & charDataValid;
+   assign det_S = ((!charData[7] & charData[6] & !charData[5] & charData[4] & 
+		!charData[3] & !charData[2] & charData[1] & charData[0]) | 
+		(!charData[7] & charData[6] & charData[5] & charData[4] & 
+		!charData[3] & !charData[2] & charData[1] & charData[0])) & charDataValid;
 
    // "@" = 40
    assign det_atSign = (!charData[7] & !charData[6] & charData[5] & !charData[4] & 
