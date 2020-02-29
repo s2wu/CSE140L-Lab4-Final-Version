@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/Modeltech_pe_edu_10.4a/examples
 vbaudgen
-Z0 !s110 1582936211
+Z0 !s110 1582937354
 !i10b 1
 !s100 FhhgdY?Y49@cCa=m4chVK3
 I54Lgi9j8NC[KzCSFXkMS?0
@@ -23,7 +23,7 @@ Z7 OP;L;10.4a;61
 r1
 !s85 0
 31
-Z8 !s108 1582936211.000000
+Z8 !s108 1582937354.000000
 Z9 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/buart.v|
 Z10 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/buart.v|
 !s101 -O0
@@ -93,7 +93,7 @@ R10
 !i113 1
 R11
 vcountrce
-Z12 !s110 1582936212
+R0
 !i10b 1
 !s100 l?>f6fP7:AlD@UjWB`UEV1
 IKcGo7RCYCP4^zl>g1ccba3
@@ -114,7 +114,7 @@ R8
 !i113 1
 R11
 vdecodeKeys
-R12
+R0
 !i10b 1
 !s100 aTCQaH635Kb7ne15eA6=73
 I;S@]2^n:TM9mmBL^?3b?`2
@@ -128,7 +128,7 @@ R7
 r1
 !s85 0
 31
-Z13 !s108 1582936212.000000
+R8
 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/decodeKeys.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/decodeKeys.v|
 !s101 -O0
@@ -136,13 +136,13 @@ Z13 !s108 1582936212.000000
 R11
 ndecode@keys
 vdicClockFsm
-R12
+R0
 !i10b 1
-!s100 SEIlEAUlc5T9`cc[ZKD912
-ILBVgKeN_4R0mJI0KYPDS=1
+!s100 7H>JR@Zz;dWHIbTLoOH6S1
+IB`V4i`W>^cLhJ>hgZkbnn1
 R1
 R2
-w1582936209
+w1582937351
 8D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/dictrFSM.v
 FD:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/dictrFSM.v
 L0 31
@@ -150,7 +150,7 @@ R7
 r1
 !s85 0
 31
-R13
+R8
 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/dictrFSM.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/dictrFSM.v|
 !s101 -O0
@@ -158,7 +158,7 @@ R13
 R11
 ndic@clock@fsm
 vdictrl
-R12
+Z12 !s110 1582937355
 !i10b 1
 !s100 Dm5@:B1izhP0j^N5]m>Nn3
 Ib@zCIgbag0L_B@f9H5VNE1
@@ -167,12 +167,12 @@ R2
 R3
 8D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/digclockctrl.v
 FD:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/digclockctrl.v
-Z14 L0 29
+Z13 L0 29
 R7
 r1
 !s85 0
 31
-R13
+Z14 !s108 1582937355.000000
 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/digclockctrl.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/digclockctrl.v|
 !s101 -O0
@@ -193,7 +193,7 @@ R7
 r1
 !s85 0
 31
-R13
+R14
 Z17 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/digclockdp.v|
 Z18 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/digclockdp.v|
 !s101 -O0
@@ -214,7 +214,7 @@ R7
 r1
 !s85 0
 31
-R13
+R14
 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/dispString.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/dispString.v|
 !s101 -O0
@@ -236,7 +236,7 @@ R7
 r1
 !s85 0
 31
-R13
+R14
 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/Half_Sec_Pulse_Every_Sec.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/Half_Sec_Pulse_Every_Sec.v|
 !s101 -O0
@@ -258,7 +258,7 @@ R7
 r1
 !s85 0
 31
-R13
+R14
 Z22 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/latticehx1k.v|
 Z23 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/latticehx1k.v|
 !s101 -O0
@@ -279,7 +279,7 @@ R7
 r1
 !s85 0
 31
-R13
+R14
 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/Lab3_140L.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/Lab3_140L.v|
 !s101 -O0
@@ -323,7 +323,7 @@ R7
 r1
 !s85 0
 31
-R13
+R14
 R22
 R23
 !s101 -O0
@@ -344,7 +344,7 @@ R7
 r1
 !s85 0
 31
-R13
+R14
 R22
 R23
 !s101 -O0
@@ -365,7 +365,7 @@ R7
 r1
 !s85 0
 31
-R13
+R14
 R17
 R18
 !s101 -O0
@@ -382,12 +382,12 @@ R2
 R3
 8D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/NBitCounter.v
 FD:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/NBitCounter.v
-R14
+R13
 R7
 r1
 !s85 0
 31
-R13
+R14
 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/NBitCounter.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/NBitCounter.v|
 !s101 -O0
@@ -409,7 +409,7 @@ R7
 r1
 !s85 0
 31
-R13
+R14
 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/regrce.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/regrce.v|
 !s101 -O0
@@ -430,7 +430,7 @@ R7
 r1
 !s85 0
 31
-R13
+R14
 !s107 D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/resetGen.v|
 !s90 -reportprogress|300|-work|work|-stats=none|D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/resetGen.v|
 !s101 -O0

@@ -63,8 +63,9 @@ module dicClockFsm (
 	        nState = STOP;
         else
         case (cState)
-	    default :
-	        nState = RUN;
+	    STOP: 
+		if (det_cr)
+		    nState = STOP;
 	    det_S :
 		nState = RUN;
 	    det_cr :
@@ -99,14 +100,6 @@ module dicClockFsm (
         	    dicDspStens = 1;
 	            dicDspSones = 1;
 		end
-		default : begin
-	            dicRun = 0;
-		    dicDspMtens = 1;
-        	    dicDspMones = 1;
-        	    dicDspStens = 1;
-	            dicDspSones = 1;
-		
-	        end
         endcase
    end
 
