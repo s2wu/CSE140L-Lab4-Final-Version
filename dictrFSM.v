@@ -90,9 +90,9 @@ module dicClockFsm (
 	        end
 	        RUN : begin
 	            dicRun = 1;
-		    dicDspMtens = 0;
-        	    dicDspMones = 0;
-        	    dicDspStens = 0;
+		    dicDspMtens = 1;
+        	    dicDspMones = 1;
+        	    dicDspStens = 1;
 	            dicDspSones = 1;
 	        end
         endcase
