@@ -34,6 +34,13 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	vbuf
 
+} {} {}} {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/dictrFSM.v} {1 {vlog -work work -stats=none {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/dictrFSM.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module dicClockFsm
+
+Top level modules:
+	dicClockFsm
+
 } {} {}} {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/resetGen.v} {1 {vlog -work work -stats=none {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/resetGen.v}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module resetGen
@@ -47,13 +54,6 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 
 Top level modules:
 	dictrl
-
-} {} {}} {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/bcd2segment.v} {1 {vlog -work work -stats=none {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/bcd2segment.v}
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module bcd2segment
-
-Top level modules:
-	bcd2segment
 
 } {} {}} {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/buart.v} {1 {vlog -work work -stats=none {D:/Desktop/CSE 140L/CSE140L_3/lab3-s2wu/buart.v}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
