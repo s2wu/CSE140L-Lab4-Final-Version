@@ -28,9 +28,9 @@ module didp (
     //(dp.1) change this line and add code to set 3 more wires: StensIs5, MonesIs9, MtensIs5
     //   these 4 wires determine if digit reaches 5 or 9.  10% of points assigned to Lab3
     wire SonesIs9 = (di_iSones[3] & !di_iSones[2] & !di_iSones[1] & di_iSones[0]);
-    wire StensIs5 = (!di_iSones[3] & di_iSones[2] & !di_iSones[1] & di_iSones[0]);
-    wire MonesIs9 = (di_iSones[3] & !di_iSones[2] & !di_iSones[1] & di_iSones[0]);
-    wire MtensIs5 = (!di_iSones[3] & di_iSones[2] & !di_iSones[1] & di_iSones[0]);
+    wire StensIs5 = (!di_iStens[3] & di_iStens[2] & !di_iStens[1] & di_iStens[0]);
+    wire MonesIs9 = (di_iMones[3] & !di_iMones[2] & !di_iMones[1] & di_iMones[0]);
+    wire MtensIs5 = (!di_iMtens[3] & di_iMtens[2] & !di_iMtens[1] & di_iMtens[0]);
 //    wire SonesIs9 = (di_iSones == 4'd9);
 //    wire StensIs5 = (di_iStens == 4'd5);
 //    wire MonesIs9 = (di_iMones == 4'd9);
