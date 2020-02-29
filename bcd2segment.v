@@ -61,9 +61,11 @@ module bcd2segment (
    
    // a
    assign segmentUQ[0] =  ( 
-			// 1, 4 doesn't use
+			// 1, 4, b, d doesn't use
 			!(!num[3] & !num[2] & !num[1] & num[0])&
-			!(!num[3] & num[2] & !num[1] & !num[0]));
+			!(!num[3] & num[2] & !num[1] & !num[0])&
+			!(num[3] & !num[2] & num[1] & num[0])&
+			!(num[3] & num[2] & !num[1] & num[0]));
 
 //		       (num == 4'd0) | (num == 4'd2) | (num == 4'd3) | (num == 4'd5) | (num == 4'd6) 
 //			   | (num == 4'd7) | (num == 4'd8) | (num == 4'd9) | (num == 4'd10) |
