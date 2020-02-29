@@ -72,24 +72,33 @@ module bcd2segment (
 //		       (num == 4'd12) | (num == 4'd14) | (num == 4'd15));
    // b
    assign segmentUQ[1] = (
-			// 5, 6 doesn't use
+			// 5, 6, b, c, E, F doesn't use
 			!(!num[3] & num[2] & !num[1] & num[0])&
-			!(!num[3] & num[2] & num[1] & !num[0]));
+			!(!num[3] & num[2] & num[1] & !num[0])&
+			!(num[3] & !num[2] & num[1] & num[0])&
+			!(num[3] & num[2] & !num[1] & !num[0])&
+			!(num[3] & num[2] & num[1] & !num[0])&
+			!(num[3] & num[2] & num[1] & num[0]));
 	
 //		       (num == 4'd0) | (num == 4'd1) | (num == 4'd2) | (num == 4'd3) | (num == 4'd4) | (num == 4'd7) |
 //		       (num == 4'd8) | (num == 4'd9) | (num == 4'd10) | (num == 4'd13));
    // c
    assign segmentUQ[2] = (
-			// 2 doesn't use
-			!(!num[3] & !num[2] & num[1] & !num[0]));
+			// 2, c, E, F doesn't use
+			!(!num[3] & !num[2] & num[1] & !num[0])&
+			!(num[3] & num[2] & !num[1] & !num[0])&
+			!(num[3] & num[2] & num[1] & !num[0])&
+			!(num[3] & num[2] & num[1] & num[0]));
    
    // d
    assign segmentUQ[3] = (
-			// 1, 4, 7, 9 doesn't use
+			// 1, 4, 7, 9, A, F doesn't use
 			!(!num[3] & !num[2] & !num[1] & num[0])& 
 			!(!num[3] & num[2] & !num[1] & !num[0])& 
 			!(!num[3] & num[2] & num[1] & num[0])&
-			!(num[3] & !num[2] & !num[1] & num[0]));
+			!(num[3] & !num[2] & !num[1] & num[0])&
+			!(num[3] & !num[2] & num[1] & !num[0])&
+			!(num[3] & num[2] & num[1] & num[0]));
    
    // e
    assign segmentUQ[4] = (
@@ -103,17 +112,19 @@ module bcd2segment (
    
    // f
    assign segmentUQ[5] = (
-			// 1, 2, 3, 7 doesn't use
+			// 1, 2, 3, 7, d doesn't use
 			!(!num[3] & !num[2] & !num[1] & num[0])&
 			!(!num[3] & !num[2] & num[1] & !num[0])&
 			!(!num[3] & !num[2] & num[1] & num[0])& 
-			!(!num[3] & num[2] & num[1] & num[0]));
+			!(!num[3] & num[2] & num[1] & num[0])&
+			!(num[3] & num[2] & !num[1] & num[0]));
    // g
    assign segmentUQ[6] = (
-			// 0, 1, 7 doesn't use
+			// 0, 1, 7, C doesn't use
 			!(!num[3] & !num[2] & !num[1] & !num[0])& 
 			!(!num[3] & !num[2] & !num[1] & num[0])&
-			!(!num[3] & num[2] & num[1] & num[0]));
+			!(!num[3] & num[2] & num[1] & num[0])&
+			!(num[3] & num[2] & !num[1] & !num[0]));
 
    assign segment = {7{enable}} & segmentUQ;
    
