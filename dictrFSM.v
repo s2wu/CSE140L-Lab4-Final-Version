@@ -64,10 +64,8 @@ module dicClockFsm (
 		input      clk
     );
 
-    reg  cState;
-    reg  nState;
-    reg[3:0]  cLoad;
-    reg[3:0]  nLoad;
+    reg  [3:0]cState;
+    reg  [3:0]nState;
     reg cAlarm;
     reg nAlarm;
 
@@ -78,39 +76,37 @@ module dicClockFsm (
     //  STOP: dicRun = 0; dicDspMtens = 1; dicDspMones = 1; dicDspStens = 1; dicDspSones= 1;
     
     localparam
-    STOP    =1'd0, 
-    RUN     =1'd1,
-    L1 = 4'd0,
-    L2 = 4'd1,
-    L3 = 4'd2,
-    L4 = 4'd3,
-    L5 = 4'd4,
-    A1 = 4'd5,
-    A2 = 4'd6,
-    A3 = 4'd7,
-    A4 = 4'd8,
-    A5 = 4'd9,
-    A6 = 4'd10,
-    DeactivateClock = 4'd11,
+    STOP    =4'd0, 
+    RUN     =4'd1,
+    L1 = 4'd2,
+    L2 = 4'd3,
+    L3 = 4'd4,
+    L4 = 4'd5,
+    L5 = 4'd6,
+    A1 = 4'd7,
+    A2 = 4'd8,
+    A3 = 4'd9,
+    A4 = 4'd10,
+    A5 = 4'd11,
+
     DeactivateAlarm = 1'd0,
     ActivateAlarm = 1'd1;
    
    
     always @(*) begin
-        if (rst) begin
+        if (rst)
 	        nState = STOP;
-            nLoad = DeactivateClock;
-            nAlarm = DeactivateAlarm;
-        end
-
+		nAlarm = DeactivateAlarm;
         else begin
         case (cState)
             RUN : 
 	    begin
-            	if(det_S) 
-		    nState = RUN;
-            	else if(det_cr)
+            	if(det_cr)
 		    nState = STOP;
+		else if (det_A)
+		    nState = A1;
+		else if (det_L)
+		    nState = L1;
             	else 
 		    nState = RUN; 
             end
@@ -119,114 +115,103 @@ module dicClockFsm (
 	    begin
             	if(det_S) 
 		    nState = RUN;
-            	else if(det_cr)
-		    nState = STOP;
+		else if (det_A)
+		    nState = A1;
+		else if (det_L)
+		    nState = L1;
             	else 
 		    nState = STOP;
             end
-
-            default: 
-	    begin
-            	nState = RUN;
-            end
-        endcase
-
-        case(cLoad)
-            DeactivateClock: 
-	    begin
-            	if(det_A) 
-		    nLoad = A1;
-            	else if(det_L) 
-		    nLoad = L1;
-            	else 
-		    nLoad = DeactivateClock;
-            end
-
-            L1: 
+	    L1: 
 	    begin
             	if(det_num0to5)
-            	    nLoad = L2;
+            	    nState = L2;
             	else 
-		    nLoad = L1;
+		    nState = L1;
             end
 
             L2: 
 	    begin
             	if(det_num)
-            	    nLoad = L3;
+            	    nState = L3;
             	else 
-		    nLoad = L2;
+		    nState = L2;
             end
 
             L3: 
 	    begin
             	if(det_num0to5)
-            	    nLoad = L4;
+            	    nState = L4;
             	else 
-		    nLoad = L3;
+		    nState = L3;
             end
 
             L4: 
 	    begin
             	if(det_num)
-            	    nLoad = L5;
+            	    nState = L5;
             	else 
-		    nLoad = L4;
+		    nState = L4;
             end
 
             L5:
 	    begin
             	if(det_cr) 
-		    nLoad = DeactivateClock;
+		    nState = STOP;
             	else if(det_S) 
-		    nLoad = DeactivateClock;
+		    nState = RUN;
             	else 
-		    nLoad = L5;
+		    nState = L5;
             end
 
             A1: 
 	    begin
             	if(det_num0to5)
-            	    nLoad = A2;
+            	    nSate = A2;
             	else 
-		    nLoad = A1;
+		    nState = A1;
             end
 
             A2: 
 	    begin
             	if(det_num) 
-		    nLoad = A3;
+		    nState = A3;
             	else 
-		    nLoad = A2;
+		    nState = A2;
             end
 
 
             A3: 
 	    begin
             	if(det_num0to5) 
-		    nLoad = A4;
+		    nState = A4;
             	else 
-		    nLoad = A3;
+		    nState = A3;
             end
 
             A4: 
 	    begin
             	if(det_num) 
-		    nLoad = A5;
+		    nState = A5;
             	else 
-		    nLoad = A4;
+		    nState = A4;
             end
 
             A5:
 	    begin
-            	if(det_atSign) 
-		    nLoad = DeactivateClock;
+            	if(det_cr) 
+		    nState = STOP;
+		else if(det_S)
+		    nLoad = RUN;
+
             	else 
 		    nLoad = A5;
             end
 
-            default:
-            	nLoad = DeactivateClock;
+            //default: 
+	    //begin
+            	//nState = RUN;
+            //end
         endcase
 
         case(cAlarm)
@@ -246,8 +231,8 @@ module dicClockFsm (
 		    nAlarm = ActivateAlarm;
             end
 
-            default:
-            	nAlarm = DeactivateAlarm;
+            //default:
+            	//nAlarm = DeactivateAlarm;
         endcase
 
         end
@@ -372,7 +357,7 @@ module dicClockFsm (
         case(cState)
             STOP: dicRun = 0;
             RUN: dicRun = 1;
-            default: dicRun = 0;
+            default: dicRun = dicRun;
         endcase
         end
    end
@@ -381,7 +366,6 @@ module dicClockFsm (
 
    always @(posedge clk) begin
       cState <= nState;
-      cLoad <= nLoad;
       cAlarm <= nAlarm;
    end
 
