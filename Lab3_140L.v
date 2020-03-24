@@ -109,6 +109,7 @@ module Lab3_140L (
 	.alarmLdStens(alarmLdStens),
 	.alarmLdSones(alarmLdSones),
 
+	.alarm_en(alarm_en),
 		
         .rx_data_rdy(rx_data_rdy),// new data from uart rdy
         .rx_data(rx_data),        // new data from uart
@@ -157,22 +158,42 @@ module Lab3_140L (
 	    .clk(clk) 	  
 	);
 
+    wire[6:0] test = 7'd0;
+    wire[6:0] segment1Temp;
+    wire[6:0] segment2Temp;
+    wire[6:0] segment3Temp;
+    wire[6:0] segment4Temp;
+
     // convert to the presentation of 7 segment display
-    bcd2segment dec0 (.segment(L3_segment1), .num(di_Sones), .enable(dicDspSones));
-    bcd2segment dec1 (.segment(L3_segment2), .num(di_Stens), .enable(dicDspStens));
-    bcd2segment dec2 (.segment(L3_segment3), .num(di_Mones), .enable(dicDspMones));
-    bcd2segment dec3 (.segment(L3_segment4), .num(di_Mtens), .enable(dicDspMtens));
+    bcd2segment dec0 (.segment(segment1Temp), .num(di_Sones), .enable(dicDspSones));
+    bcd2segment dec1 (.segment(segment2Temp), .num(di_Stens), .enable(dicDspStens));
+    bcd2segment dec2 (.segment(segment3Temp), .num(di_Mones), .enable(dicDspMones));
+    bcd2segment dec3 (.segment(segment4Temp), .num(di_Mtens), .enable(dicDspMtens));
+
+    assign L3_segment1 = (trig)? ((~oneSecPluse)? test: segment1Temp): segment1Temp;
+    assign L3_segment2 = (trig)? ((~oneSecPluse)? test: segment2Temp): segment2Temp;
+    assign L3_segment3 = (trig)? ((~oneSecPluse)? test: segment3Temp): segment3Temp;
+    assign L3_segment4 = (trig)? ((~oneSecPluse)? test: segment4Temp): segment4Temp;
+
+
+    wire[7:0] b1 = (alarm_en)? {4'b0011,di_AMtens}:(alarmDspMtens)? {4'b0011,di_AMtens}: "-";
+    wire[7:0] b2 = (alarm_en)? {4'b0011,di_AMones}:(alarmDspMones)? {4'b0011,di_AMones}: "-";
+    wire[7:0] b3 = (alarm_en)? ":":(alarmDspMones)? ":" : "-";
+    wire[7:0] b4 = (alarm_en)? {4'b0011,di_AStens}:(alarmDspStens)? {4'b0011,di_AStens}: "-";
+    wire[7:0] b5 = (alarm_en)? {4'b0011,di_ASones}:(alarmDspSones)? {4'b0011,di_ASones}: "-";
+    wire[7:0] b6 = (alarm_en)? (trig)? "T": "@": "-";
+
 
     dispString dspStr (
 		  .rdy(L3_tx_data_rdy)
         , .dOut(L3_tx_data)
-		, .b0("L") 
-		, .b1("A")
-		, .b2("B")
-		, .b3("3")
-		, .b4(":") 
-		, .b5(rx_data)
-		, .b6(8'h0d)
+		, .b0("A") 
+		, .b1(b1)
+		, .b2(b2)
+		, .b3(b3)
+		, .b4(b4) 
+		, .b5(b5)
+		, .b6(b6)
 		, .b7(8'h0d)
 		, .go(l_oneSecStrb)	
 		, .rst(rst)

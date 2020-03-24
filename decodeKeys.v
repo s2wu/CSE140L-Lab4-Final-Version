@@ -66,20 +66,20 @@ module decodeKeys(
 		charData[3] & !charData[2] & charData[1] & charData[0]) & charDataValid;
 
    // 0-5
-   assign det_num0to5 = 1'b0 & charDataValid;
+   assign det_num0to5 = (~|(charData ^ 8'b0011_0000) | ~|(charData ^ 8'b0011_0001) | ~|(charData ^ 8'b0011_0010) | ~|(charData ^ 8'b0011_0011) | ~|(charData ^ 8'b0011_0100)| ~|(charData ^ 8'b0011_0101)) & charDataValid;
    
    // 0-9
-   assign det_num = 1'b0 &  charDataValid;      
+   assign det_num = (~|(charData ^ 8'b0011_0000) | ~|(charData ^ 8'b0011_0001) | ~|(charData ^ 8'b0011_0010) | ~|(charData ^ 8'b0011_0011) | ~|(charData ^ 8'b0011_0100)| ~|(charData ^ 8'b0011_0101) | ~|(charData ^ 8'b0011_0110) | ~|(charData ^ 8'b0011_0111) | ~|(charData ^ 8'b0011_1000) | ~|(charData ^ 8'b0011_1001)) &  charDataValid;      
 
    // 13
    assign det_cr = (!charData[7] & !charData[6] & !charData[5] & !charData[4] & 
 		charData[3] & charData[2] & !charData[1] & charData[0]) & charDataValid;
 
-   // "A/a" = 41/61
-   assign det_A = ((!charData[7] & !charData[6] & charData[5] & !charData[4] & 
-		charData[3] & !charData[2] & !charData[1] & charData[0]) | 
-		(!charData[7] & !charData[6] & charData[5] & charData[4] & 
-		charData[3] & charData[2] & !charData[1] & charData[0])) & charDataValid;
+   // "A/a" = 65/61 
+   assign det_A = ((!charData[7] & charData[6] & !charData[5] & !charData[4] & 
+		!charData[3] & !charData[2] & !charData[1] & charData[0]) | 
+		(!charData[7] & charData[6] & charData[5] & !charData[4] & 
+		!charData[3] & !charData[2] & !charData[1] & charData[0])) & charDataValid;
    
    // "L/l" = 4C/6C
    assign det_L = ((!charData[7] & charData[6] & !charData[5] & !charData[4] & 
@@ -100,7 +100,7 @@ module decodeKeys(
 		!charData[3] & !charData[2] & charData[1] & charData[0])) & charDataValid;
 
    // "@" = 40
-   assign det_atSign = (!charData[7] & !charData[6] & charData[5] & !charData[4] & 
-		charData[3] & !charData[2] & !charData[1] & !charData[0]) & charDataValid;
+   assign det_atSign = (!charData[7] & charData[6] & !charData[5] & !charData[4] & 
+		!charData[3] & !charData[2] & !charData[1] & !charData[0]) & charDataValid;
    
 endmodule
