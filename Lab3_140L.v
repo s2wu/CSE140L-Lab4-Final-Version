@@ -82,6 +82,11 @@ module Lab3_140L (
     wire dicSelectLEDdisp, dicRun;
     wire dicDspMtens, dicDspMones, dicDspStens, dicDspSones; //1:display, 0: don't display
     wire dicLdMtens, dicLdMones, dicLdStens, dicLdSones;     //1:load clk digit, 0: don't load
+    wire alarmDspMtens, alarmDspMones, alarmDspStens, alarmDspSones;
+    wire alarmLdMtens, alarmLdMones, alarmLdStens, alarmLdSones; 
+    wire alarm_en;
+    wire trig;
+
     dictrl dictrluu0(
         .dicSelectLEDdisp(dicSelectLEDdisp),
 	    .dicRun(dicRun),             // clock should run
@@ -92,7 +97,18 @@ module Lab3_140L (
         .dicLdMtens(dicLdMtens),
         .dicLdMones(dicLdMones),
         .dicLdStens(dicLdStens),
-        .dicLdSones(dicLdSones),	
+        .dicLdSones(dicLdSones),
+
+	.alarmDspMtens(alarmDspMtens),
+	.alarmDspMones(alarmDspMones),
+	.alarmDspStens(alarmDspStens),
+	.alarmDspSones(alarmDspSones),
+
+	.alarmLdMtens(alarmLdMtens),
+	.alarmLdMones(alarmLdMones),
+	.alarmLdStens(alarmLdStens),
+	.alarmLdSones(alarmLdSones),
+
 		
         .rx_data_rdy(rx_data_rdy),// new data from uart rdy
         .rx_data(rx_data),        // new data from uart
@@ -106,6 +122,11 @@ module Lab3_140L (
 	    .di_iMones(di_Mones), // current 1's minutes
 	    .di_iStens(di_Stens), // current 10's second
 	    .di_iSones(di_Sones), // current 1's second
+
+	    .di_AMtens(di_AMtens), 
+            .di_AMones(di_AMones),
+            .di_AStens(di_AStens),
+            .di_ASones(di_ASones),
         .o_oneSecPluse(oneSecPluse),
         .L3_led(L3_led),
 		
@@ -114,6 +135,18 @@ module Lab3_140L (
         .ldMones(dicLdMones), // set to 0 in lab3
         .ldStens(dicLdStens), // set to 0 in lab3
         .ldSones(dicLdSones), // set to 0 in lab3
+
+		//loading alarm
+	.alarmLdMtens(alarmLdMtens), 
+        .alarmLdMones(alarmLdMones), 
+        .alarmLdStens(alarmLdStens), 
+        .alarmLdSones(alarmLdSones),
+            
+	.trig(trig),
+        .alarm_en(alarm_en), 
+
+
+	
 	    .ld_num(rx_data[3:0]), 
 		
         .dicSelectLEDdisp(dicSelectLEDdisp),		

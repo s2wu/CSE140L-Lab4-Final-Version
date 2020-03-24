@@ -13,6 +13,20 @@ module didp (
             input        ldStens,
             input        ldSones,
 	    input [3:0]  ld_num,
+
+		//alarm display
+            output [3:0] di_AMtens, 
+            output [3:0] di_AMones,
+            output [3:0] di_AStens,
+            output [3:0] di_ASones,
+
+		//loading alarm
+            input alarmLdMtens, 
+            input alarmLdMones, 
+            input alarmLdStens, 
+            input alarmLdSones,
+            output reg trig,
+            input alarm_en, 
 		
             input        dicSelectLEDdisp,
 	    input 	     dicRun,      // 1: clock should run, 0: clock freeze	
@@ -56,6 +70,11 @@ module didp (
     wire [3:0] sTensDin = ldStens ? ld_num : 4'b0;
     wire [3:0] mOnesDin = ldMones ? ld_num : 4'b0;
     wire [3:0] mTensDin = ldMtens ? ld_num : 4'b0;
+
+    wire[3:0] alarmMTensDin = alarmLdMtens ? ld_num : 4'b0;
+    wire[3:0] alarmMOnesDin = alarmLdMones ? ld_num : 4'b0;
+    wire[3:0] alarmSTensDin = alarmLdStens ? ld_num : 4'b0;
+    wire[3:0] alarmSOnesDin = alarmLdSones ? ld_num : 4'b0;
    		
     //(dp.5) add code to generate digital clock output: di_iStens, di_iMones di_iMtens 
     //   20% of points assigned to Lab3
@@ -71,6 +90,38 @@ module didp (
     countrce didpmtens (.q(di_iMtens),          .d(mTensDin), 
                         .ld(rollMtens|ldMtens), .ce(countEnMtens|ldMtens), 
                         .rst(rst),              .clk(clk));
+
+	defparam didpASones.WIDTH=4;
+	defparam didpAStens.WIDTH=4;
+	defparam didpAMones.WIDTH=4;
+	defparam didpAMtens.WIDTH=4;
+    regrce didpASones (.q(di_ASones), .d(alarmSOnesDin), 
+			.ce(alarmLdSones), .rst(rst), 
+			.clk(clk));
+    regrce didpAStens (.q(di_AStens), .d(alarmSTensDin), 
+			.ce(alarmLdStens), .rst(rst), 
+			.clk(clk));
+    regrce didpAMones (.q(di_AMones), .d(alarmMOnesDin), 
+			.ce(alarmLdMones), .rst(rst), 
+			.clk(clk));
+    regrce didpAMtens (.q(di_AMtens), .d(alarmMTensDin), 
+			.ce(alarmLdMtens), .rst(rst), 
+			.clk(clk));
+
+    wire match = (alarm_en) & (~|(di_iMtens ^ di_AMtens) & 
+		 ~|(di_iMones ^ di_AMones) & ~|(di_iStens ^ di_AStens) & 
+		 ~|(di_iSones ^ di_ASones)); 
+
+    always@(posedge clk)begin
+    	if(rst) 
+	    trig <= 1'b0;
+    	else if(match) 
+	    trig <= 1'b1;
+    	else if(~alarm_en) 
+	    trig <= 1'b0;
+    	else 
+	    trig <= trig;
+    end
 
 
     ledDisplay ledDisp00 (
