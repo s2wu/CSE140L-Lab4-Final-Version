@@ -158,22 +158,22 @@ module Lab3_140L (
 	    .clk(clk) 	  
 	);
 
-    wire[6:0] test = 7'd0;
-    wire[6:0] segment1Temp;
-    wire[6:0] segment2Temp;
-    wire[6:0] segment3Temp;
-    wire[6:0] segment4Temp;
+//    wire[6:0] test = 7'd0;
+//    wire[6:0] segment1Temp;
+//    wire[6:0] segment2Temp;
+//    wire[6:0] segment3Temp;
+//    wire[6:0] segment4Temp;
 
     // convert to the presentation of 7 segment display
-    bcd2segment dec0 (.segment(segment1Temp), .num(di_Sones), .enable(dicDspSones));
-    bcd2segment dec1 (.segment(segment2Temp), .num(di_Stens), .enable(dicDspStens));
-    bcd2segment dec2 (.segment(segment3Temp), .num(di_Mones), .enable(dicDspMones));
-    bcd2segment dec3 (.segment(segment4Temp), .num(di_Mtens), .enable(dicDspMtens));
+    bcd2segment dec0 (.segment(L3_segment1), .num(di_Sones), .enable(dicDspSones));
+    bcd2segment dec1 (.segment(L3_segment2), .num(di_Stens), .enable(dicDspStens));
+    bcd2segment dec2 (.segment(L3_segment3), .num(di_Mones), .enable(dicDspMones));
+    bcd2segment dec3 (.segment(L3_segment4), .num(di_Mtens), .enable(dicDspMtens));
 
-    assign L3_segment1 = (trig)? ((~oneSecPluse)? test: segment1Temp): segment1Temp;
-    assign L3_segment2 = (trig)? ((~oneSecPluse)? test: segment2Temp): segment2Temp;
-    assign L3_segment3 = (trig)? ((~oneSecPluse)? test: segment3Temp): segment3Temp;
-    assign L3_segment4 = (trig)? ((~oneSecPluse)? test: segment4Temp): segment4Temp;
+//    assign L3_segment1 = (trig)? ((~oneSecPluse)? test: segment1Temp): segment1Temp;
+//    assign L3_segment2 = (trig)? ((~oneSecPluse)? test: segment2Temp): segment2Temp;
+//    assign L3_segment3 = (trig)? ((~oneSecPluse)? test: segment3Temp): segment3Temp;
+//    assign L3_segment4 = (trig)? ((~oneSecPluse)? test: segment4Temp): segment4Temp;
 
 
     wire[7:0] b1 = (alarm_en)? {4'b0011,di_AMtens}:(alarmDspMtens)? {4'b0011,di_AMtens}: "-";
