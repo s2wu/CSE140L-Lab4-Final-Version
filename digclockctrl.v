@@ -92,6 +92,7 @@ module dictrl(
             .alarmDspStens(alarmDspStens), .alarmDspSones(alarmDspSones),
 	    .alarmLdMtens(alarmLdMtens), .alarmLdMones(alarmLdMones),
             .alarmLdStens(alarmLdStens), .alarmLdSones(alarmLdSones),
+	    .alarm_en(alarm_en)
 
 	    .det_A(det_A),
 	    .det_L(det_L),

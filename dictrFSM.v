@@ -264,7 +264,7 @@ module dicClockFsm (
         alarmLdStens = 0;
         alarmLdSones = 0;
         alarm_en = 0;
-        case(cLoad)
+        case(cState)
             L1: begin
             //dicDspMtens = 1;
             dicDspMones = 0;
