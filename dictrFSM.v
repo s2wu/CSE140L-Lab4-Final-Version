@@ -105,7 +105,8 @@ module dicClockFsm (
 
         else begin
         case (cState)
-            RUN : begin
+            RUN : 
+	    begin
             	if(det_S) 
 		    nState = RUN;
             	else if(det_cr)
@@ -114,7 +115,8 @@ module dicClockFsm (
 		    nState = RUN; 
             end
 
-            STOP: begin
+            STOP: 
+	    begin
             	if(det_S) 
 		    nState = RUN;
             	else if(det_cr)
@@ -123,13 +125,15 @@ module dicClockFsm (
 		    nState = STOP;
             end
 
-            default: begin
+            default: 
+	    begin
             	nState = RUN;
             end
         endcase
 
         case(cLoad)
-            DeactivateClock: begin
+            DeactivateClock: 
+	    begin
             	if(det_A) 
 		    nLoad = A1;
             	else if(det_L) 
@@ -138,35 +142,40 @@ module dicClockFsm (
 		    nLoad = DeactivateClock;
             end
 
-            L1: begin
+            L1: 
+	    begin
             	if(det_num0to5)
             	    nLoad = L2;
             	else 
-		    nLoad = 1;
+		    nLoad = L1;
             end
 
-            L2: begin
+            L2: 
+	    begin
             	if(det_num)
             	    nLoad = L3;
             	else 
 		    nLoad = L2;
             end
 
-            L3: begin
+            L3: 
+	    begin
             	if(det_num0to5)
             	    nLoad = L4;
             	else 
 		    nLoad = L3;
             end
 
-            L4: begin
+            L4: 
+	    begin
             	if(det_num)
             	    nLoad = L5;
             	else 
 		    nLoad = L4;
             end
 
-            L5:begin
+            L5:
+	    begin
             	if(det_cr) 
 		    nLoad = DeactivateClock;
             	else if(det_S) 
@@ -175,14 +184,16 @@ module dicClockFsm (
 		    nLoad = L5;
             end
 
-            A1: begin
+            A1: 
+	    begin
             	if(det_num0to5)
             	    nLoad = A2;
             	else 
 		    nLoad = A1;
             end
 
-            A2: begin
+            A2: 
+	    begin
             	if(det_num) 
 		    nLoad = A3;
             	else 
@@ -190,21 +201,24 @@ module dicClockFsm (
             end
 
 
-            A3: begin
+            A3: 
+	    begin
             	if(det_num0to5) 
 		    nLoad = A4;
             	else 
 		    nLoad = A3;
             end
 
-            A4: begin
+            A4: 
+	    begin
             	if(det_num) 
 		    nLoad = A5;
             	else 
 		    nLoad = A4;
             end
 
-            A5:begin
+            A5:
+	    begin
             	if(det_atSign) 
 		    nLoad = DeactivateClock;
             	else 
@@ -216,14 +230,16 @@ module dicClockFsm (
         endcase
 
         case(cAlarm)
-            DeactivateAlarm: begin
+            DeactivateAlarm: 
+	    begin
             	if(det_atSign)
 		    nAlarm = ActivateAlarm;
             	else 
 		    nAlarm = DeactivateAlarm;
             end
 
-            ActivateAlarm: begin
+            ActivateAlarm: 
+	    begin
             	if(det_atSign)
 		    nAlarm = DeactivateAlarm;
             	else 
@@ -265,7 +281,7 @@ module dicClockFsm (
         alarm_en = 0;
         case(cLoad)
             L1: begin
-            dicDspMtens = 1;
+            //dicDspMtens = 1;
             dicDspMones = 0;
             dicDspStens = 0;
             dicDspSones = 0;
@@ -273,34 +289,34 @@ module dicClockFsm (
             end
 
             L2: begin
-            dicDspMtens = 1;
-            dicDspMones = 1;
+            //dicDspMtens = 1;
+            //dicDspMones = 1;
             dicDspStens = 0;
             dicDspSones = 0;
             dicLdMones = det_num;
             end
 
             L3: begin
-            dicDspMtens = 1;
-            dicDspMones = 1;
-            dicDspStens = 1;
+           //dicDspMtens = 1;
+           //dicDspMones = 1;
+           //dicDspStens = 1;
             dicDspSones = 0;
             dicLdStens = det_num0to5;
             end
 
             L4: begin
-            dicDspMtens = 1;
-            dicDspMones = 1;
-            dicDspStens = 1;
-            dicDspSones = 1;
+            //dicDspMtens = 1;
+            //dicDspMones = 1;
+            //dicDspStens = 1;
+            //dicDspSones = 1;
             dicLdSones = det_num;
             end
 
             L5: begin
-            dicDspMtens = 1;
-            dicDspMones = 1;
-            dicDspStens = 1;
-            dicDspSones = 1;
+            //dicDspMtens = 1;
+            //dicDspMones = 1;
+            //dicDspStens = 1;
+            //dicDspSones = 1;
             end
 
             A1: begin
