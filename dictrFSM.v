@@ -266,7 +266,6 @@ module dicClockFsm (
         alarm_en = 0;
         case(cState)
             L1: begin
-            //dicDspMtens = 1;
             dicDspMones = 0;
             dicDspStens = 0;
             dicDspSones = 0;
@@ -274,34 +273,21 @@ module dicClockFsm (
             end
 
             L2: begin
-            //dicDspMtens = 1;
-            //dicDspMones = 1;
             dicDspStens = 0;
             dicDspSones = 0;
             dicLdMones = det_num;
             end
 
             L3: begin
-           //dicDspMtens = 1;
-           //dicDspMones = 1;
-           //dicDspStens = 1;
             dicDspSones = 0;
             dicLdStens = det_num0to5;
             end
 
             L4: begin
-            //dicDspMtens = 1;
-            //dicDspMones = 1;
-            //dicDspStens = 1;
-            //dicDspSones = 1;
             dicLdSones = det_num;
             end
 
             L5: begin
-            //dicDspMtens = 1;
-            //dicDspMones = 1;
-            //dicDspStens = 1;
-            //dicDspSones = 1;
             end
 
             A1: begin
