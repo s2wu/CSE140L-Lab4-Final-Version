@@ -202,10 +202,10 @@ module dicClockFsm (
             	if(det_cr) 
 		    nState = STOP;
 		else if(det_S)
-		    nLoad = RUN;
+		    nState = RUN;
 
             	else 
-		    nLoad = A5;
+		    nState = A5;
             end
 
             //default: 
